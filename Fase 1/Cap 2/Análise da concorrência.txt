@@ -1,0 +1,47 @@
+Cap 2 - Um app para a todos acompanhar - Análise da Concorrência
+ 
+
+-> Ynab
+ 
+
+Vantagens:
+
+-Fornece um período de teste de 34 dias. Por ser pago, é livre de anúncios.
+
+-Possuem um dos melhores serviços de suporte e atendimento ao cliente.
+
+-Proporciona em um único aplicativo diferentes funcionalidades que potencializam o gerenciamento e planejamento financeiro.
+
+-É possível conectar contas bancárias e importar os dados automaticamente.
+ 
+
+Desvantagens:
+
+-Para continuar utilizando os serviços após o período de teste, é necessário aderir à assinatura.
+
+-Novos usuários podem ter dificuldades para se adaptar, o aplicativo e o site são complexos e não muito agradáveis à primeira vista.
+
+-Por ser um dos maiores da categoria, deveriam traduzi-lo para diferentes idiomas, tornando-o mais acessível.
+
+
+-> Organizze
+ 
+
+Vantagens:
+
+-Disponível para PC e mobile.
+
+-Pode ser utilizado mesmo sem conexão com a internet. A sincronização/atualização dos dados é feita ao se conectar.
+
+-A monetização é feita através de assinatura. Não possui anúncios.
+
+-Se destaca entre os concorrentes pela simplicidade e praticidade, é um aplicativo "amigável" para novos usuários.
+
+
+Desvantagens:
+
+-Recentemente a versão gratuita foi descontinuada, é necessário aderir a um plano.
+
+-Proporciona algumas dicas de investimentos no site mas nada aprofundado. Uma API e sugestão de produtos de acordo com as movimentações complementariam o app.
+
+-Fornece poucas opções de customização.
