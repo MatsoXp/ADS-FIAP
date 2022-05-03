@@ -84,20 +84,3 @@ for i in range(0,len(armazena_score)): #quantidade de iteracoes = numero de iten
 #printa o rank com nome/posicao/score
 for item in armazena_score:
     print("{} - ficou em {}º com {} pontos.".format(item[0], armazena_score.index(item) + 1, item[1]))
-
-
-###Referencias
-
-#https://www.sanfoundry.com/python-program-sort-list-according-second-element-sublist/ <- lambda
-
-#empresas utilizadas:
-#Adobe: https://haveibeenpwned.com/PwnedWebsites#Adobe
-#Avast: https://haveibeenpwned.com/PwnedWebsites#Avast
-#BitTorrent: https://haveibeenpwned.com/PwnedWebsites#BitTorrent
-#ClubPenguin(2019): https://haveibeenpwned.com/PwnedWebsites#ClubPenguinRewrittenJul2019
-#Dropbox: https://haveibeenpwned.com/PwnedWebsites#Dropbox
-#Epic Games: https://haveibeenpwned.com/PwnedWebsites#EpicGames
-#Gravatar: https://haveibeenpwned.com/PwnedWebsites#Gravatar
-#League of Legends: https://haveibeenpwned.com/PwnedWebsites#LeagueOfLegends
-#Nexus Mods: https://haveibeenpwned.com/PwnedWebsites#NexusMods
-#Nvidia: https://haveibeenpwned.com/PwnedWebsites#NVIDIA
