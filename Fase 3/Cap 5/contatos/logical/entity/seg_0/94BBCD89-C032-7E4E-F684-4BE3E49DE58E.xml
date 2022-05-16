@@ -1,0 +1,54 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="94BBCD89-C032-7E4E-F684-4BE3E49DE58E" name="T_ENDERECO_TIPO">
+<createdBy>mahbu</createdBy>
+<createdTime>2022-05-16 15:54:57 UTC</createdTime>
+<ownerDesignName>contatos</ownerDesignName>
+<engineerTo>
+<item key="57D34860-9724-46B3-CEE7-5C6573935657" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_tipo_endereco" id="090898F2-2FC6-DECA-5BDE-DDD6D2BB91C1">
+<createdBy>mahbu</createdBy>
+<createdTime>2022-05-16 15:55:09 UTC</createdTime>
+<ownerDesignName>contatos</ownerDesignName>
+<engineerTo>
+<item key="57D34860-9724-46B3-CEE7-5C6573935657" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_tipo_endereco" id="73CC2B58-4893-8FAC-3A9C-44A2ADF42890">
+<createdBy>mahbu</createdBy>
+<createdTime>2022-05-16 15:55:24 UTC</createdTime>
+<ownerDesignName>contatos</ownerDesignName>
+<engineerTo>
+<item key="57D34860-9724-46B3-CEE7-5C6573935657" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="CD8597C7-B824-F031-11DC-1129C65554D1" name="T_ENDERECO_TIPO PK">
+<createdBy>mahbu</createdBy>
+<createdTime>2022-05-16 15:57:07 UTC</createdTime>
+<ownerDesignName>contatos</ownerDesignName>
+<engineerTo>
+<item key="57D34860-9724-46B3-CEE7-5C6573935657" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>090898F2-2FC6-DECA-5BDE-DDD6D2BB91C1</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="contatos" id="1E87C774-86C9-8BF6-2919-94E1217EC4AC" version="3.5">
+<createdBy>mahbu</createdBy>
+<createdTime>2022-05-16 11:32:57 UTC</createdTime>
+<ownerDesignName>contatos</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>1E87C774-86C9-8BF6-2919-94E1217EC4AC</designId>
+</OSDM_Design>
