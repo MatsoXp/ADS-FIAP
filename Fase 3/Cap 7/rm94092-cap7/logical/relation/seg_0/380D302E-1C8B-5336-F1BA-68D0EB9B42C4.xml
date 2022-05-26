@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="T CATE MOV T TIPO MOV FK" directorySegmentName="seg_0" id="380D302E-1C8B-5336-F1BA-68D0EB9B42C4">
+<createdBy>mahbu</createdBy>
+<createdTime>2022-05-23 01:04:40 UTC</createdTime>
+<ownerDesignName>rm94092-cap7</ownerDesignName>
+<engineerTo>
+<item key="2C8AF195-3653-FF63-BD5B-A7C4539BFAAE" value="true"/>
+</engineerTo>
+<sourcePk>6985F1DA-D14A-A605-7451-FA0674BB667F</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>0AB37D82-94CC-1E36-91D9-DF999EA22BC7</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>2EF61BBB-D682-0FD5-4680-A9E163550413</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

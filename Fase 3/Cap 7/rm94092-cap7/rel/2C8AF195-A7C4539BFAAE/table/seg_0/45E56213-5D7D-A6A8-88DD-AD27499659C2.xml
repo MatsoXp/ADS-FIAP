@@ -1,0 +1,78 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="45E56213-5D7D-A6A8-88DD-AD27499659C2" name="T_META">
+<createdBy>mahbu</createdBy>
+<createdTime>2022-05-23 16:11:05 UTC</createdTime>
+<generatorID>D543F099-0F63-29CA-E90C-58876801AD17</generatorID>
+<ownerDesignName>rm94092-cap7</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_meta" id="2EB0C144-3895-2970-00A7-D674B25DF2CC">
+<createdBy>mahbu</createdBy>
+<createdTime>2022-05-23 16:11:05 UTC</createdTime>
+<generatorID>33270492-0BDF-A90F-7240-EA6630653CC2</generatorID>
+<ownerDesignName>rm94092-cap7</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_USUARIO_cd_usu" id="77C38757-CEE0-4170-500E-02486A2063F3">
+<createdBy>mahbu</createdBy>
+<createdTime>2022-05-23 16:11:05 UTC</createdTime>
+<generatorID>F92A2905-4698-C096-6F25-D689754FAD56</generatorID>
+<ownerDesignName>rm94092-cap7</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FB64B488-BD25-4C2B-7FD6-F96B8124BD56" referredColumn="90342066-6D92-5901-CB4E-5052FCC5E2D2"/>
+</associations>
+</Column>
+<Column name="ds_meta" id="FD679C64-B915-F193-C103-0861CEA82F6A">
+<createdBy>mahbu</createdBy>
+<createdTime>2022-05-23 17:52:00 UTC</createdTime>
+<generatorID>82D7DE21-9AB6-2F91-253D-4C3CA8AE92FF</generatorID>
+<ownerDesignName>rm94092-cap7</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DAF75A76-ED4B-31B7-EEAC-B33594EDA636" name="T_META_PK">
+<createdBy>mahbu</createdBy>
+<createdTime>2022-05-23 16:11:05 UTC</createdTime>
+<generatorID>F9A1C4A0-C6E5-7A07-62DF-2C98AC87F119</generatorID>
+<ownerDesignName>rm94092-cap7</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2EB0C144-3895-2970-00A7-D674B25DF2CC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2379C81D-2C5C-2C4E-BE2E-61DF4CEE4C65" name="T_META_T_USUARIO_FK">
+<createdBy>mahbu</createdBy>
+<createdTime>2022-05-23 16:11:05 UTC</createdTime>
+<generatorID>A241167D-08E0-001B-8CD2-30824A453762</generatorID>
+<ownerDesignName>rm94092-cap7</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="77C38757-CEE0-4170-500E-02486A2063F3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

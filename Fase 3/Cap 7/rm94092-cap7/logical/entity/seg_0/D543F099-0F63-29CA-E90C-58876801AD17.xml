@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D543F099-0F63-29CA-E90C-58876801AD17" name="T META">
+<createdBy>mahbu</createdBy>
+<createdTime>2022-05-23 01:10:56 UTC</createdTime>
+<ownerDesignName>rm94092-cap7</ownerDesignName>
+<engineerTo>
+<item key="2C8AF195-3653-FF63-BD5B-A7C4539BFAAE" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd meta" id="33270492-0BDF-A90F-7240-EA6630653CC2">
+<createdBy>mahbu</createdBy>
+<createdTime>2022-05-23 01:11:06 UTC</createdTime>
+<ownerDesignName>rm94092-cap7</ownerDesignName>
+<engineerTo>
+<item key="2C8AF195-3653-FF63-BD5B-A7C4539BFAAE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="T USUARIO cd usu" id="F92A2905-4698-C096-6F25-D689754FAD56">
+<createdBy>mahbu</createdBy>
+<createdTime>2022-05-23 15:04:26 UTC</createdTime>
+<generatorID>A241167D-08E0-001B-8CD2-30824A453762</generatorID>
+<ownerDesignName>rm94092-cap7</ownerDesignName>
+<engineerTo>
+<item key="2C8AF195-3653-FF63-BD5B-A7C4539BFAAE" value="true"/>
+</engineerTo>
+<referedAttribute>0CEA737B-DD27-3678-5D89-6C542F71C939</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds meta" id="82D7DE21-9AB6-2F91-253D-4C3CA8AE92FF">
+<createdBy>mahbu</createdBy>
+<createdTime>2022-05-23 17:24:06 UTC</createdTime>
+<ownerDesignName>rm94092-cap7</ownerDesignName>
+<engineerTo>
+<item key="2C8AF195-3653-FF63-BD5B-A7C4539BFAAE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F9A1C4A0-C6E5-7A07-62DF-2C98AC87F119" name="T_META_PK">
+<createdBy>mahbu</createdBy>
+<createdTime>2022-05-23 01:14:41 UTC</createdTime>
+<ownerDesignName>rm94092-cap7</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="2C8AF195-3653-FF63-BD5B-A7C4539BFAAE" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>33270492-0BDF-A90F-7240-EA6630653CC2</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
