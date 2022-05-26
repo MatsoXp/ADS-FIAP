@@ -1,5 +1,3 @@
-Precisei abreviar/reduzir o nome das tabelas, na hora de exportar os scripts foram apontados alguns erros relacionados ao limite de 30 caracteres.
-
 Optei por não coletar dados como endereço, telefone e CPF, não vejo utilidade para o projeto no momento, estaria armazenando dados importantes sem ter um propósito.
 
 T_USUARIO
