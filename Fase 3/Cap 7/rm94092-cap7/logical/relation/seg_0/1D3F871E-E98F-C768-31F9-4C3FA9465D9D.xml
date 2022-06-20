@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="residir" directorySegmentName="seg_0" id="1D3F871E-E98F-C768-31F9-4C3FA9465D9D">
+<createdBy>mahbu</createdBy>
+<createdTime>2022-06-20 13:09:15 UTC</createdTime>
+<ownerDesignName>rm94092-cap7</ownerDesignName>
+<engineerTo>
+<item key="2C8AF195-3653-FF63-BD5B-A7C4539BFAAE" value="true"/>
+</engineerTo>
+<sourcePk>54E7F767-CDC6-0A5A-6D31-53AFD9800EDF</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>8F3EB762-78D4-CF12-8EF4-DF2E8D30046C</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>BD3675B8-F08E-1C48-A15B-014BE4D9E765</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

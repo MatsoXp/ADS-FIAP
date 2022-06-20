@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="estado" directorySegmentName="seg_0" id="E2258094-37AB-399D-393A-D621B23C9381">
+<createdBy>mahbu</createdBy>
+<createdTime>2022-06-20 13:17:11 UTC</createdTime>
+<ownerDesignName>rm94092-cap7</ownerDesignName>
+<engineerTo>
+<item key="2C8AF195-3653-FF63-BD5B-A7C4539BFAAE" value="true"/>
+</engineerTo>
+<sourcePk>0DAB5E7B-7700-CC86-F802-432D8C36DDB3</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>A0F47143-21E0-5CE4-B71C-ADC10D9C43DB</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>A85472E4-7014-FE34-7603-CC9D70AA404C</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

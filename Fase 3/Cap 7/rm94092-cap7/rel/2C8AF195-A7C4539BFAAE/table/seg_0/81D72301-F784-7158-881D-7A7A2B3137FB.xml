@@ -42,7 +42,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>5</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
@@ -60,6 +60,47 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nr_cpf" id="1D15BB6A-0CDD-9FF4-EA92-FB779D3A6FDF">
+<createdBy>mahbu</createdBy>
+<createdTime>2022-06-20 14:32:53 UTC</createdTime>
+<generatorID>B0F68683-8423-7DA1-50FD-813CEA42E19D</generatorID>
+<ownerDesignName>rm94092-cap7</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<ownDataTypeParameters>,12,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_obj_fin" id="588A660E-A5C7-50F2-CF4C-B8E04494070D">
+<createdBy>mahbu</createdBy>
+<createdTime>2022-06-20 14:32:53 UTC</createdTime>
+<generatorID>863D4D23-50C7-555F-750F-9BEE5EC3136D</generatorID>
+<ownerDesignName>rm94092-cap7</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_USUARIO_cd_usu1" id="23F28096-55FF-8FEB-A489-2FF07B2E7E6E">
+<createdBy>mahbu</createdBy>
+<createdTime>2022-06-20 14:34:15 UTC</createdTime>
+<ownerDesignName>rm94092-cap7</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7C45FB18-E393-146C-7312-62390710A2D1" referredColumn="90342066-6D92-5901-CB4E-5052FCC5E2D2"/>
+</associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
@@ -95,6 +136,17 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="98F55BB9-D715-0969-B071-502873AFEE2F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="53601BFB-DA35-F748-67EB-71157ED3A4D8" name="T_OBJ_FIN_T_USUARIO_FKv1">
+<createdBy>mahbu</createdBy>
+<createdTime>2022-06-20 14:32:53 UTC</createdTime>
+<generatorID>F59FD366-B7ED-5ED1-CCDF-9F24CBB7E51E</generatorID>
+<ownerDesignName>rm94092-cap7</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="23F28096-55FF-8FEB-A489-2FF07B2E7E6E"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

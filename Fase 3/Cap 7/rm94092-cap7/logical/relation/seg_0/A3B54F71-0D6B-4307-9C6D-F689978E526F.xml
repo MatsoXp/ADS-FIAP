@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="cidade" directorySegmentName="seg_0" id="A3B54F71-0D6B-4307-9C6D-F689978E526F">
+<createdBy>mahbu</createdBy>
+<createdTime>2022-06-20 13:16:21 UTC</createdTime>
+<ownerDesignName>rm94092-cap7</ownerDesignName>
+<engineerTo>
+<item key="2C8AF195-3653-FF63-BD5B-A7C4539BFAAE" value="true"/>
+</engineerTo>
+<sourcePk>87509173-672A-6442-763C-76E6CB5A368E</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>A85472E4-7014-FE34-7603-CC9D70AA404C</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>8010DFBD-5C2B-0B13-12A7-95DBFEC3E2F6</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

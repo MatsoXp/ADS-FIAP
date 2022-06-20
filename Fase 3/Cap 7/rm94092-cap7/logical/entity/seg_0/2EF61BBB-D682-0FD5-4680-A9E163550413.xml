@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2EF61BBB-D682-0FD5-4680-A9E163550413" name="T CATE MOV">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2EF61BBB-D682-0FD5-4680-A9E163550413" name="T_CATE_MOV">
 <createdBy>mahbu</createdBy>
 <createdTime>2022-05-23 01:01:15 UTC</createdTime>
 <ownerDesignName>rm94092-cap7</ownerDesignName>
@@ -15,7 +15,7 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="cd categoria" id="2CFB6DC0-4511-3B3D-D57C-CE8645A740A0">
+<Attribute name="cd_categoria" id="2CFB6DC0-4511-3B3D-D57C-CE8645A740A0">
 <createdBy>mahbu</createdBy>
 <createdTime>2022-05-23 01:01:23 UTC</createdTime>
 <ownerDesignName>rm94092-cap7</ownerDesignName>
@@ -28,22 +28,7 @@
 <dataTypePrecision>2</dataTypePrecision>
 <ownDataTypeParameters>,2,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="T TIPO MOV cd tp mov" id="45388803-A79F-44FF-1840-1EB2234EF9D7">
-<createdBy>mahbu</createdBy>
-<createdTime>2022-05-23 01:04:40 UTC</createdTime>
-<generatorID>380D302E-1C8B-5336-F1BA-68D0EB9B42C4</generatorID>
-<ownerDesignName>rm94092-cap7</ownerDesignName>
-<engineerTo>
-<item key="2C8AF195-3653-FF63-BD5B-A7C4539BFAAE" value="true"/>
-</engineerTo>
-<referedAttribute>ED572256-3F8A-85C2-773A-C3235A9A81D2</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>2</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="ds categoria" id="B1E26634-521B-1EC6-D1A3-1E1688C413E4">
+<Attribute name="ds_categoria" id="B1E26634-521B-1EC6-D1A3-1E1688C413E4">
 <createdBy>mahbu</createdBy>
 <createdTime>2022-05-23 01:01:27 UTC</createdTime>
 <ownerDesignName>rm94092-cap7</ownerDesignName>
@@ -58,7 +43,7 @@
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="A69452EA-913C-7711-210A-A9F7CC46AF22" name="T_CAT_MOV_PK">
+<identifier id="A69452EA-913C-7711-210A-A9F7CC46AF22" name="T_CATE_MOV PK">
 <createdBy>mahbu</createdBy>
 <createdTime>2022-05-23 01:04:53 UTC</createdTime>
 <ownerDesignName>rm94092-cap7</ownerDesignName>
@@ -67,6 +52,7 @@
 <item key="2C8AF195-3653-FF63-BD5B-A7C4539BFAAE" value="false"/>
 </engineerTo>
 <pk>true</pk>
+<newElementsIDs>2CFB6DC0-4511-3B3D-D57C-CE8645A740A0</newElementsIDs>
 <usedAttributes>
 <attributeRef>2CFB6DC0-4511-3B3D-D57C-CE8645A740A0</attributeRef>
 </usedAttributes>

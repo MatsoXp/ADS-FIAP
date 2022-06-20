@@ -1,0 +1,104 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A0BC8609-14D8-9DAF-B303-DC8588EA7A0B" name="T_CONTA_BNC">
+<createdBy>mahbu</createdBy>
+<createdTime>2022-06-20 14:32:53 UTC</createdTime>
+<generatorID>EAED873D-37CB-4796-FD86-C18D48EE1616</generatorID>
+<ownerDesignName>rm94092-cap7</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_conta" id="BD9BC83F-5292-AC5C-E4DF-D43273ADC6D9">
+<createdBy>mahbu</createdBy>
+<createdTime>2022-06-20 14:32:53 UTC</createdTime>
+<generatorID>C911E3B4-C720-9505-C5D4-40551C1C0F80</generatorID>
+<ownerDesignName>rm94092-cap7</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_TP_CONTA_id_tp_conta" id="6D1F9E83-6499-517A-6486-867DB12C60AB">
+<createdBy>mahbu</createdBy>
+<createdTime>2022-06-20 14:32:53 UTC</createdTime>
+<generatorID>49B5B8B7-D278-E6B9-52D5-7BB33A543C83</generatorID>
+<ownerDesignName>rm94092-cap7</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6E52EB1A-E931-F785-58C3-A91C7F58FD31" referredColumn="C0C97613-7379-935E-7607-E3D39960AE79"/>
+</associations>
+</Column>
+<Column name="nr_cpf" id="DA793E06-BA60-B483-2FBC-27EA9C2AEE2C">
+<createdBy>mahbu</createdBy>
+<createdTime>2022-06-20 14:32:53 UTC</createdTime>
+<generatorID>0A575D59-630F-98D0-605C-53E8A217C00E</generatorID>
+<ownerDesignName>rm94092-cap7</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<ownDataTypeParameters>,12,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_USUARIO_cd_usu" id="8B82F16F-82B6-D085-0080-D22363EFA1A2">
+<createdBy>mahbu</createdBy>
+<createdTime>2022-06-20 14:34:15 UTC</createdTime>
+<ownerDesignName>rm94092-cap7</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0BA59799-F27E-54F8-B007-7CFD78CE2950" referredColumn="90342066-6D92-5901-CB4E-5052FCC5E2D2"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="03A1D7C9-D948-C145-07BC-FC72786B624F" name="T_CONTA_BNC_PK">
+<createdBy>mahbu</createdBy>
+<createdTime>2022-06-20 14:32:53 UTC</createdTime>
+<generatorID>6768F3EA-8C9C-27FF-ABA1-59F55F696C0C</generatorID>
+<ownerDesignName>rm94092-cap7</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BD9BC83F-5292-AC5C-E4DF-D43273ADC6D9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FEFA067A-8769-14A3-4761-2F92B8D9553F" name="T_CONTA_BNC_T_USUARIO_FK">
+<createdBy>mahbu</createdBy>
+<createdTime>2022-06-20 14:32:53 UTC</createdTime>
+<generatorID>92506B38-09BB-0894-6ACF-25B872F431D2</generatorID>
+<ownerDesignName>rm94092-cap7</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8B82F16F-82B6-D085-0080-D22363EFA1A2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="68D8C15F-2912-784D-D6B8-403E7DE10AC0" name="T_CONTA_BNC_T_TP_CONTA_FK">
+<createdBy>mahbu</createdBy>
+<createdTime>2022-06-20 14:32:53 UTC</createdTime>
+<generatorID>4B79AA26-E117-38F5-EC5E-858A87423F80</generatorID>
+<ownerDesignName>rm94092-cap7</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6D1F9E83-6499-517A-6486-867DB12C60AB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

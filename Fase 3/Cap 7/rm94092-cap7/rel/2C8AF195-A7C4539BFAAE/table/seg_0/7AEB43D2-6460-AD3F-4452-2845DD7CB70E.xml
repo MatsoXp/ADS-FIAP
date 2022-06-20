@@ -1,0 +1,143 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7AEB43D2-6460-AD3F-4452-2845DD7CB70E" name="T_EDCO">
+<createdBy>mahbu</createdBy>
+<createdTime>2022-06-20 14:32:53 UTC</createdTime>
+<generatorID>BD3675B8-F08E-1C48-A15B-014BE4D9E765</generatorID>
+<ownerDesignName>rm94092-cap7</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="nr_cpf" id="ED28F3AC-C235-DE4F-AEB7-221B508E6CE6">
+<createdBy>mahbu</createdBy>
+<createdTime>2022-06-20 14:32:53 UTC</createdTime>
+<generatorID>78F64FBE-966B-5C53-5347-A124BFE4DBF0</generatorID>
+<ownerDesignName>rm94092-cap7</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<ownDataTypeParameters>,12,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_edco" id="1B4AB6D9-4676-3421-662C-90F791FD097A">
+<createdBy>mahbu</createdBy>
+<createdTime>2022-06-20 14:32:53 UTC</createdTime>
+<generatorID>07A08A40-D4BD-1048-EBC9-3B5B029A957C</generatorID>
+<ownerDesignName>rm94092-cap7</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_LOGRO_id_logradouro" id="72986ED2-695E-606A-EC0B-A9E8B79DCD60">
+<createdBy>mahbu</createdBy>
+<createdTime>2022-06-20 14:32:53 UTC</createdTime>
+<generatorID>5D260CF4-89A5-19A7-80AB-94D3569744C1</generatorID>
+<ownerDesignName>rm94092-cap7</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B2F0EB3F-6F4A-B0FB-2700-73163530EB6B" referredColumn="BF117980-D5C8-9281-C93E-EEC16897E3E2"/>
+</associations>
+</Column>
+<Column name="nr_cep" id="68B4114C-5B75-ECA1-9F91-C81E6017B1CF">
+<createdBy>mahbu</createdBy>
+<createdTime>2022-06-20 14:32:53 UTC</createdTime>
+<generatorID>09A69169-DE48-AEBF-2CFF-2AA399EF7BC9</generatorID>
+<ownerDesignName>rm94092-cap7</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nr_edco" id="40782B1D-C44E-273B-C995-1A9CB452769D">
+<createdBy>mahbu</createdBy>
+<createdTime>2022-06-20 14:32:53 UTC</createdTime>
+<generatorID>4C161309-D48A-7D58-7C42-74F2D506DBB1</generatorID>
+<ownerDesignName>rm94092-cap7</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,7,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_complemento" id="98E2791C-1C93-9CF1-52D5-05DA3379F067">
+<createdBy>mahbu</createdBy>
+<createdTime>2022-06-20 14:32:53 UTC</createdTime>
+<generatorID>5E56AB6B-B8F3-CF8D-D997-C2E5286C3BBB</generatorID>
+<ownerDesignName>rm94092-cap7</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>35</dataTypeSize>
+<ownDataTypeParameters>35,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_USUARIO_cd_usu" id="61E448F6-DFD0-5743-9C28-6A4B31B4C65B">
+<createdBy>mahbu</createdBy>
+<createdTime>2022-06-20 14:34:15 UTC</createdTime>
+<ownerDesignName>rm94092-cap7</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="83B70F20-7F8B-6FFA-8F87-896F3A092534" referredColumn="90342066-6D92-5901-CB4E-5052FCC5E2D2"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F3CF3E9D-9474-A4C8-52BB-3BF596BC6D9A" name="T_EDCO_PK">
+<createdBy>mahbu</createdBy>
+<createdTime>2022-06-20 14:32:53 UTC</createdTime>
+<generatorID>B9D6AF3F-C1CB-D483-8769-A0D175250A23</generatorID>
+<ownerDesignName>rm94092-cap7</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1B4AB6D9-4676-3421-662C-90F791FD097A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A2E6E6D7-5579-3451-E742-28796EA73C78" name="T_EDCO_T_LOGRO_FK">
+<createdBy>mahbu</createdBy>
+<createdTime>2022-06-20 14:32:53 UTC</createdTime>
+<generatorID>315EF97A-F063-3DDF-D475-040A9BDB71CA</generatorID>
+<ownerDesignName>rm94092-cap7</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="72986ED2-695E-606A-EC0B-A9E8B79DCD60"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="59EE3C15-F8DB-DCE1-2F8A-55B0FE5223E6" name="T_EDCO_T_USUARIO_FK">
+<createdBy>mahbu</createdBy>
+<createdTime>2022-06-20 14:32:53 UTC</createdTime>
+<generatorID>1D3F871E-E98F-C768-31F9-4C3FA9465D9D</generatorID>
+<ownerDesignName>rm94092-cap7</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="61E448F6-DFD0-5743-9C28-6A4B31B4C65B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

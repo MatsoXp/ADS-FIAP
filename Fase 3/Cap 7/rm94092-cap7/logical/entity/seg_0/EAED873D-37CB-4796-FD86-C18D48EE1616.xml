@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D543F099-0F63-29CA-E90C-58876801AD17" name="T_META">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="EAED873D-37CB-4796-FD86-C18D48EE1616" name="T_CONTA_BNC">
 <createdBy>mahbu</createdBy>
-<createdTime>2022-05-23 01:10:56 UTC</createdTime>
+<createdTime>2022-06-20 12:42:22 UTC</createdTime>
 <ownerDesignName>rm94092-cap7</ownerDesignName>
 <engineerTo>
 <item key="2C8AF195-3653-FF63-BD5B-A7C4539BFAAE" value="true"/>
@@ -15,9 +15,9 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="id_meta" id="33270492-0BDF-A90F-7240-EA6630653CC2">
+<Attribute name="id_conta" id="C911E3B4-C720-9505-C5D4-40551C1C0F80">
 <createdBy>mahbu</createdBy>
-<createdTime>2022-05-23 01:11:06 UTC</createdTime>
+<createdTime>2022-06-20 12:42:36 UTC</createdTime>
 <ownerDesignName>rm94092-cap7</ownerDesignName>
 <engineerTo>
 <item key="2C8AF195-3653-FF63-BD5B-A7C4539BFAAE" value="true"/>
@@ -25,13 +25,28 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>2</dataTypePrecision>
-<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="nr_cpf" id="6AF5E675-6322-8603-AA7E-8867B16C3F8A">
+<Attribute name="id_tp_conta" id="49B5B8B7-D278-E6B9-52D5-7BB33A543C83">
 <createdBy>mahbu</createdBy>
-<createdTime>2022-06-20 12:22:59 UTC</createdTime>
-<generatorID>F16EEA4F-8538-927D-083C-8CAFF55886A1</generatorID>
+<createdTime>2022-06-20 12:44:12 UTC</createdTime>
+<generatorID>4B79AA26-E117-38F5-EC5E-858A87423F80</generatorID>
+<ownerDesignName>rm94092-cap7</ownerDesignName>
+<engineerTo>
+<item key="2C8AF195-3653-FF63-BD5B-A7C4539BFAAE" value="true"/>
+</engineerTo>
+<referedAttribute>FEF3C415-560E-68FB-EE59-5AD96BBF49C6</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_cpf" id="0A575D59-630F-98D0-605C-53E8A217C00E">
+<createdBy>mahbu</createdBy>
+<createdTime>2022-06-20 12:44:35 UTC</createdTime>
+<generatorID>92506B38-09BB-0894-6ACF-25B872F431D2</generatorID>
 <ownerDesignName>rm94092-cap7</ownerDesignName>
 <engineerTo>
 <item key="2C8AF195-3653-FF63-BD5B-A7C4539BFAAE" value="true"/>
@@ -43,34 +58,18 @@
 <dataTypePrecision>12</dataTypePrecision>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="cd_meta" id="C753189C-5981-2FD1-443F-F298C4C483B5">
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="6768F3EA-8C9C-27FF-ABA1-59F55F696C0C" name="T_CONTA_BNC PK">
 <createdBy>mahbu</createdBy>
-<createdTime>2022-06-20 12:22:28 UTC</createdTime>
-<generatorID>5E20219B-3B1F-4AAC-4BCE-5A2FEC2C4338</generatorID>
+<createdTime>2022-06-20 12:42:48 UTC</createdTime>
 <ownerDesignName>rm94092-cap7</ownerDesignName>
 <engineerTo>
 <item key="2C8AF195-3653-FF63-BD5B-A7C4539BFAAE" value="true"/>
 </engineerTo>
-<referedAttribute>10380ECF-24F1-6423-BC04-CD60254BE3DE</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>3</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-</attributes>
-<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="F9A1C4A0-C6E5-7A07-62DF-2C98AC87F119" name="T_META_PK">
-<createdBy>mahbu</createdBy>
-<createdTime>2022-05-23 01:14:41 UTC</createdTime>
-<ownerDesignName>rm94092-cap7</ownerDesignName>
-<shouldEngineer>false</shouldEngineer>
-<engineerTo>
-<item key="2C8AF195-3653-FF63-BD5B-A7C4539BFAAE" value="false"/>
-</engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>33270492-0BDF-A90F-7240-EA6630653CC2</attributeRef>
+<attributeRef>C911E3B4-C720-9505-C5D4-40551C1C0F80</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

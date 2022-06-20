@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="36E29F15-8246-1483-0B48-9C1140BDA5EF" containerWithKeyObject="E5B9E347-9BCD-6F1A-2AB9-02822602EBF3" localFKIndex="8D2ABA89-4242-0943-0CA3-5073D5565034" name="T_EVENTO_DS_T_TP_MOV_FK">
+<createdBy>mahbu</createdBy>
+<createdTime>2022-06-20 14:32:53 UTC</createdTime>
+<generatorID>F99FE5FC-47DE-633C-8773-AFBF34BAC150</generatorID>
+<ownerDesignName>rm94092-cap7</ownerDesignName>
+<referredTableLongName>T_TP_MOV</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>9400C323-BADA-EFCA-2871-B1EC31E0442C</referredTableID>
+<keyObject>E640E11B-DB9B-84C2-73D8-40B59DE5BA13</keyObject>
+<referredKeyID>E640E11B-DB9B-84C2-73D8-40B59DE5BA13</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>cd_tp_mov</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

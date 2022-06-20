@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E5B9E347-9BCD-6F1A-2AB9-02822602EBF3" name="T_MOV">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E5B9E347-9BCD-6F1A-2AB9-02822602EBF3" name="T_EVENTO_DS">
 <createdBy>mahbu</createdBy>
 <createdTime>2022-05-23 16:11:05 UTC</createdTime>
 <generatorID>93733FA2-D93B-7571-FF6F-B6799C8E70FB</generatorID>
@@ -10,7 +10,7 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="cd_mov" id="3C986AB7-CAE0-8F57-6EF2-73C56916E565">
+<Column name="cd_evento" id="3C986AB7-CAE0-8F57-6EF2-73C56916E565">
 <createdBy>mahbu</createdBy>
 <createdTime>2022-05-23 16:11:05 UTC</createdTime>
 <commentInRDBMS><![CDATA[identificador da movimentacao]]></commentInRDBMS>
@@ -32,14 +32,14 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>5</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
 <colAssociation fkAssociation="B76B3E2A-8DB8-5B8A-3EB3-FD130DD2AF4E" referredColumn="90342066-6D92-5901-CB4E-5052FCC5E2D2"/>
 </associations>
 </Column>
-<Column name="ds_valor" id="53CBB70B-CB73-43A8-FE2E-44EE3888C5EE">
+<Column name="ds_evento" id="53CBB70B-CB73-43A8-FE2E-44EE3888C5EE">
 <createdBy>mahbu</createdBy>
 <createdTime>2022-05-23 16:11:05 UTC</createdTime>
 <generatorID>F42183FD-3EA5-030E-871F-A1EB7703C63F</generatorID>
@@ -61,6 +61,51 @@
 <logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nr_valor" id="1F9D5536-6AB5-BEBA-60A7-C4761E69D1CE">
+<createdBy>mahbu</createdBy>
+<createdTime>2022-06-20 14:32:53 UTC</createdTime>
+<generatorID>FBC4EDEA-3D73-A791-8751-7826D0E04F1E</generatorID>
+<ownerDesignName>rm94092-cap7</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<ownDataTypeParameters>,15,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_TP_MOV_cd_tp_mov" id="6AE11078-BFAE-E276-67A7-7ED5D957B71C">
+<createdBy>mahbu</createdBy>
+<createdTime>2022-06-20 14:32:53 UTC</createdTime>
+<generatorID>269DEDB7-4714-F84C-4A73-523B17F33B0A</generatorID>
+<ownerDesignName>rm94092-cap7</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="36E29F15-8246-1483-0B48-9C1140BDA5EF" referredColumn="6D4BEEC6-2B33-CFA6-75A4-1B3FAE228010"/>
+</associations>
+</Column>
+<Column name="T_CATE_MOV_cd_categoria" id="C8910A0B-F922-FE3F-A870-76FE76263553">
+<createdBy>mahbu</createdBy>
+<createdTime>2022-06-20 14:32:53 UTC</createdTime>
+<generatorID>81D21AD9-EF39-CB51-A049-9EEC46171C46</generatorID>
+<ownerDesignName>rm94092-cap7</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E3957D60-E95F-D9E7-2E02-45933E5974E5" referredColumn="060974FE-5ABF-C5DC-1485-2BA0DC205D4B"/>
+</associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
@@ -86,6 +131,28 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="1EE166E5-C38D-C042-DC13-88FCA4F74748"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="80D8D42D-FB96-1312-2F22-17B7C74543CE" name="T_EVENTO_DS_T_CATE_MOV_FK">
+<createdBy>mahbu</createdBy>
+<createdTime>2022-06-20 14:32:53 UTC</createdTime>
+<generatorID>152D72D4-07AC-F988-42EE-CC1B2E119681</generatorID>
+<ownerDesignName>rm94092-cap7</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C8910A0B-F922-FE3F-A870-76FE76263553"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8D2ABA89-4242-0943-0CA3-5073D5565034" name="T_EVENTO_DS_T_TP_MOV_FK">
+<createdBy>mahbu</createdBy>
+<createdTime>2022-06-20 14:32:53 UTC</createdTime>
+<generatorID>F99FE5FC-47DE-633C-8773-AFBF34BAC150</generatorID>
+<ownerDesignName>rm94092-cap7</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6AE11078-BFAE-E276-67A7-7ED5D957B71C"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

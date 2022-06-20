@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="descrever" directorySegmentName="seg_0" id="5E20219B-3B1F-4AAC-4BCE-5A2FEC2C4338">
+<createdBy>mahbu</createdBy>
+<createdTime>2022-06-20 12:22:28 UTC</createdTime>
+<ownerDesignName>rm94092-cap7</ownerDesignName>
+<engineerTo>
+<item key="2C8AF195-3653-FF63-BD5B-A7C4539BFAAE" value="true"/>
+</engineerTo>
+<sourcePk>93432D63-6538-58FB-95E4-B0D17F4A4C0C</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>07DE2609-4148-399A-D79C-3116F7E4DF16</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>D543F099-0F63-29CA-E90C-58876801AD17</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

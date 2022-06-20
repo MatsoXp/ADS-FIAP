@@ -1,19 +1,19 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="T GENERO T USUARIO FK" directorySegmentName="seg_0" id="1D28FFA5-37E5-28B0-90AA-E31BFF334139">
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="definir" directorySegmentName="seg_0" id="F59FD366-B7ED-5ED1-CCDF-9F24CBB7E51E">
 <createdBy>mahbu</createdBy>
-<createdTime>2022-05-22 23:54:55 UTC</createdTime>
+<createdTime>2022-06-20 12:27:12 UTC</createdTime>
 <ownerDesignName>rm94092-cap7</ownerDesignName>
 <engineerTo>
 <item key="2C8AF195-3653-FF63-BD5B-A7C4539BFAAE" value="true"/>
 </engineerTo>
 <sourcePk>54E7F767-CDC6-0A5A-6D31-53AFD9800EDF</sourcePk>
-<identifying>true</identifying>
+<identifying>false</identifying>
 <optionalSource>true</optionalSource>
 <optionalTarget>false</optionalTarget>
 <sourceCardinality>1</sourceCardinality>
 <sourceEntity>8F3EB762-78D4-CF12-8EF4-DF2E8D30046C</sourceEntity>
 <targetCardinalityString>*</targetCardinalityString>
-<targetEntity>5ADE7C73-3B7D-B530-A114-8E3B09B6C378</targetEntity>
+<targetEntity>032FFC90-D0FA-1761-0B80-243D5B7DBE00</targetEntity>
 <transferable>true</transferable>
 <deleteRule>NO ACTION</deleteRule>
 </Relation>

@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="93733FA2-D93B-7571-FF6F-B6799C8E70FB" name="T_EVENTO_DS">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="BD3675B8-F08E-1C48-A15B-014BE4D9E765" name="T_EDCO">
 <createdBy>mahbu</createdBy>
-<createdTime>2022-05-22 21:27:41 UTC</createdTime>
+<createdTime>2022-06-20 13:03:58 UTC</createdTime>
 <ownerDesignName>rm94092-cap7</ownerDesignName>
 <engineerTo>
 <item key="2C8AF195-3653-FF63-BD5B-A7C4539BFAAE" value="true"/>
@@ -14,12 +14,25 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
-<shortName>T_MOV</shortName>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="cd_evento" id="11BCC323-3B11-8B20-18AB-25C6DD8FEB45">
+<Attribute name="nr_cpf" id="78F64FBE-966B-5C53-5347-A124BFE4DBF0">
 <createdBy>mahbu</createdBy>
-<createdTime>2022-05-22 23:37:50 UTC</createdTime>
-<commentInRDBMS><![CDATA[identificador da movimentacao]]></commentInRDBMS>
+<createdTime>2022-06-20 13:09:15 UTC</createdTime>
+<generatorID>1D3F871E-E98F-C768-31F9-4C3FA9465D9D</generatorID>
+<ownerDesignName>rm94092-cap7</ownerDesignName>
+<engineerTo>
+<item key="2C8AF195-3653-FF63-BD5B-A7C4539BFAAE" value="true"/>
+</engineerTo>
+<referedAttribute>02DFF9EE-3BC3-CDC1-F9ED-4AE5FA6E0B5C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_edco" id="07A08A40-D4BD-1048-EBC9-3B5B029A957C">
+<createdBy>mahbu</createdBy>
+<createdTime>2022-06-20 13:04:15 UTC</createdTime>
 <ownerDesignName>rm94092-cap7</ownerDesignName>
 <engineerTo>
 <item key="2C8AF195-3653-FF63-BD5B-A7C4539BFAAE" value="true"/>
@@ -27,37 +40,27 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>5</dataTypePrecision>
-<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ds_evento" id="F42183FD-3EA5-030E-871F-A1EB7703C63F">
+<Attribute name="id_logradouro" id="5D260CF4-89A5-19A7-80AB-94D3569744C1">
 <createdBy>mahbu</createdBy>
-<createdTime>2022-05-23 00:52:32 UTC</createdTime>
+<createdTime>2022-06-20 13:12:06 UTC</createdTime>
+<generatorID>315EF97A-F063-3DDF-D475-040A9BDB71CA</generatorID>
 <ownerDesignName>rm94092-cap7</ownerDesignName>
 <engineerTo>
 <item key="2C8AF195-3653-FF63-BD5B-A7C4539BFAAE" value="true"/>
 </engineerTo>
+<referedAttribute>194BBFF2-501D-A9A5-4E0D-94E52DA930B4</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>12</dataTypeSize>
-<ownDataTypeParameters>12,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="dt_data" id="720E7450-05A8-2959-5089-18B2FC89F3D5">
-<createdBy>mahbu</createdBy>
-<createdTime>2022-05-23 00:52:44 UTC</createdTime>
-<ownerDesignName>rm94092-cap7</ownerDesignName>
-<engineerTo>
-<item key="2C8AF195-3653-FF63-BD5B-A7C4539BFAAE" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT007</logicalDatatype>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="nr_valor" id="FBC4EDEA-3D73-A791-8751-7826D0E04F1E">
+<Attribute name="nr_cep" id="09A69169-DE48-AEBF-2CFF-2AA399EF7BC9">
 <createdBy>mahbu</createdBy>
-<createdTime>2022-06-20 13:58:55 UTC</createdTime>
+<createdTime>2022-06-20 13:10:28 UTC</createdTime>
 <ownerDesignName>rm94092-cap7</ownerDesignName>
 <engineerTo>
 <item key="2C8AF195-3653-FF63-BD5B-A7C4539BFAAE" value="true"/>
@@ -66,52 +69,49 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>15</dataTypePrecision>
-<ownDataTypeParameters>,15,</ownDataTypeParameters>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="cd_tp_mov" id="269DEDB7-4714-F84C-4A73-523B17F33B0A">
+<Attribute name="nr_edco" id="4C161309-D48A-7D58-7C42-74F2D506DBB1">
 <createdBy>mahbu</createdBy>
-<createdTime>2022-06-20 13:48:00 UTC</createdTime>
-<generatorID>F99FE5FC-47DE-633C-8773-AFBF34BAC150</generatorID>
+<createdTime>2022-06-20 13:10:49 UTC</createdTime>
 <ownerDesignName>rm94092-cap7</ownerDesignName>
 <engineerTo>
 <item key="2C8AF195-3653-FF63-BD5B-A7C4539BFAAE" value="true"/>
 </engineerTo>
-<referedAttribute>ED572256-3F8A-85C2-773A-C3235A9A81D2</referedAttribute>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>2</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,7,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="cd_categoria" id="81D21AD9-EF39-CB51-A049-9EEC46171C46">
+<Attribute name="ds_complemento" id="5E56AB6B-B8F3-CF8D-D997-C2E5286C3BBB">
 <createdBy>mahbu</createdBy>
-<createdTime>2022-06-20 13:48:40 UTC</createdTime>
-<generatorID>152D72D4-07AC-F988-42EE-CC1B2E119681</generatorID>
+<createdTime>2022-06-20 13:11:10 UTC</createdTime>
 <ownerDesignName>rm94092-cap7</ownerDesignName>
 <engineerTo>
 <item key="2C8AF195-3653-FF63-BD5B-A7C4539BFAAE" value="true"/>
 </engineerTo>
-<referedAttribute>2CFB6DC0-4511-3B3D-D57C-CE8645A740A0</referedAttribute>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>2</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>35</dataTypeSize>
+<ownDataTypeParameters>35,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="29F6E6F1-05A5-2C9F-30F3-6FA280D69740" name="T_MOV_PK">
+<identifier id="B9D6AF3F-C1CB-D483-8769-A0D175250A23" name="T_EDCO PK">
 <createdBy>mahbu</createdBy>
-<createdTime>2022-05-22 23:37:59 UTC</createdTime>
+<createdTime>2022-06-20 13:04:34 UTC</createdTime>
 <ownerDesignName>rm94092-cap7</ownerDesignName>
-<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="2C8AF195-3653-FF63-BD5B-A7C4539BFAAE" value="false"/>
+<item key="2C8AF195-3653-FF63-BD5B-A7C4539BFAAE" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>11BCC323-3B11-8B20-18AB-25C6DD8FEB45</attributeRef>
+<attributeRef>07A08A40-D4BD-1048-EBC9-3B5B029A957C</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

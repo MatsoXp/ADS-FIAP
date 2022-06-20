@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="E3957D60-E95F-D9E7-2E02-45933E5974E5" containerWithKeyObject="E5B9E347-9BCD-6F1A-2AB9-02822602EBF3" localFKIndex="80D8D42D-FB96-1312-2F22-17B7C74543CE" name="T_EVENTO_DS_T_CATE_MOV_FK">
+<createdBy>mahbu</createdBy>
+<createdTime>2022-06-20 14:32:53 UTC</createdTime>
+<generatorID>152D72D4-07AC-F988-42EE-CC1B2E119681</generatorID>
+<ownerDesignName>rm94092-cap7</ownerDesignName>
+<referredTableLongName>T_CATE_MOV</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>F79155B3-5DE6-0610-3C28-6EE6B9FA4551</referredTableID>
+<keyObject>CC0390BE-E759-FD26-966A-6D8E02FD9765</keyObject>
+<referredKeyID>CC0390BE-E759-FD26-966A-6D8E02FD9765</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>cd_categoria</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

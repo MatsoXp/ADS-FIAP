@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D543F099-0F63-29CA-E90C-58876801AD17" name="T_META">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="ACCA7973-9D2D-5E7E-924A-EEFDA27E887E" name="T_EVENTO">
 <createdBy>mahbu</createdBy>
-<createdTime>2022-05-23 01:10:56 UTC</createdTime>
+<createdTime>2022-06-20 13:46:41 UTC</createdTime>
 <ownerDesignName>rm94092-cap7</ownerDesignName>
 <engineerTo>
 <item key="2C8AF195-3653-FF63-BD5B-A7C4539BFAAE" value="true"/>
@@ -15,9 +15,9 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="id_meta" id="33270492-0BDF-A90F-7240-EA6630653CC2">
+<Attribute name="nr_documento" id="7682C330-B0C8-4917-0FBC-61F396F8A735">
 <createdBy>mahbu</createdBy>
-<createdTime>2022-05-23 01:11:06 UTC</createdTime>
+<createdTime>2022-06-20 13:55:29 UTC</createdTime>
 <ownerDesignName>rm94092-cap7</ownerDesignName>
 <engineerTo>
 <item key="2C8AF195-3653-FF63-BD5B-A7C4539BFAAE" value="true"/>
@@ -25,13 +25,13 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>2</dataTypePrecision>
-<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<dataTypePrecision>14</dataTypePrecision>
+<ownDataTypeParameters>,14,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="nr_cpf" id="6AF5E675-6322-8603-AA7E-8867B16C3F8A">
+<Attribute name="nr_cpf" id="26392651-EC99-04BF-8732-241702AFA812">
 <createdBy>mahbu</createdBy>
-<createdTime>2022-06-20 12:22:59 UTC</createdTime>
-<generatorID>F16EEA4F-8538-927D-083C-8CAFF55886A1</generatorID>
+<createdTime>2022-06-20 13:47:41 UTC</createdTime>
+<generatorID>CACABA66-C163-9675-2B05-4349C542BCE9</generatorID>
 <ownerDesignName>rm94092-cap7</ownerDesignName>
 <engineerTo>
 <item key="2C8AF195-3653-FF63-BD5B-A7C4539BFAAE" value="true"/>
@@ -43,34 +43,33 @@
 <dataTypePrecision>12</dataTypePrecision>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="cd_meta" id="C753189C-5981-2FD1-443F-F298C4C483B5">
+<Attribute name="cd_evento" id="1D4ACDB0-985E-B4FB-698F-7CD5A4CD51C5">
 <createdBy>mahbu</createdBy>
-<createdTime>2022-06-20 12:22:28 UTC</createdTime>
-<generatorID>5E20219B-3B1F-4AAC-4BCE-5A2FEC2C4338</generatorID>
+<createdTime>2022-06-20 13:48:58 UTC</createdTime>
+<generatorID>02BA9773-B6C4-C205-3F9E-7F7FF2289942</generatorID>
 <ownerDesignName>rm94092-cap7</ownerDesignName>
 <engineerTo>
 <item key="2C8AF195-3653-FF63-BD5B-A7C4539BFAAE" value="true"/>
 </engineerTo>
-<referedAttribute>10380ECF-24F1-6423-BC04-CD60254BE3DE</referedAttribute>
+<referedAttribute>11BCC323-3B11-8B20-18AB-25C6DD8FEB45</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>3</dataTypePrecision>
+<dataTypePrecision>5</dataTypePrecision>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="F9A1C4A0-C6E5-7A07-62DF-2C98AC87F119" name="T_META_PK">
+<identifier id="A8601F19-E972-5BAA-AB3F-44B26B722A72" name="T_EXTRATO PK">
 <createdBy>mahbu</createdBy>
-<createdTime>2022-05-23 01:14:41 UTC</createdTime>
+<createdTime>2022-06-20 13:49:34 UTC</createdTime>
 <ownerDesignName>rm94092-cap7</ownerDesignName>
-<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="2C8AF195-3653-FF63-BD5B-A7C4539BFAAE" value="false"/>
+<item key="2C8AF195-3653-FF63-BD5B-A7C4539BFAAE" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>33270492-0BDF-A90F-7240-EA6630653CC2</attributeRef>
+<attributeRef>7682C330-B0C8-4917-0FBC-61F396F8A735</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

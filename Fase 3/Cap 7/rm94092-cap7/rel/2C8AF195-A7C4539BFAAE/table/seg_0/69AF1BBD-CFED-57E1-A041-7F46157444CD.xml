@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="69AF1BBD-CFED-57E1-A041-7F46157444CD" name="T_META_DESCRICAO">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="69AF1BBD-CFED-57E1-A041-7F46157444CD" name="T_META_DESC">
 <createdBy>mahbu</createdBy>
 <createdTime>2022-05-23 16:11:05 UTC</createdTime>
 <generatorID>07DE2609-4148-399A-D79C-3116F7E4DF16</generatorID>
@@ -17,19 +17,18 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>2</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
 <colAssociation fkAssociation="E9C1781B-0232-749A-4CCA-A3779BA8EA05" referredColumn="2EB0C144-3895-2970-00A7-D674B25DF2CC"/>
 </associations>
 </Column>
-<Column name="ds_complemento_meta" id="321A2C21-A7FD-3C6D-FD39-F7193CDEFD00">
+<Column name="ds_meta" id="321A2C21-A7FD-3C6D-FD39-F7193CDEFD00">
 <createdBy>mahbu</createdBy>
 <createdTime>2022-05-23 16:11:05 UTC</createdTime>
 <generatorID>C547117A-9376-1454-7168-4ED50C665DE2</generatorID>
 <ownerDesignName>rm94092-cap7</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
@@ -49,10 +48,33 @@
 <ownDataTypeParameters>12,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="dt_data" id="D729B928-073A-CE57-6427-64488D9E247A">
+<Column name="dt_data_inic" id="D729B928-073A-CE57-6427-64488D9E247A">
 <createdBy>mahbu</createdBy>
 <createdTime>2022-05-23 16:11:05 UTC</createdTime>
 <generatorID>E5798FC4-65DB-FE21-C97F-0C1B510082F9</generatorID>
+<ownerDesignName>rm94092-cap7</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cd_meta" id="406C926E-662A-6CCA-4583-0CAFE9DEA23E">
+<createdBy>mahbu</createdBy>
+<createdTime>2022-06-20 14:32:53 UTC</createdTime>
+<generatorID>10380ECF-24F1-6423-BC04-CD60254BE3DE</generatorID>
+<ownerDesignName>rm94092-cap7</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_data_fim" id="61992783-2A4A-C409-2DC2-3B64955F506F">
+<createdBy>mahbu</createdBy>
+<createdTime>2022-06-20 14:32:53 UTC</createdTime>
+<generatorID>9D74C420-3B47-1884-1318-667C3F9A4B71</generatorID>
 <ownerDesignName>rm94092-cap7</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>

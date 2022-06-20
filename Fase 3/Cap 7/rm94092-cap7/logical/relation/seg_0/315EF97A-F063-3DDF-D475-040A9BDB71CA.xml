@@ -1,19 +1,19 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="T META T USUARIO FK" directorySegmentName="seg_0" id="A241167D-08E0-001B-8CD2-30824A453762">
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="logradouro" directorySegmentName="seg_0" id="315EF97A-F063-3DDF-D475-040A9BDB71CA">
 <createdBy>mahbu</createdBy>
-<createdTime>2022-05-23 01:14:50 UTC</createdTime>
+<createdTime>2022-06-20 13:12:06 UTC</createdTime>
 <ownerDesignName>rm94092-cap7</ownerDesignName>
 <engineerTo>
 <item key="2C8AF195-3653-FF63-BD5B-A7C4539BFAAE" value="true"/>
 </engineerTo>
-<sourcePk>54E7F767-CDC6-0A5A-6D31-53AFD9800EDF</sourcePk>
+<sourcePk>63659D5C-CCB4-5A49-211F-FF8F1FA1F2E2</sourcePk>
 <identifying>false</identifying>
 <optionalSource>true</optionalSource>
 <optionalTarget>false</optionalTarget>
 <sourceCardinality>1</sourceCardinality>
-<sourceEntity>8F3EB762-78D4-CF12-8EF4-DF2E8D30046C</sourceEntity>
+<sourceEntity>485B10EA-C7DF-4DBC-8910-FAFDA4EA3A13</sourceEntity>
 <targetCardinalityString>*</targetCardinalityString>
-<targetEntity>D543F099-0F63-29CA-E90C-58876801AD17</targetEntity>
+<targetEntity>BD3675B8-F08E-1C48-A15B-014BE4D9E765</targetEntity>
 <transferable>true</transferable>
 <deleteRule>NO ACTION</deleteRule>
 </Relation>

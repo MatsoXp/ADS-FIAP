@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D543F099-0F63-29CA-E90C-58876801AD17" name="T_META">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8010DFBD-5C2B-0B13-12A7-95DBFEC3E2F6" name="T_BAIRRO">
 <createdBy>mahbu</createdBy>
-<createdTime>2022-05-23 01:10:56 UTC</createdTime>
+<createdTime>2022-06-20 13:13:52 UTC</createdTime>
 <ownerDesignName>rm94092-cap7</ownerDesignName>
 <engineerTo>
 <item key="2C8AF195-3653-FF63-BD5B-A7C4539BFAAE" value="true"/>
@@ -15,62 +15,59 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="id_meta" id="33270492-0BDF-A90F-7240-EA6630653CC2">
+<Attribute name="id_bairro" id="85420602-0933-FD15-7FF9-7667A2B4B1CC">
 <createdBy>mahbu</createdBy>
-<createdTime>2022-05-23 01:11:06 UTC</createdTime>
+<createdTime>2022-06-20 13:13:59 UTC</createdTime>
 <ownerDesignName>rm94092-cap7</ownerDesignName>
 <engineerTo>
 <item key="2C8AF195-3653-FF63-BD5B-A7C4539BFAAE" value="true"/>
 </engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>2</dataTypePrecision>
-<ownDataTypeParameters>,2,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="nr_cpf" id="6AF5E675-6322-8603-AA7E-8867B16C3F8A">
-<createdBy>mahbu</createdBy>
-<createdTime>2022-06-20 12:22:59 UTC</createdTime>
-<generatorID>F16EEA4F-8538-927D-083C-8CAFF55886A1</generatorID>
-<ownerDesignName>rm94092-cap7</ownerDesignName>
-<engineerTo>
-<item key="2C8AF195-3653-FF63-BD5B-A7C4539BFAAE" value="true"/>
-</engineerTo>
-<referedAttribute>02DFF9EE-3BC3-CDC1-F9ED-4AE5FA6E0B5C</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>12</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="cd_meta" id="C753189C-5981-2FD1-443F-F298C4C483B5">
-<createdBy>mahbu</createdBy>
-<createdTime>2022-06-20 12:22:28 UTC</createdTime>
-<generatorID>5E20219B-3B1F-4AAC-4BCE-5A2FEC2C4338</generatorID>
-<ownerDesignName>rm94092-cap7</ownerDesignName>
-<engineerTo>
-<item key="2C8AF195-3653-FF63-BD5B-A7C4539BFAAE" value="true"/>
-</engineerTo>
-<referedAttribute>10380ECF-24F1-6423-BC04-CD60254BE3DE</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_bairro" id="9BED48B4-F763-8C02-F368-4F6D0E6EBEDC">
+<createdBy>mahbu</createdBy>
+<createdTime>2022-06-20 13:14:15 UTC</createdTime>
+<ownerDesignName>rm94092-cap7</ownerDesignName>
+<engineerTo>
+<item key="2C8AF195-3653-FF63-BD5B-A7C4539BFAAE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>120</dataTypeSize>
+<ownDataTypeParameters>120,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_cidade" id="F5F6939D-45B6-44CE-B3EE-88BF83C0B643">
+<createdBy>mahbu</createdBy>
+<createdTime>2022-06-20 13:16:21 UTC</createdTime>
+<generatorID>A3B54F71-0D6B-4307-9C6D-F689978E526F</generatorID>
+<ownerDesignName>rm94092-cap7</ownerDesignName>
+<engineerTo>
+<item key="2C8AF195-3653-FF63-BD5B-A7C4539BFAAE" value="true"/>
+</engineerTo>
+<referedAttribute>247B97CC-C1D3-6B9B-ACD4-E77CA9075AFC</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="F9A1C4A0-C6E5-7A07-62DF-2C98AC87F119" name="T_META_PK">
+<identifier id="611669BC-D121-4667-DBE7-AC8FFD721F03" name="T_BAIRRO PK">
 <createdBy>mahbu</createdBy>
-<createdTime>2022-05-23 01:14:41 UTC</createdTime>
+<createdTime>2022-06-20 13:14:15 UTC</createdTime>
 <ownerDesignName>rm94092-cap7</ownerDesignName>
-<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="2C8AF195-3653-FF63-BD5B-A7C4539BFAAE" value="false"/>
+<item key="2C8AF195-3653-FF63-BD5B-A7C4539BFAAE" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>33270492-0BDF-A90F-7240-EA6630653CC2</attributeRef>
+<attributeRef>85420602-0933-FD15-7FF9-7667A2B4B1CC</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

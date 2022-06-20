@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0AB37D82-94CC-1E36-91D9-DF999EA22BC7" name="T_TP_MOV">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E9E572EC-1A02-99D5-E6D7-873BE8C5DDC3" name="T_TP_CONTA">
 <createdBy>mahbu</createdBy>
-<createdTime>2022-05-23 00:43:47 UTC</createdTime>
+<createdTime>2022-06-20 12:43:07 UTC</createdTime>
 <ownerDesignName>rm94092-cap7</ownerDesignName>
 <engineerTo>
 <item key="2C8AF195-3653-FF63-BD5B-A7C4539BFAAE" value="true"/>
@@ -15,9 +15,9 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="cd_tp_mov" id="ED572256-3F8A-85C2-773A-C3235A9A81D2">
+<Attribute name="id_tp_conta" id="FEF3C415-560E-68FB-EE59-5AD96BBF49C6">
 <createdBy>mahbu</createdBy>
-<createdTime>2022-05-23 00:43:55 UTC</createdTime>
+<createdTime>2022-06-20 12:43:19 UTC</createdTime>
 <ownerDesignName>rm94092-cap7</ownerDesignName>
 <engineerTo>
 <item key="2C8AF195-3653-FF63-BD5B-A7C4539BFAAE" value="true"/>
@@ -25,36 +25,34 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>2</dataTypePrecision>
-<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ds_tp_mov" id="FE512010-B3B3-E566-7B6B-6C0A9840D431">
+<Attribute name="ds_tp_conta" id="098A3CF2-9A18-5FDD-E05D-9D3AB7926862">
 <createdBy>mahbu</createdBy>
-<createdTime>2022-05-23 00:44:40 UTC</createdTime>
+<createdTime>2022-06-20 12:43:35 UTC</createdTime>
 <ownerDesignName>rm94092-cap7</ownerDesignName>
 <engineerTo>
 <item key="2C8AF195-3653-FF63-BD5B-A7C4539BFAAE" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT037</logicalDatatype>
-<dataTypeSize>15</dataTypeSize>
-<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="6985F1DA-D14A-A605-7451-FA0674BB667F" name="T_TP_MOV_PK">
+<identifier id="6BB0608A-48DF-A901-3434-91C9C7AE9B89" name="T_TP_CONTA PK">
 <createdBy>mahbu</createdBy>
-<createdTime>2022-05-23 00:44:38 UTC</createdTime>
+<createdTime>2022-06-20 12:43:28 UTC</createdTime>
 <ownerDesignName>rm94092-cap7</ownerDesignName>
-<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="2C8AF195-3653-FF63-BD5B-A7C4539BFAAE" value="false"/>
+<item key="2C8AF195-3653-FF63-BD5B-A7C4539BFAAE" value="true"/>
 </engineerTo>
 <pk>true</pk>
-<newElementsIDs>ED572256-3F8A-85C2-773A-C3235A9A81D2</newElementsIDs>
 <usedAttributes>
-<attributeRef>ED572256-3F8A-85C2-773A-C3235A9A81D2</attributeRef>
+<attributeRef>FEF3C415-560E-68FB-EE59-5AD96BBF49C6</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

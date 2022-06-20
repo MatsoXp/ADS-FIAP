@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="T TIPO MOV T MOV FK" directorySegmentName="seg_0" id="0519A01B-B104-0AB9-56A4-7C37EE9F1AF4">
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="evento consultar" directorySegmentName="seg_0" id="02BA9773-B6C4-C205-3F9E-7F7FF2289942">
 <createdBy>mahbu</createdBy>
-<createdTime>2022-05-23 12:17:21 UTC</createdTime>
+<createdTime>2022-06-20 13:48:58 UTC</createdTime>
 <ownerDesignName>rm94092-cap7</ownerDesignName>
 <engineerTo>
 <item key="2C8AF195-3653-FF63-BD5B-A7C4539BFAAE" value="true"/>
@@ -13,7 +13,7 @@
 <sourceCardinality>1</sourceCardinality>
 <sourceEntity>93733FA2-D93B-7571-FF6F-B6799C8E70FB</sourceEntity>
 <targetCardinalityString>*</targetCardinalityString>
-<targetEntity>0AB37D82-94CC-1E36-91D9-DF999EA22BC7</targetEntity>
+<targetEntity>ACCA7973-9D2D-5E7E-924A-EEFDA27E887E</targetEntity>
 <transferable>true</transferable>
 <deleteRule>NO ACTION</deleteRule>
 </Relation>

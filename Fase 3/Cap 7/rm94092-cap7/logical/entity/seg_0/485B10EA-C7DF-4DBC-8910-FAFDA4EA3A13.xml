@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5ADE7C73-3B7D-B530-A114-8E3B09B6C378" name="T GENERO">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="485B10EA-C7DF-4DBC-8910-FAFDA4EA3A13" name="T_LOGRO">
 <createdBy>mahbu</createdBy>
-<createdTime>2022-05-22 23:20:43 UTC</createdTime>
+<createdTime>2022-06-20 13:07:37 UTC</createdTime>
 <ownerDesignName>rm94092-cap7</ownerDesignName>
 <engineerTo>
 <item key="2C8AF195-3653-FF63-BD5B-A7C4539BFAAE" value="true"/>
@@ -15,9 +15,9 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="cd genero" id="960A6454-C075-8FDF-F8D8-091AF5871943">
+<Attribute name="id_logradouro" id="194BBFF2-501D-A9A5-4E0D-94E52DA930B4">
 <createdBy>mahbu</createdBy>
-<createdTime>2022-05-22 23:20:54 UTC</createdTime>
+<createdTime>2022-06-20 13:08:28 UTC</createdTime>
 <ownerDesignName>rm94092-cap7</ownerDesignName>
 <engineerTo>
 <item key="2C8AF195-3653-FF63-BD5B-A7C4539BFAAE" value="true"/>
@@ -25,51 +25,50 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>2</dataTypePrecision>
-<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="T USUARIO cd usu" id="843E72F4-FEF8-45A1-A628-325E1B831A01">
+<Attribute name="ds_tp_logro" id="59034B58-9FCE-1E7A-EA3E-2DC9C7246E66">
 <createdBy>mahbu</createdBy>
-<createdTime>2022-05-23 15:04:26 UTC</createdTime>
-<generatorID>1D28FFA5-37E5-28B0-90AA-E31BFF334139</generatorID>
+<createdTime>2022-06-20 13:11:39 UTC</createdTime>
 <ownerDesignName>rm94092-cap7</ownerDesignName>
 <engineerTo>
 <item key="2C8AF195-3653-FF63-BD5B-A7C4539BFAAE" value="true"/>
 </engineerTo>
-<referedAttribute>0CEA737B-DD27-3678-5D89-6C542F71C939</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>5</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="ds genero" id="4DE6C2A2-88E7-170A-4D8E-3302E84A5A55">
-<createdBy>mahbu</createdBy>
-<createdTime>2022-05-22 23:21:01 UTC</createdTime>
-<ownerDesignName>rm94092-cap7</ownerDesignName>
-<engineerTo>
-<item key="2C8AF195-3653-FF63-BD5B-A7C4539BFAAE" value="true"/>
-</engineerTo>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>15</dataTypeSize>
-<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<dataTypeSize>35</dataTypeSize>
+<ownDataTypeParameters>35,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_bairro" id="5190F493-A754-493B-F5D5-2B30DDBA669D">
+<createdBy>mahbu</createdBy>
+<createdTime>2022-06-20 13:14:48 UTC</createdTime>
+<generatorID>6F339F33-4A4F-AC96-AEEC-07191BECEE5A</generatorID>
+<ownerDesignName>rm94092-cap7</ownerDesignName>
+<engineerTo>
+<item key="2C8AF195-3653-FF63-BD5B-A7C4539BFAAE" value="true"/>
+</engineerTo>
+<referedAttribute>85420602-0933-FD15-7FF9-7667A2B4B1CC</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="2FBF82A7-8F74-AE14-6C33-D0DB4852F8C6" name="T_GENERO_PK">
+<identifier id="63659D5C-CCB4-5A49-211F-FF8F1FA1F2E2" name="T_LOGRO PK">
 <createdBy>mahbu</createdBy>
-<createdTime>2022-05-22 23:22:10 UTC</createdTime>
+<createdTime>2022-06-20 13:08:38 UTC</createdTime>
 <ownerDesignName>rm94092-cap7</ownerDesignName>
-<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="2C8AF195-3653-FF63-BD5B-A7C4539BFAAE" value="false"/>
+<item key="2C8AF195-3653-FF63-BD5B-A7C4539BFAAE" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>960A6454-C075-8FDF-F8D8-091AF5871943</attributeRef>
-<attributeRef>843E72F4-FEF8-45A1-A628-325E1B831A01</attributeRef>
+<attributeRef>194BBFF2-501D-A9A5-4E0D-94E52DA930B4</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

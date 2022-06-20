@@ -1,0 +1,120 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="04C82A9E-6C2C-FA85-2B83-1185FA535193" name="T_EVENTO">
+<createdBy>mahbu</createdBy>
+<createdTime>2022-06-20 14:32:53 UTC</createdTime>
+<generatorID>ACCA7973-9D2D-5E7E-924A-EEFDA27E887E</generatorID>
+<ownerDesignName>rm94092-cap7</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="nr_documento" id="BA72717C-773F-5142-DC96-0AD275C592B2">
+<createdBy>mahbu</createdBy>
+<createdTime>2022-06-20 14:32:53 UTC</createdTime>
+<generatorID>7682C330-B0C8-4917-0FBC-61F396F8A735</generatorID>
+<ownerDesignName>rm94092-cap7</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>14</dataTypePrecision>
+<ownDataTypeParameters>,14,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nr_cpf" id="87EF28CF-3DF1-4118-115C-14224E3BA39E">
+<createdBy>mahbu</createdBy>
+<createdTime>2022-06-20 14:32:53 UTC</createdTime>
+<generatorID>26392651-EC99-04BF-8732-241702AFA812</generatorID>
+<ownerDesignName>rm94092-cap7</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<ownDataTypeParameters>,12,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_EVENTO_DS_cd_evento" id="42F6D137-6FD6-21D0-E181-105589FF843E">
+<createdBy>mahbu</createdBy>
+<createdTime>2022-06-20 14:32:53 UTC</createdTime>
+<generatorID>1D4ACDB0-985E-B4FB-698F-7CD5A4CD51C5</generatorID>
+<ownerDesignName>rm94092-cap7</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1E76E3F9-46E4-A6AC-6533-198D16E1CE4E" referredColumn="3C986AB7-CAE0-8F57-6EF2-73C56916E565"/>
+</associations>
+</Column>
+<Column name="T_USUARIO_cd_usu" id="047291B0-9AA4-E930-71C5-7FCA1FEAB268">
+<createdBy>mahbu</createdBy>
+<createdTime>2022-06-20 14:34:15 UTC</createdTime>
+<ownerDesignName>rm94092-cap7</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E0038A8D-6C45-41EA-6E23-A460CA84F804" referredColumn="90342066-6D92-5901-CB4E-5052FCC5E2D2"/>
+</associations>
+</Column>
+<Column name="T_EVENTO_DS_T_USUARIO_cd_usu" id="65229FB5-209D-B41F-167E-254CEE027B85">
+<createdBy>mahbu</createdBy>
+<createdTime>2022-06-20 14:34:15 UTC</createdTime>
+<ownerDesignName>rm94092-cap7</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1E76E3F9-46E4-A6AC-6533-198D16E1CE4E" referredColumn="1EE166E5-C38D-C042-DC13-88FCA4F74748"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D17A2604-27B8-37C9-BE41-B91301AC4A44" name="T_EVENTO_PK">
+<createdBy>mahbu</createdBy>
+<createdTime>2022-06-20 14:32:53 UTC</createdTime>
+<generatorID>A8601F19-E972-5BAA-AB3F-44B26B722A72</generatorID>
+<ownerDesignName>rm94092-cap7</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BA72717C-773F-5142-DC96-0AD275C592B2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B7361CFD-4867-4E5C-CC75-24030A5D996B" name="T_EVENTO_T_USUARIO_FK">
+<createdBy>mahbu</createdBy>
+<createdTime>2022-06-20 14:32:53 UTC</createdTime>
+<generatorID>CACABA66-C163-9675-2B05-4349C542BCE9</generatorID>
+<ownerDesignName>rm94092-cap7</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="047291B0-9AA4-E930-71C5-7FCA1FEAB268"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BD67E65F-22E2-E46F-207A-A59384E0A0AC" name="T_EVENTO_T_EVENTO_DS_FK">
+<createdBy>mahbu</createdBy>
+<createdTime>2022-06-20 14:32:53 UTC</createdTime>
+<generatorID>02BA9773-B6C4-C205-3F9E-7F7FF2289942</generatorID>
+<ownerDesignName>rm94092-cap7</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="42F6D137-6FD6-21D0-E181-105589FF843E"/>
+<colUsage columnID="65229FB5-209D-B41F-167E-254CEE027B85"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

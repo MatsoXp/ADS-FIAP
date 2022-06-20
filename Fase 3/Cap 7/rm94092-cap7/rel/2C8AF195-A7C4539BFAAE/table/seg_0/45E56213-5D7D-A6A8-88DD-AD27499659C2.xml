@@ -8,7 +8,7 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="cd_meta" id="2EB0C144-3895-2970-00A7-D674B25DF2CC">
+<Column name="id_meta" id="2EB0C144-3895-2970-00A7-D674B25DF2CC">
 <createdBy>mahbu</createdBy>
 <createdTime>2022-05-23 16:11:05 UTC</createdTime>
 <generatorID>33270492-0BDF-A90F-7240-EA6630653CC2</generatorID>
@@ -29,7 +29,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>5</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
@@ -48,6 +48,62 @@
 <dataTypeSize>25</dataTypeSize>
 <ownDataTypeParameters>25,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nr_cpf" id="25BBD8FE-9A09-AE36-EA1D-C877E7D7E030">
+<createdBy>mahbu</createdBy>
+<createdTime>2022-06-20 14:32:53 UTC</createdTime>
+<generatorID>6AF5E675-6322-8603-AA7E-8867B16C3F8A</generatorID>
+<ownerDesignName>rm94092-cap7</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<ownDataTypeParameters>,12,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cd_meta" id="7B833594-5B04-7079-77B6-300F3AE0195D">
+<createdBy>mahbu</createdBy>
+<createdTime>2022-06-20 14:32:53 UTC</createdTime>
+<generatorID>C753189C-5981-2FD1-443F-F298C4C483B5</generatorID>
+<ownerDesignName>rm94092-cap7</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_USUARIO_cd_usu1" id="C1A5E94B-BEB2-B967-82A7-82EB05CE1EBE">
+<createdBy>mahbu</createdBy>
+<createdTime>2022-06-20 14:34:15 UTC</createdTime>
+<ownerDesignName>rm94092-cap7</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7CEE4B0C-345C-4945-E0AF-4156079C6F17" referredColumn="90342066-6D92-5901-CB4E-5052FCC5E2D2"/>
+</associations>
+</Column>
+<Column name="T_META_DESC_T_META_cd_meta" id="50251E6F-3275-865F-B0B8-51A14564CD63">
+<createdBy>mahbu</createdBy>
+<createdTime>2022-06-20 14:34:15 UTC</createdTime>
+<ownerDesignName>rm94092-cap7</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="45766EB8-5178-9811-6C57-540BA9F9CB9E" referredColumn="218C95B3-C7D8-69F4-F308-35DB4AD2800F"/>
+</associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
@@ -72,6 +128,28 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="77C38757-CEE0-4170-500E-02486A2063F3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F4C8498B-D8BE-0EBF-3993-BCC6F389F24A" name="T_META_T_USUARIO_FKv1">
+<createdBy>mahbu</createdBy>
+<createdTime>2022-06-20 14:32:53 UTC</createdTime>
+<generatorID>F16EEA4F-8538-927D-083C-8CAFF55886A1</generatorID>
+<ownerDesignName>rm94092-cap7</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C1A5E94B-BEB2-B967-82A7-82EB05CE1EBE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F407F397-251C-C333-673C-FC6BB2FFA244" name="T_META_T_META_DESC_FK">
+<createdBy>mahbu</createdBy>
+<createdTime>2022-06-20 14:32:53 UTC</createdTime>
+<generatorID>5E20219B-3B1F-4AAC-4BCE-5A2FEC2C4338</generatorID>
+<ownerDesignName>rm94092-cap7</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="50251E6F-3275-865F-B0B8-51A14564CD63"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

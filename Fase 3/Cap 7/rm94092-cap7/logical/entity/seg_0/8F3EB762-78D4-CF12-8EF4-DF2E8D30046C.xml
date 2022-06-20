@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8F3EB762-78D4-CF12-8EF4-DF2E8D30046C" name="T USUARIO">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8F3EB762-78D4-CF12-8EF4-DF2E8D30046C" name="T_USUARIO">
 <createdBy>mahbu</createdBy>
 <createdTime>2022-05-22 14:38:29 UTC</createdTime>
 <ownerDesignName>rm94092-cap7</ownerDesignName>
@@ -15,10 +15,9 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="cd usu" id="0CEA737B-DD27-3678-5D89-6C542F71C939">
+<Attribute name="nr_cpf" id="02DFF9EE-3BC3-CDC1-F9ED-4AE5FA6E0B5C">
 <createdBy>mahbu</createdBy>
-<createdTime>2022-05-22 21:41:32 UTC</createdTime>
-<commentInRDBMS><![CDATA[código do usuário]]></commentInRDBMS>
+<createdTime>2022-06-20 11:59:37 UTC</createdTime>
 <ownerDesignName>rm94092-cap7</ownerDesignName>
 <engineerTo>
 <item key="2C8AF195-3653-FF63-BD5B-A7C4539BFAAE" value="true"/>
@@ -26,10 +25,10 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>5</dataTypePrecision>
-<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<dataTypePrecision>12</dataTypePrecision>
+<ownDataTypeParameters>,12,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ds email" id="0B52B52A-5406-AFAE-0B7D-A3A4353D6232">
+<Attribute name="ds_email" id="0B52B52A-5406-AFAE-0B7D-A3A4353D6232">
 <createdBy>mahbu</createdBy>
 <createdTime>2022-05-22 21:41:57 UTC</createdTime>
 <ownerDesignName>rm94092-cap7</ownerDesignName>
@@ -42,7 +41,7 @@
 <dataTypeSize>256</dataTypeSize>
 <ownDataTypeParameters>256,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ds senha" id="618E769A-6CC9-4208-4A40-960B367D42C1">
+<Attribute name="ds_senha" id="618E769A-6CC9-4208-4A40-960B367D42C1">
 <createdBy>mahbu</createdBy>
 <createdTime>2022-05-22 21:41:45 UTC</createdTime>
 <ownerDesignName>rm94092-cap7</ownerDesignName>
@@ -55,7 +54,7 @@
 <dataTypeSize>30</dataTypeSize>
 <ownDataTypeParameters>30,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="nm usuario" id="2C373B59-ABEE-4894-1DA5-DA9B5F996B03">
+<Attribute name="nm_usuario" id="2C373B59-ABEE-4894-1DA5-DA9B5F996B03">
 <createdBy>mahbu</createdBy>
 <createdTime>2022-05-22 21:43:59 UTC</createdTime>
 <ownerDesignName>rm94092-cap7</ownerDesignName>
@@ -68,13 +67,14 @@
 <dataTypeSize>80</dataTypeSize>
 <ownDataTypeParameters>80,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="dt nascimento" id="A50CDEC2-D296-A732-4078-4FF662E55495">
+<Attribute name="dt_nascimento" id="A50CDEC2-D296-A732-4078-4FF662E55495">
 <createdBy>mahbu</createdBy>
 <createdTime>2022-05-22 21:45:30 UTC</createdTime>
 <ownerDesignName>rm94092-cap7</ownerDesignName>
 <engineerTo>
 <item key="2C8AF195-3653-FF63-BD5B-A7C4539BFAAE" value="true"/>
 </engineerTo>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT007</logicalDatatype>
@@ -92,7 +92,7 @@
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>0CEA737B-DD27-3678-5D89-6C542F71C939</attributeRef>
+<attributeRef>02DFF9EE-3BC3-CDC1-F9ED-4AE5FA6E0B5C</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>
