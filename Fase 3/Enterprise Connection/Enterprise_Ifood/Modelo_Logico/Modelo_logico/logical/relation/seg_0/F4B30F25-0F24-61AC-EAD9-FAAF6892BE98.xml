@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="consultar" directorySegmentName="seg_0" id="F4B30F25-0F24-61AC-EAD9-FAAF6892BE98">
+<createdBy>Melina Kiyotani</createdBy>
+<createdTime>2022-06-05 17:12:40 UTC</createdTime>
+<ownerDesignName>Modelo_logico</ownerDesignName>
+<engineerTo>
+<item key="6BBB8EB5-A0BD-2FFD-D638-6F6B4C28CD4D" value="true"/>
+</engineerTo>
+<sourcePk>5A2B0B21-BB74-A455-978E-829D714BFC60</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>9A86757D-498E-6FEC-82ED-DC6E4ECE92BF</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>CF0E679E-8FBE-6085-B935-1674B2F39E0A</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

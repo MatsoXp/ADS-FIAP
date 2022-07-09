@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D5D26D35-B13B-5193-7AF2-5F97A5D85E26" name="T_ESTO">
+<createdBy>mahbu</createdBy>
+<createdTime>2022-06-09 10:53:10 UTC</createdTime>
+<generatorID>FB7A1F96-52EC-822F-E3FA-19CFD2A6DF62</generatorID>
+<ownerDesignName>Modelo_fisico</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="T_CDST_id_cdst" id="683B90C8-66CC-CF72-FF86-9452E0BECF12">
+<createdBy>mahbu</createdBy>
+<createdTime>2022-06-09 10:53:10 UTC</createdTime>
+<generatorID>EC7CE423-7FFC-8A5C-2E84-42E1059F839D</generatorID>
+<ownerDesignName>Modelo_fisico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6A6038CF-7DC5-63F4-5D36-08998C5C34ED" referredColumn="BE48C505-B33F-26D1-E293-69CE974407DD"/>
+</associations>
+</Column>
+<Column name="nr_cnpj" id="C1A582AB-E3A0-116B-B5E4-6F6E5689004B">
+<createdBy>mahbu</createdBy>
+<createdTime>2022-06-09 10:53:10 UTC</createdTime>
+<generatorID>5A2E22A5-210D-2709-673D-6B6785A96127</generatorID>
+<ownerDesignName>Modelo_fisico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>14</dataTypePrecision>
+<ownDataTypeParameters>,14,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_rz_soc" id="0775AFAF-C7E7-D3B1-28FC-F69F86C54F19">
+<createdBy>mahbu</createdBy>
+<createdTime>2022-06-09 10:53:10 UTC</createdTime>
+<generatorID>3564697D-13B9-D1D5-473F-6165EACC8517</generatorID>
+<ownerDesignName>Modelo_fisico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>120</dataTypeSize>
+<ownDataTypeParameters>120,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_abertura" id="FA59DB34-62E5-0D26-D696-1DC1D87108D0">
+<createdBy>mahbu</createdBy>
+<createdTime>2022-06-09 10:53:10 UTC</createdTime>
+<generatorID>6EF6F97E-292A-CB33-1DA2-2E17EF20F4DF</generatorID>
+<ownerDesignName>Modelo_fisico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DF2E126D-9239-8416-8B4A-FCCC0EF37E4A" name="T_ESTO_PK">
+<createdBy>mahbu</createdBy>
+<createdTime>2022-06-09 10:53:10 UTC</createdTime>
+<generatorID>2438068B-FD4A-8ECD-37F6-47FEB1C7B46D</generatorID>
+<ownerDesignName>Modelo_fisico</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="683B90C8-66CC-CF72-FF86-9452E0BECF12"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="74228A37-3AF9-2250-504A-B63D91301159" name="T_ESTO_T_CDST_FK">
+<createdBy>mahbu</createdBy>
+<createdTime>2022-06-09 10:53:10 UTC</createdTime>
+<generatorID>E9F782D1-84D1-DA74-EC50-FD5447799FBB</generatorID>
+<ownerDesignName>Modelo_fisico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="683B90C8-66CC-CF72-FF86-9452E0BECF12"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

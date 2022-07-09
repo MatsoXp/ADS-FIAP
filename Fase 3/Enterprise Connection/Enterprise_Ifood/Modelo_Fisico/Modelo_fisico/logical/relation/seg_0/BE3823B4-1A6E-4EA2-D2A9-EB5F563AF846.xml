@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="cidade" directorySegmentName="seg_0" id="BE3823B4-1A6E-4EA2-D2A9-EB5F563AF846">
+<createdBy>Melina Kiyotani</createdBy>
+<createdTime>2022-05-18 20:43:37 UTC</createdTime>
+<ownerDesignName>Modelo_fisico</ownerDesignName>
+<engineerTo>
+<item key="6BBB8EB5-A0BD-2FFD-D638-6F6B4C28CD4D" value="true"/>
+</engineerTo>
+<sourcePk>326CC145-B592-2BB4-F187-33FCAB7C454C</sourcePk>
+<targetPk>70CDD56F-0064-BA7C-19C3-7B1391822AC7</targetPk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>720F51F3-C4D4-4E3F-04BC-80942F71353E</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>748F2FDF-BDD9-CA08-8F96-2716220E9951</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

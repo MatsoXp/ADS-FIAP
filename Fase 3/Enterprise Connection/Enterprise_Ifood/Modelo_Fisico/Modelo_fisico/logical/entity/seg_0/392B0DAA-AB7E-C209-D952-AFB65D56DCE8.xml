@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="392B0DAA-AB7E-C209-D952-AFB65D56DCE8" name="T_CT">
+<createdBy>Melina Kiyotani</createdBy>
+<createdTime>2022-06-04 17:46:59 UTC</createdTime>
+<ownerDesignName>Modelo_fisico</ownerDesignName>
+<engineerTo>
+<item key="6BBB8EB5-A0BD-2FFD-D638-6F6B4C28CD4D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="nr_ct" id="6696030F-09C2-9A73-1901-9FDA57597EE4">
+<createdBy>Melina Kiyotani</createdBy>
+<createdTime>2022-06-05 16:10:21 UTC</createdTime>
+<ownerDesignName>Modelo_fisico</ownerDesignName>
+<engineerTo>
+<item key="6BBB8EB5-A0BD-2FFD-D638-6F6B4C28CD4D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_cdst" id="AFC7D169-6788-41BE-B088-E70CEBCA9F53">
+<createdBy>Melina Kiyotani</createdBy>
+<createdTime>2022-06-05 16:57:47 UTC</createdTime>
+<generatorID>514055C8-AA9C-8B2C-00F7-7B50EB30232B</generatorID>
+<ownerDesignName>Modelo_fisico</ownerDesignName>
+<engineerTo>
+<item key="6BBB8EB5-A0BD-2FFD-D638-6F6B4C28CD4D" value="true"/>
+</engineerTo>
+<referedAttribute>EC7CE423-7FFC-8A5C-2E84-42E1059F839D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,7,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_ct" id="C3A2DC1D-C998-15EC-1548-FD76382ED357">
+<createdBy>Melina Kiyotani</createdBy>
+<createdTime>2022-06-07 11:45:56 UTC</createdTime>
+<generatorID>B56AEEA4-124B-3574-3292-835A07C1590D</generatorID>
+<ownerDesignName>Modelo_fisico</ownerDesignName>
+<engineerTo>
+<item key="6BBB8EB5-A0BD-2FFD-D638-6F6B4C28CD4D" value="true"/>
+</engineerTo>
+<referedAttribute>D21667E0-4CF2-4208-C1C8-CAB949B71715</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="9C3DC129-FF4D-02AB-4849-BB90F1013F67" name="T_CONTRATO PK">
+<createdBy>Melina Kiyotani</createdBy>
+<createdTime>2022-06-05 16:10:29 UTC</createdTime>
+<ownerDesignName>Modelo_fisico</ownerDesignName>
+<engineerTo>
+<item key="6BBB8EB5-A0BD-2FFD-D638-6F6B4C28CD4D" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>6696030F-09C2-9A73-1901-9FDA57597EE4</attributeRef>
+<attributeRef>C3A2DC1D-C998-15EC-1548-FD76382ED357</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

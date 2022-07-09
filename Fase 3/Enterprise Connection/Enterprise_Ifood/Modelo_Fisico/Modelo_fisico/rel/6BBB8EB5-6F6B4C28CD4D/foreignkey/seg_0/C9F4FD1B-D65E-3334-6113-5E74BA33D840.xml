@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="C9F4FD1B-D65E-3334-6113-5E74BA33D840" containerWithKeyObject="2A55A07C-A56F-2A7A-713E-3339CBB035B7" localFKIndex="0AFA33F9-AABE-C94B-6185-BD2277E38E7F" name="T_TP_CDST_T_CDST_FK">
+<createdBy>mahbu</createdBy>
+<createdTime>2022-06-09 10:53:10 UTC</createdTime>
+<generatorID>587EFDF7-B445-0EB8-FD38-24E5A9FB2F41</generatorID>
+<ownerDesignName>Modelo_fisico</ownerDesignName>
+<referredTableLongName>T_CDST</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>C5F40A7B-3639-8B36-D9C9-44C31019019B</referredTableID>
+<keyObject>A4150EE2-BD61-27E5-C2D9-EBB829EE14CB</keyObject>
+<referredKeyID>A4150EE2-BD61-27E5-C2D9-EBB829EE14CB</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_cdst</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

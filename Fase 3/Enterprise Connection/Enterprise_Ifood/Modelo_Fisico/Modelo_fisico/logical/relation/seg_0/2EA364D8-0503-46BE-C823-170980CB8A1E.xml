@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="estado" directorySegmentName="seg_0" id="2EA364D8-0503-46BE-C823-170980CB8A1E">
+<createdBy>Melina Kiyotani</createdBy>
+<createdTime>2022-05-18 20:43:48 UTC</createdTime>
+<ownerDesignName>Modelo_fisico</ownerDesignName>
+<engineerTo>
+<item key="6BBB8EB5-A0BD-2FFD-D638-6F6B4C28CD4D" value="true"/>
+</engineerTo>
+<sourcePk>70CDD56F-0064-BA7C-19C3-7B1391822AC7</sourcePk>
+<targetPk>AF3E1B74-2835-AEAE-54B7-19BC3E533488</targetPk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>748F2FDF-BDD9-CA08-8F96-2716220E9951</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>3E170C79-9AE5-02AF-AFF0-68C2D0EF3AE1</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

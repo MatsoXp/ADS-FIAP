@@ -1,0 +1,93 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="57C36E3C-6919-9C27-9250-22E85EDA4DB5" name="T_CT">
+<createdBy>mahbu</createdBy>
+<createdTime>2022-06-09 10:53:10 UTC</createdTime>
+<generatorID>392B0DAA-AB7E-C209-D952-AFB65D56DCE8</generatorID>
+<ownerDesignName>Modelo_fisico</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="nr_ct" id="F920F374-9C36-EC80-E3C8-575857FB9B9A">
+<createdBy>mahbu</createdBy>
+<createdTime>2022-06-09 10:53:10 UTC</createdTime>
+<generatorID>6696030F-09C2-9A73-1901-9FDA57597EE4</generatorID>
+<ownerDesignName>Modelo_fisico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_ESTO_id_cdst" id="07BA5122-3787-74DA-7687-868B8B82BAE2">
+<createdBy>mahbu</createdBy>
+<createdTime>2022-06-09 10:53:10 UTC</createdTime>
+<generatorID>AFC7D169-6788-41BE-B088-E70CEBCA9F53</generatorID>
+<ownerDesignName>Modelo_fisico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5DD3AE48-D45B-5FE7-90CA-F5AC5C7EE5D9" referredColumn="683B90C8-66CC-CF72-FF86-9452E0BECF12"/>
+</associations>
+</Column>
+<Column name="T_TP_CT_cd_ct" id="C0F4EE35-CD84-316D-1CAE-2B954697D009">
+<createdBy>mahbu</createdBy>
+<createdTime>2022-06-09 10:53:10 UTC</createdTime>
+<generatorID>C3A2DC1D-C998-15EC-1548-FD76382ED357</generatorID>
+<ownerDesignName>Modelo_fisico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6EEB5428-0F3D-58DA-7016-7FC41B412535" referredColumn="CF5F5111-26F3-4D9B-ABA1-E178A3314DAB"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="49A2C284-57D9-483C-28D9-2E33C9A361A1" name="T_CT_PK">
+<createdBy>mahbu</createdBy>
+<createdTime>2022-06-09 10:53:10 UTC</createdTime>
+<generatorID>9C3DC129-FF4D-02AB-4849-BB90F1013F67</generatorID>
+<ownerDesignName>Modelo_fisico</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F920F374-9C36-EC80-E3C8-575857FB9B9A"/>
+<colUsage columnID="C0F4EE35-CD84-316D-1CAE-2B954697D009"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="00BD4A5C-2969-7D24-9935-B38DFF4C59DB" name="T_CT_T_TP_CT_FK">
+<createdBy>mahbu</createdBy>
+<createdTime>2022-06-09 10:53:10 UTC</createdTime>
+<generatorID>B56AEEA4-124B-3574-3292-835A07C1590D</generatorID>
+<ownerDesignName>Modelo_fisico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C0F4EE35-CD84-316D-1CAE-2B954697D009"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0B466EB9-5F03-DAAA-94C6-DDAF48A1C973" name="T_CT_T_ESTO_FK">
+<createdBy>mahbu</createdBy>
+<createdTime>2022-06-09 10:53:10 UTC</createdTime>
+<generatorID>514055C8-AA9C-8B2C-00F7-7B50EB30232B</generatorID>
+<ownerDesignName>Modelo_fisico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="07BA5122-3787-74DA-7687-868B8B82BAE2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

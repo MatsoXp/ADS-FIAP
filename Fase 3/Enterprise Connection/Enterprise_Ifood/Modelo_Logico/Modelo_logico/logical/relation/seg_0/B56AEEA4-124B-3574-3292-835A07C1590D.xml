@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="escolher" directorySegmentName="seg_0" id="B56AEEA4-124B-3574-3292-835A07C1590D">
+<createdBy>Melina Kiyotani</createdBy>
+<createdTime>2022-06-07 11:45:56 UTC</createdTime>
+<ownerDesignName>Modelo_logico</ownerDesignName>
+<engineerTo>
+<item key="6BBB8EB5-A0BD-2FFD-D638-6F6B4C28CD4D" value="true"/>
+</engineerTo>
+<sourcePk>9B01F3D4-C836-4F7E-DCF0-8601E013E435</sourcePk>
+<identifying>true</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>1ED99D13-FAD8-82F1-1129-D4A0A102ABE9</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>392B0DAA-AB7E-C209-D952-AFB65D56DCE8</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

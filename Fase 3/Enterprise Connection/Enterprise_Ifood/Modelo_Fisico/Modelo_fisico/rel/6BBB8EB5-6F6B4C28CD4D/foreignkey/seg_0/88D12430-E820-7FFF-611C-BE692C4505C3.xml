@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="88D12430-E820-7FFF-611C-BE692C4505C3" containerWithKeyObject="36A8FA02-90A3-A4F8-A05C-444C25DA13AE" localFKIndex="66749DA5-D095-B105-9F19-6497E02CCE59" name="T_TP_PGT_T_EVT_PD_FK">
+<createdBy>mahbu</createdBy>
+<createdTime>2022-06-09 10:53:10 UTC</createdTime>
+<generatorID>A02DC396-61BC-0C7A-7A36-A2258FCF947A</generatorID>
+<ownerDesignName>Modelo_fisico</ownerDesignName>
+<referredTableLongName>T_EVT_PD</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>045C4FC6-20F3-96ED-5CD8-9E1F3330F5D6</referredTableID>
+<keyObject>6B04583E-58A0-B37F-22B1-7003429AFEB1</keyObject>
+<referredKeyID>6B04583E-58A0-B37F-22B1-7003429AFEB1</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>nr_pd</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

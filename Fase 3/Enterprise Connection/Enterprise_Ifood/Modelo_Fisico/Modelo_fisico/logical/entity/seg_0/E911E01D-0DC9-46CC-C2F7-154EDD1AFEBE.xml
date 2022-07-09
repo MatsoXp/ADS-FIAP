@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E911E01D-0DC9-46CC-C2F7-154EDD1AFEBE" name="T_TP_CONTATO">
+<createdBy>Melina Kiyotani</createdBy>
+<createdTime>2022-05-18 18:53:21 UTC</createdTime>
+<ownerDesignName>Modelo_fisico</ownerDesignName>
+<engineerTo>
+<item key="6BBB8EB5-A0BD-2FFD-D638-6F6B4C28CD4D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_tp_contato" id="825AD821-1AF3-D47F-3126-7489C7BD8538">
+<createdBy>Melina Kiyotani</createdBy>
+<createdTime>2022-05-18 20:13:17 UTC</createdTime>
+<ownerDesignName>Modelo_fisico</ownerDesignName>
+<engineerTo>
+<item key="6BBB8EB5-A0BD-2FFD-D638-6F6B4C28CD4D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_contato" id="3D49B448-597E-E212-CBD3-5D78D342D3C0">
+<createdBy>Melina Kiyotani</createdBy>
+<createdTime>2022-06-04 18:17:49 UTC</createdTime>
+<generatorID>536818D7-4F22-8B8D-E3DA-BA2119C5CDC3</generatorID>
+<ownerDesignName>Modelo_fisico</ownerDesignName>
+<engineerTo>
+<item key="6BBB8EB5-A0BD-2FFD-D638-6F6B4C28CD4D" value="true"/>
+</engineerTo>
+<referedAttribute>1F237EC1-69B0-69B2-9913-B6519BA15896</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,7,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_tp_contato" id="7DE5D9BF-F483-211E-8576-DB34D7D2826C">
+<createdBy>Melina Kiyotani</createdBy>
+<createdTime>2022-05-18 20:13:35 UTC</createdTime>
+<ownerDesignName>Modelo_fisico</ownerDesignName>
+<engineerTo>
+<item key="6BBB8EB5-A0BD-2FFD-D638-6F6B4C28CD4D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="295A71D4-BB6E-496E-F878-7A1D91905507" name="T_TIPO_CONTATO PK">
+<createdBy>Melina Kiyotani</createdBy>
+<createdTime>2022-05-18 20:13:47 UTC</createdTime>
+<ownerDesignName>Modelo_fisico</ownerDesignName>
+<engineerTo>
+<item key="6BBB8EB5-A0BD-2FFD-D638-6F6B4C28CD4D" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>825AD821-1AF3-D47F-3126-7489C7BD8538</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1ED99D13-FAD8-82F1-1129-D4A0A102ABE9" name="T_TP_CT">
+<createdBy>Melina Kiyotani</createdBy>
+<createdTime>2022-06-07 11:44:59 UTC</createdTime>
+<ownerDesignName>Modelo_fisico</ownerDesignName>
+<engineerTo>
+<item key="6BBB8EB5-A0BD-2FFD-D638-6F6B4C28CD4D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_ct" id="D21667E0-4CF2-4208-C1C8-CAB949B71715">
+<createdBy>Melina Kiyotani</createdBy>
+<createdTime>2022-06-07 11:45:07 UTC</createdTime>
+<ownerDesignName>Modelo_fisico</ownerDesignName>
+<engineerTo>
+<item key="6BBB8EB5-A0BD-2FFD-D638-6F6B4C28CD4D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_ct" id="0EA0F3AA-EE28-0960-AEF6-BB6A16119DBC">
+<createdBy>Melina Kiyotani</createdBy>
+<createdTime>2022-06-07 11:45:13 UTC</createdTime>
+<ownerDesignName>Modelo_fisico</ownerDesignName>
+<engineerTo>
+<item key="6BBB8EB5-A0BD-2FFD-D638-6F6B4C28CD4D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="9B01F3D4-C836-4F7E-DCF0-8601E013E435" name="T_TIPO_CONTRATO PK">
+<createdBy>Melina Kiyotani</createdBy>
+<createdTime>2022-06-07 11:45:47 UTC</createdTime>
+<ownerDesignName>Modelo_fisico</ownerDesignName>
+<engineerTo>
+<item key="6BBB8EB5-A0BD-2FFD-D638-6F6B4C28CD4D" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D21667E0-4CF2-4208-C1C8-CAB949B71715</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

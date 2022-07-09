@@ -1,0 +1,150 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F57C2501-13FC-7BC1-611F-62FF23724CC3" name="T_ETGR">
+<createdBy>mahbu</createdBy>
+<createdTime>2022-06-09 10:53:10 UTC</createdTime>
+<generatorID>9A86757D-498E-6FEC-82ED-DC6E4ECE92BF</generatorID>
+<ownerDesignName>Modelo_fisico</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="T_CDST_id_cdst" id="443CA3C0-D27F-A7E2-B7D8-FECC3BA0B100">
+<createdBy>mahbu</createdBy>
+<createdTime>2022-06-09 10:53:10 UTC</createdTime>
+<generatorID>963BFE55-2086-54D0-2835-E5FBE604968F</generatorID>
+<ownerDesignName>Modelo_fisico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="51C76634-7849-1327-7764-93A5EF749ABB" referredColumn="BE48C505-B33F-26D1-E293-69CE974407DD"/>
+</associations>
+</Column>
+<Column name="T_TP_VEC_cd_tp_vec" id="9F1E1BA5-A191-FFFA-828B-CBC4451B7E4C">
+<createdBy>mahbu</createdBy>
+<createdTime>2022-06-09 10:53:10 UTC</createdTime>
+<generatorID>E4B3F821-10B1-EE47-5247-6B6150D91533</generatorID>
+<ownerDesignName>Modelo_fisico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A1D40269-9610-A8E9-A5B2-57135B52BC89" referredColumn="68444585-A4C9-1DDF-D03D-7897C6111B2C"/>
+</associations>
+</Column>
+<Column name="nr_cpf" id="0E39FB9F-BB05-F55B-41CA-10418E795DD6">
+<createdBy>mahbu</createdBy>
+<createdTime>2022-06-09 10:53:10 UTC</createdTime>
+<generatorID>EFCA4130-9F59-A45E-A6C7-AC479D2DB373</generatorID>
+<ownerDesignName>Modelo_fisico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>11</dataTypePrecision>
+<ownDataTypeParameters>,11,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_etgr" id="77FA9FE6-48D9-C0B9-CDAF-CEBD3B14CC66">
+<createdBy>mahbu</createdBy>
+<createdTime>2022-06-09 10:53:10 UTC</createdTime>
+<generatorID>341B44ED-7161-BA8C-5DD9-698C99D83C8C</generatorID>
+<ownerDesignName>Modelo_fisico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_nasc" id="6BA268D5-3715-C85E-114B-6737507057DD">
+<createdBy>mahbu</createdBy>
+<createdTime>2022-06-09 10:53:10 UTC</createdTime>
+<generatorID>F32F3A90-4956-43D1-4759-7924A84D46E2</generatorID>
+<ownerDesignName>Modelo_fisico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ft_cnh" id="056D3ED0-F7C3-C692-C50B-462962AFA125">
+<createdBy>mahbu</createdBy>
+<createdTime>2022-06-09 10:53:10 UTC</createdTime>
+<generatorID>2B39A07A-441B-9CE2-6738-EB9F4DAFA6B7</generatorID>
+<ownerDesignName>Modelo_fisico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT010</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nr_rg" id="0ABDFA9F-27D8-B856-58D2-18650AA93A39">
+<createdBy>mahbu</createdBy>
+<createdTime>2022-06-09 10:53:10 UTC</createdTime>
+<generatorID>99F23F83-1877-3D09-966E-BAB3953C8011</generatorID>
+<ownerDesignName>Modelo_fisico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<ownDataTypeParameters>,12,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CDB97B4E-927D-F02A-09CA-CBC259CD7DCC" name="T_ETGR_PK">
+<createdBy>mahbu</createdBy>
+<createdTime>2022-06-09 10:53:10 UTC</createdTime>
+<generatorID>5A2B0B21-BB74-A455-978E-829D714BFC60</generatorID>
+<ownerDesignName>Modelo_fisico</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="443CA3C0-D27F-A7E2-B7D8-FECC3BA0B100"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C84385D5-7B49-64CD-FF6C-546196145E4E" name="T_ETGR__IDX">
+<createdBy>mahbu</createdBy>
+<createdTime>2022-06-09 10:53:10 UTC</createdTime>
+<ownerDesignName>Modelo_fisico</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>ACE4D231-3D05-75E6-26E4-43753E4D23CF</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="9F1E1BA5-A191-FFFA-828B-CBC4451B7E4C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1B2F544B-281F-C891-5CA8-5EFB0288BEB2" name="T_ETGR_T_CDST_FK">
+<createdBy>mahbu</createdBy>
+<createdTime>2022-06-09 10:53:10 UTC</createdTime>
+<generatorID>C71ACEE7-24F2-7BEA-674B-43F64C51A75C</generatorID>
+<ownerDesignName>Modelo_fisico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="443CA3C0-D27F-A7E2-B7D8-FECC3BA0B100"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2E4BEA5F-BD95-0353-651E-35AFA02D4142" name="T_ETGR_T_TP_VEC_FK">
+<createdBy>mahbu</createdBy>
+<createdTime>2022-06-09 10:53:10 UTC</createdTime>
+<generatorID>ACE4D231-3D05-75E6-26E4-43753E4D23CF</generatorID>
+<ownerDesignName>Modelo_fisico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9F1E1BA5-A191-FFFA-828B-CBC4451B7E4C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

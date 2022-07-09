@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C3789972-F0E0-00BD-2C56-529504D8EF18" name="T_CIDADE">
+<createdBy>mahbu</createdBy>
+<createdTime>2022-06-09 10:53:10 UTC</createdTime>
+<generatorID>748F2FDF-BDD9-CA08-8F96-2716220E9951</generatorID>
+<ownerDesignName>Modelo_fisico</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_cidade" id="ABEB97D4-AC8E-3534-B754-42468103C1E3">
+<createdBy>mahbu</createdBy>
+<createdTime>2022-06-09 10:53:10 UTC</createdTime>
+<generatorID>D2BB762D-9FC3-08FD-EAE9-6D5A164B7660</generatorID>
+<ownerDesignName>Modelo_fisico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_ESTADO_id_estado" id="9EF2D50D-830D-0945-0FFF-8BFB01FCC845">
+<createdBy>mahbu</createdBy>
+<createdTime>2022-06-09 10:53:10 UTC</createdTime>
+<generatorID>FC1D96AD-9E6D-EF36-D161-82E6E97A2608</generatorID>
+<ownerDesignName>Modelo_fisico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4DAEA72B-D98B-4227-FBC8-E94695AA6585" referredColumn="5D497CC8-5FAD-0782-B0D9-D57962416950"/>
+</associations>
+</Column>
+<Column name="nm_cidade" id="ABDB3F3B-ED4D-4A89-C528-0D87932494C1">
+<createdBy>mahbu</createdBy>
+<createdTime>2022-06-09 10:53:10 UTC</createdTime>
+<generatorID>D82BD857-932C-52DD-10DC-47D02ECCEC4E</generatorID>
+<ownerDesignName>Modelo_fisico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F377F3AA-4FF0-8196-8F03-812BD3ED2ED8" name="T_CIDADE_PK">
+<createdBy>mahbu</createdBy>
+<createdTime>2022-06-09 10:53:10 UTC</createdTime>
+<generatorID>70CDD56F-0064-BA7C-19C3-7B1391822AC7</generatorID>
+<ownerDesignName>Modelo_fisico</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ABEB97D4-AC8E-3534-B754-42468103C1E3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="346F1F69-59E4-880C-BF8A-898E6659189D" name="T_CIDADE_T_ESTADO_FK">
+<createdBy>mahbu</createdBy>
+<createdTime>2022-06-09 10:53:10 UTC</createdTime>
+<generatorID>2EA364D8-0503-46BE-C823-170980CB8A1E</generatorID>
+<ownerDesignName>Modelo_fisico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9EF2D50D-830D-0945-0FFF-8BFB01FCC845"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

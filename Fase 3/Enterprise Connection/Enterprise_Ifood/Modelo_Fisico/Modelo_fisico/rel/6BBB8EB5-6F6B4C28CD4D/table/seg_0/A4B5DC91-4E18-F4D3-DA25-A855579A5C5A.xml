@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A4B5DC91-4E18-F4D3-DA25-A855579A5C5A" name="T_LOGRADOURO">
+<createdBy>mahbu</createdBy>
+<createdTime>2022-06-09 10:53:10 UTC</createdTime>
+<generatorID>B4D26F89-E3CE-5DDD-DDEE-9AE6EEBC9ED8</generatorID>
+<ownerDesignName>Modelo_fisico</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_log" id="BA5CF579-6E79-7778-ADC2-B9AC02C38790">
+<createdBy>mahbu</createdBy>
+<createdTime>2022-06-09 10:53:10 UTC</createdTime>
+<generatorID>76F7D96B-EFA9-4336-5AC7-A1E154E18B32</generatorID>
+<ownerDesignName>Modelo_fisico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_BAIRRO_id_bairro" id="00B169FF-BB8A-A986-9FD7-52BC87AC74DA">
+<createdBy>mahbu</createdBy>
+<createdTime>2022-06-09 10:53:10 UTC</createdTime>
+<generatorID>A210FCEC-0AB5-024C-582F-77B6D9E995F9</generatorID>
+<ownerDesignName>Modelo_fisico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A94B8934-0290-1F52-8237-587C6204A45F" referredColumn="DF5D92D4-111E-8296-3D0B-E7B39EE37088"/>
+</associations>
+</Column>
+<Column name="ds_tp_log" id="99E4C175-D3D3-2C8F-1F97-8A161ABFF0C4">
+<createdBy>mahbu</createdBy>
+<createdTime>2022-06-09 10:53:10 UTC</createdTime>
+<generatorID>6B84A647-37D2-A383-F88C-D6E8D2D9CB73</generatorID>
+<ownerDesignName>Modelo_fisico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6A94415E-7CB1-47CE-B6CE-ED80C9B2D130" name="T_LOGRADOURO_PK">
+<createdBy>mahbu</createdBy>
+<createdTime>2022-06-09 10:53:10 UTC</createdTime>
+<generatorID>3B3578A3-63A6-682F-51DD-C059968E60C4</generatorID>
+<ownerDesignName>Modelo_fisico</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BA5CF579-6E79-7778-ADC2-B9AC02C38790"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C06BE735-02D8-C9B3-EB84-452F2703B4ED" name="T_LOGRADOURO_T_BAIRRO_FK">
+<createdBy>mahbu</createdBy>
+<createdTime>2022-06-09 10:53:10 UTC</createdTime>
+<generatorID>71FA69B6-6082-5213-D984-13CB5485D09E</generatorID>
+<ownerDesignName>Modelo_fisico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="00B169FF-BB8A-A986-9FD7-52BC87AC74DA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

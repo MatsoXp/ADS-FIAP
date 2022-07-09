@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="logradouro" directorySegmentName="seg_0" id="4314ABAF-1826-0053-47A4-37C48C612595">
+<createdBy>Melina Kiyotani</createdBy>
+<createdTime>2022-05-18 20:42:57 UTC</createdTime>
+<ownerDesignName>Modelo_fisico</ownerDesignName>
+<engineerTo>
+<item key="6BBB8EB5-A0BD-2FFD-D638-6F6B4C28CD4D" value="true"/>
+</engineerTo>
+<sourcePk>53A63340-CE2F-7BCA-23AE-83F51914A4B2</sourcePk>
+<targetPk>3B3578A3-63A6-682F-51DD-C059968E60C4</targetPk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>3A0BB187-B4A9-6AF6-DCA0-78A4DC9C3601</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>B4D26F89-E3CE-5DDD-DDEE-9AE6EEBC9ED8</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

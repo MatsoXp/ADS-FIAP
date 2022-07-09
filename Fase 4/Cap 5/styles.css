@@ -1,0 +1,171 @@
+/*configs gerais header, body, main linhas e colunas */
+body.index{
+    background-color: rgb(20, 28, 39);
+    color: rgb(196, 196, 196);
+}
+
+body{
+    background-color: rgb(20, 28, 39);
+    color: rgb(196, 196, 196);
+}
+
+.row{
+    box-sizing: border-box;
+    position: relative;
+}
+header, main{
+    border: 1px transparent;
+    padding: 10px 0;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+/* header/menu da pagina principal */
+.bg-custom{
+    background-color: rgb(196, 196, 196);
+}
+
+/*fintech logo color*/
+.navbar-brand{
+    color: rgb(196, 196, 196);
+}
+
+/*fintech hover focus color*/
+.navbar .navbar-brand:hover, .navbar .navbar-brand:focus {
+	color: #fff;
+    font-weight: bold;
+}
+
+.dropdown-menu{
+    max-width: 5px;
+}
+
+/*menu color*/
+.nav-link{
+    color: rgb(196, 196, 196);
+}
+
+/*menu hover*/
+.nav-link:hover{
+    font-weight: bold;
+    color: #fff;
+}
+
+/*menu items color*/
+.dropdown-menu> li> a{
+    color: rgb(196, 196, 196);
+}
+
+/*menu background color*/
+.navbar-nav > li > .dropdown-menu {
+    background-color: rgb(55, 69, 89);
+}
+
+/*hover menu color*/
+.dropdown-menu> li> a:hover, .dropdown-menu> li> a:focus{
+    color: #fff;
+    font-weight: bold;
+    background-color: rgb(55, 69, 89);
+}
+
+.display-6{
+    background: transparent;
+}
+
+.img-fluid{
+    max-height: 85%;
+    margin: 5px;
+}
+
+.lead{
+    padding-top: 5px;
+    margin-bottom: 5px;
+}
+
+.btn-outline-light{
+    padding: 4px;
+    margin: 4px;
+    align-self:flex-end
+}
+
+.fixed-bottom{
+    margin-bottom: 8px;
+}
+
+.botao-inicial{
+    padding: 5px;
+    margin: 3px;
+}
+
+/*cartão resumo*/
+.card{
+    background-color: rgb(55, 69, 89);
+    color: rgb(196, 196, 196);
+    padding: 2px;
+    margin-top: 45px;
+    margin-bottom: 10px;
+}
+
+/*texto saldo em contas*/
+.card-top{
+    margin-top: 12px;
+    font-size: 19px;
+}
+
+/*saldo-valor geral*/
+.card-title{
+    font-size: 25px;
+    padding-top: 8px;
+}
+
+/*botao gerar extrato*/
+.btn-primary{
+    color: rgb(196, 196, 196);
+    background-color: rgb(20, 28, 39);
+    margin-top: 15px;
+}
+
+.resume-name{
+    font-size: smaller;
+    text-align: left;
+}
+
+/*menu opçoes*/
+.img-responsive{
+    display:block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+    margin-top: 35px;
+}
+
+footer{
+    color: rgb(196, 196, 196);
+}
+
+@media screen and (max-width: 1920px) {
+    main{
+        height: 70vh;
+    }
+}
+
+@media screen and (max-width: 980px) {
+    main{
+        height: 70vh;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    main {
+        height: 50vh;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    main{
+        background-color: rgb(20, 28, 39);
+    }    
+}
+
+

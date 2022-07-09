@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="produzir" directorySegmentName="seg_0" id="A9BCF587-5C74-8D07-97C3-3D023775DD61">
+<createdBy>Melina Kiyotani</createdBy>
+<createdTime>2022-06-05 17:13:30 UTC</createdTime>
+<ownerDesignName>Modelo_logico</ownerDesignName>
+<engineerTo>
+<item key="6BBB8EB5-A0BD-2FFD-D638-6F6B4C28CD4D" value="true"/>
+</engineerTo>
+<sourcePk>2438068B-FD4A-8ECD-37F6-47FEB1C7B46D</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>FB7A1F96-52EC-822F-E3FA-19CFD2A6DF62</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>CF0E679E-8FBE-6085-B935-1674B2F39E0A</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="35E6B60A-2E16-18F6-292E-6D86D832F02E" name="T_TP_ETGA">
+<createdBy>mahbu</createdBy>
+<createdTime>2022-06-09 10:53:10 UTC</createdTime>
+<generatorID>16B10387-D7CF-7BE5-7B70-883C0A81AA92</generatorID>
+<ownerDesignName>Modelo_fisico</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_tp_etga" id="5B2C5570-EACA-F7D0-8B87-9C216DAC12C9">
+<createdBy>mahbu</createdBy>
+<createdTime>2022-06-09 10:53:10 UTC</createdTime>
+<generatorID>61EB8611-165D-A86E-5EA6-68F37B8BB27C</generatorID>
+<ownerDesignName>Modelo_fisico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_EVT_PD_nr_pd" id="E85EBF9E-D12A-AB55-3FD9-D54596BC14A4">
+<createdBy>mahbu</createdBy>
+<createdTime>2022-06-09 10:53:10 UTC</createdTime>
+<generatorID>3A607CBC-CA3B-80EF-B497-52D4E54417B7</generatorID>
+<ownerDesignName>Modelo_fisico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>14</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6F06B43B-1F9D-967B-9F3D-2C0850500B67" referredColumn="1B37749B-16BB-0ED9-E556-0FFC43844CD7"/>
+</associations>
+</Column>
+<Column name="ds_tp_etga" id="551DD212-FA11-2084-DE7B-389470CEC6DD">
+<createdBy>mahbu</createdBy>
+<createdTime>2022-06-09 10:53:10 UTC</createdTime>
+<generatorID>16855FAC-772C-3978-2C52-BEA8F0A7C3FE</generatorID>
+<ownerDesignName>Modelo_fisico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>45</dataTypeSize>
+<ownDataTypeParameters>45,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BA46BF10-5938-49D3-C795-E2564411BF01" name="T_TP_ETGA_PK">
+<createdBy>mahbu</createdBy>
+<createdTime>2022-06-09 10:53:10 UTC</createdTime>
+<generatorID>D24343DB-0F31-CC95-AF20-818F77A13D95</generatorID>
+<ownerDesignName>Modelo_fisico</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5B2C5570-EACA-F7D0-8B87-9C216DAC12C9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CB5D17E7-1FC0-F87A-A7B5-B9C296266744" name="T_TP_ETGA_T_EVT_PD_FK">
+<createdBy>mahbu</createdBy>
+<createdTime>2022-06-09 10:53:10 UTC</createdTime>
+<generatorID>2D440189-D053-9514-1FA1-B7D06BB177F3</generatorID>
+<ownerDesignName>Modelo_fisico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E85EBF9E-D12A-AB55-3FD9-D54596BC14A4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

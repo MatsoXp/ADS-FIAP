@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="vincular" directorySegmentName="seg_0" id="EFDDE57B-F420-80C7-D733-FE709C0406F0">
+<createdBy>Melina Kiyotani</createdBy>
+<createdTime>2022-06-05 16:52:30 UTC</createdTime>
+<ownerDesignName>Modelo_fisico</ownerDesignName>
+<engineerTo>
+<item key="6BBB8EB5-A0BD-2FFD-D638-6F6B4C28CD4D" value="true"/>
+</engineerTo>
+<sourcePk>2438068B-FD4A-8ECD-37F6-47FEB1C7B46D</sourcePk>
+<identifying>true</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>FB7A1F96-52EC-822F-E3FA-19CFD2A6DF62</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>CE7DBD48-B27C-7D83-FC24-DA8601311BE9</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
