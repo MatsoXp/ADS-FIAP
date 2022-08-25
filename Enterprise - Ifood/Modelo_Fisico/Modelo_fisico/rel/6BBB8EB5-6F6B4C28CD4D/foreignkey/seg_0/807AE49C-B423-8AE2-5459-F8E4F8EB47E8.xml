@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="807AE49C-B423-8AE2-5459-F8E4F8EB47E8" containerWithKeyObject="B538EDD3-C5A8-20AA-670F-10058C2D11BC" localFKIndex="254C4910-DD3E-ECC8-5119-AFC064AEBEB4" name="T_ENDEREÇO_T_LOGRADOURO_FK">
+<createdBy>mahbu</createdBy>
+<createdTime>2022-06-09 10:53:10 UTC</createdTime>
+<generatorID>4314ABAF-1826-0053-47A4-37C48C612595</generatorID>
+<ownerDesignName>Modelo_fisico</ownerDesignName>
+<referredTableLongName>T_LOGRADOURO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>A4B5DC91-4E18-F4D3-DA25-A855579A5C5A</referredTableID>
+<keyObject>6A94415E-7CB1-47CE-B6CE-ED80C9B2D130</keyObject>
+<referredKeyID>6A94415E-7CB1-47CE-B6CE-ED80C9B2D130</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_log</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

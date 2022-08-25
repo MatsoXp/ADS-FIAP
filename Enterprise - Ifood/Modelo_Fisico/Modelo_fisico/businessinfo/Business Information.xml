@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<BusinessInfoDesign class="oracle.dbtools.crest.model.businessinfo.BusinessInfoDesign" name="Business Information" id="3E798B1C-D786-0C4B-1B22-6DFE4DEED117">
+<createdBy>Melina Kiyotani</createdBy>
+<createdTime>2022-05-18 18:26:45 UTC</createdTime>
+<ownerDesignName>FIAP</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</BusinessInfoDesign>

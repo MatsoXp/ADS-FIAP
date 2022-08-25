@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ProcessModel class="oracle.dbtools.crest.model.design.process.ProcessModel" name="Process Model" id="9504B01D-A427-AA1E-F4B9-19097EFB4B47">
+<createdBy>Melina Kiyotani</createdBy>
+<createdTime>2022-05-18 18:26:45 UTC</createdTime>
+<ownerDesignName>FIAP</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</ProcessModel>

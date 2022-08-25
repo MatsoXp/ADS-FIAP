@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="pedir" directorySegmentName="seg_0" id="F6DBBDAB-A5F4-87E4-2C22-6C2BC5F1D6E9">
+<createdBy>Melina Kiyotani</createdBy>
+<createdTime>2022-06-05 17:10:06 UTC</createdTime>
+<ownerDesignName>Modelo_fisico</ownerDesignName>
+<engineerTo>
+<item key="6BBB8EB5-A0BD-2FFD-D638-6F6B4C28CD4D" value="true"/>
+</engineerTo>
+<sourcePk>0618BB32-213F-57BB-32FD-A82AFE2D082D</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>DF43A83E-A631-500F-6362-0F3BFA83BC48</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>CF0E679E-8FBE-6085-B935-1674B2F39E0A</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

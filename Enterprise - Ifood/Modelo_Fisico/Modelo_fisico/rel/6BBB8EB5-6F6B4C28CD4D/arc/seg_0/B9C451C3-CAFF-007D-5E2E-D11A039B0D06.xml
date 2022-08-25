@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKArc class="oracle.dbtools.crest.model.design.relational.FKArc" directorySegmentName="seg_0" id="B9C451C3-CAFF-007D-5E2E-D11A039B0D06" name="cadastrar">
+<createdBy>mahbu</createdBy>
+<createdTime>2022-06-09 10:53:10 UTC</createdTime>
+<ownerDesignName>Modelo_fisico</ownerDesignName>
+<mandatory>false</mandatory>
+<reverseArc>true</reverseArc>
+<table>C5F40A7B-3639-8B36-D9C9-44C31019019B</table>
+<discriminatorColumn>BE48C505-B33F-26D1-E293-69CE974407DD</discriminatorColumn>
+<fkeys>
+<fkeyID>A3711E6C-9C18-1DB4-12D5-5CE6BB1CBB74</fkeyID>
+<fkeyID>51C76634-7849-1327-7764-93A5EF749ABB</fkeyID>
+<fkeyID>6A6038CF-7DC5-63F4-5D36-08998C5C34ED</fkeyID>
+</fkeys>
+</FKArc>

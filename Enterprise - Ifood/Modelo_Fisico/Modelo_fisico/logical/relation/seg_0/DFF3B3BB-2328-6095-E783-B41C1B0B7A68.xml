@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="pesquisar" directorySegmentName="seg_0" id="DFF3B3BB-2328-6095-E783-B41C1B0B7A68">
+<createdBy>Melina Kiyotani</createdBy>
+<createdTime>2022-06-05 17:57:10 UTC</createdTime>
+<ownerDesignName>Modelo_fisico</ownerDesignName>
+<engineerTo>
+<item key="6BBB8EB5-A0BD-2FFD-D638-6F6B4C28CD4D" value="true"/>
+</engineerTo>
+<sourcePk>68114600-2775-061F-65BC-6F0E23F30018</sourcePk>
+<identifying>true</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>7AC1268E-63B6-9067-20C7-224460B24916</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>CF0E679E-8FBE-6085-B935-1674B2F39E0A</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

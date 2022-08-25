@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="51C76634-7849-1327-7764-93A5EF749ABB" containerWithKeyObject="F57C2501-13FC-7BC1-611F-62FF23724CC3" localFKIndex="1B2F544B-281F-C891-5CA8-5EFB0288BEB2" name="T_ETGR_T_CDST_FK">
+<createdBy>mahbu</createdBy>
+<createdTime>2022-06-09 10:53:10 UTC</createdTime>
+<generatorID>C71ACEE7-24F2-7BEA-674B-43F64C51A75C</generatorID>
+<ownerDesignName>Modelo_fisico</ownerDesignName>
+<referredTableLongName>T_CDST</referredTableLongName>
+<arc>B9C451C3-CAFF-007D-5E2E-D11A039B0D06</arc>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>C5F40A7B-3639-8B36-D9C9-44C31019019B</referredTableID>
+<keyObject>A4150EE2-BD61-27E5-C2D9-EBB829EE14CB</keyObject>
+<referredKeyID>A4150EE2-BD61-27E5-C2D9-EBB829EE14CB</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_cdst</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<discriminatorValue>id_entregador</discriminatorValue>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

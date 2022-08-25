@@ -1,0 +1,130 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5D925E20-BDFE-32E0-AC01-428951098825" name="T_CTA_BNC">
+<createdBy>mahbu</createdBy>
+<createdTime>2022-06-09 10:53:10 UTC</createdTime>
+<generatorID>CE7DBD48-B27C-7D83-FC24-DA8601311BE9</generatorID>
+<ownerDesignName>Modelo_fisico</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="T_ETGR_id_cdst" id="2F04DCE6-4EBB-1830-FD1C-6AACD72386EB">
+<createdBy>mahbu</createdBy>
+<createdTime>2022-06-09 10:53:10 UTC</createdTime>
+<generatorID>E28FB7E7-5087-91DD-270D-3A4396190E0E</generatorID>
+<ownerDesignName>Modelo_fisico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CBD3A982-C7EE-8EFD-934E-4310AE32D222" referredColumn="443CA3C0-D27F-A7E2-B7D8-FECC3BA0B100"/>
+</associations>
+</Column>
+<Column name="T_ESTO_T_CDST_id_cdst" id="DA9BC342-17F7-D378-4F4B-E801D4C09FED">
+<createdBy>mahbu</createdBy>
+<createdTime>2022-06-09 10:53:10 UTC</createdTime>
+<generatorID>AD8B00F9-53C2-27F2-7F46-90FE2321193B</generatorID>
+<ownerDesignName>Modelo_fisico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3F2CB3A9-EE70-42B8-0F5F-1E5AF7C007C9" referredColumn="683B90C8-66CC-CF72-FF86-9452E0BECF12"/>
+</associations>
+</Column>
+<Column name="cd_banco" id="5BD95C1F-8077-ED3A-09DD-6422E7D41A26">
+<createdBy>mahbu</createdBy>
+<createdTime>2022-06-09 10:53:10 UTC</createdTime>
+<generatorID>79953493-42AE-BD04-0535-B3F55D849C2A</generatorID>
+<ownerDesignName>Modelo_fisico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nr_agencia" id="B3DE5345-23C2-3BAE-50A4-FAC67D50003E">
+<createdBy>mahbu</createdBy>
+<createdTime>2022-06-09 10:53:10 UTC</createdTime>
+<generatorID>E65A8E60-ED71-2534-EBA1-644B91295C48</generatorID>
+<ownerDesignName>Modelo_fisico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_banco" id="FD098361-38C1-0AFA-2A7B-1A46BF4CBC9E">
+<createdBy>mahbu</createdBy>
+<createdTime>2022-06-09 10:53:10 UTC</createdTime>
+<generatorID>56CB7637-01C1-5969-4B7F-BA8B7561E890</generatorID>
+<ownerDesignName>Modelo_fisico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nr_conta" id="69EECAC6-1BC8-F424-C9F6-277F17B0A68F">
+<createdBy>mahbu</createdBy>
+<createdTime>2022-06-09 10:53:10 UTC</createdTime>
+<generatorID>2B3249CC-E8CC-1C7F-994A-7208D1C918A9</generatorID>
+<ownerDesignName>Modelo_fisico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="721B3CB2-4F6A-225B-8B4D-5978C7906431" name="T_CTA_BNC_PK">
+<createdBy>mahbu</createdBy>
+<createdTime>2022-06-09 10:53:10 UTC</createdTime>
+<generatorID>CA4987A1-09DF-57CE-A654-9B9698456A85</generatorID>
+<ownerDesignName>Modelo_fisico</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5BD95C1F-8077-ED3A-09DD-6422E7D41A26"/>
+<colUsage columnID="DA9BC342-17F7-D378-4F4B-E801D4C09FED"/>
+<colUsage columnID="2F04DCE6-4EBB-1830-FD1C-6AACD72386EB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CF708A1D-7D86-610C-7C2A-E03EE1A60F8D" name="T_CTA_BNC_T_ETGR_FK">
+<createdBy>mahbu</createdBy>
+<createdTime>2022-06-09 10:53:10 UTC</createdTime>
+<generatorID>D9AC3D64-E975-B693-8FCA-D7B6DE925F85</generatorID>
+<ownerDesignName>Modelo_fisico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2F04DCE6-4EBB-1830-FD1C-6AACD72386EB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B17B02FD-AD52-BCB2-62A8-8374C99D029D" name="T_CTA_BNC_T_ESTO_FK">
+<createdBy>mahbu</createdBy>
+<createdTime>2022-06-09 10:53:10 UTC</createdTime>
+<generatorID>EFDDE57B-F420-80C7-D733-FE709C0406F0</generatorID>
+<ownerDesignName>Modelo_fisico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DA9BC342-17F7-D378-4F4B-E801D4C09FED"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

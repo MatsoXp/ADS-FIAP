@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="tipificarv2" directorySegmentName="seg_0" id="FB72C2CD-53D9-99FB-AE14-5372291FA7AE">
+<createdBy>Melina Kiyotani</createdBy>
+<createdTime>2022-06-05 13:41:48 UTC</createdTime>
+<ownerDesignName>Modelo_logico</ownerDesignName>
+<engineerTo>
+<item key="6BBB8EB5-A0BD-2FFD-D638-6F6B4C28CD4D" value="true"/>
+</engineerTo>
+<sourcePk>CA4987A1-09DF-57CE-A654-9B9698456A85</sourcePk>
+<identifying>true</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>CE7DBD48-B27C-7D83-FC24-DA8601311BE9</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>D0664DF3-192A-579D-E1E7-F6F782FD9B29</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

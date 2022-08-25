@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="registrar" directorySegmentName="seg_0" id="C71ACEE7-24F2-7BEA-674B-43F64C51A75C">
+<createdBy>Melina Kiyotani</createdBy>
+<createdTime>2022-06-05 12:53:34 UTC</createdTime>
+<ownerDesignName>Modelo_logico</ownerDesignName>
+<engineerTo>
+<item key="6BBB8EB5-A0BD-2FFD-D638-6F6B4C28CD4D" value="true"/>
+</engineerTo>
+<sourcePk>EEDB53A9-9902-5BC5-A6FE-C23A4563D76F</sourcePk>
+<arc>0D9564D8-7980-85F5-1FCC-3DE83FB7828E</arc>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>6EC52384-2ED0-357E-A835-FE877F9FC885</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>9A86757D-498E-6FEC-82ED-DC6E4ECE92BF</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
