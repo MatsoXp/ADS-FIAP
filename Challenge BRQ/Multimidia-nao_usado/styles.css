@@ -1,0 +1,215 @@
+/*CSS MENU PRINCIPAL E BARRAS MENU TOPO E BAIXO*/
+
+/*cor de fundo*/
+body{
+    background-color: rgb(41, 41, 44);
+    padding-top: 9vw;
+    padding-bottom: 9vw;
+}
+
+/*menu topo*/
+#menuTopo{
+    background-color: black;
+    padding: 15px;
+    margin-right: auto;     
+    margin-left: auto;   
+}
+
+/*classe das divs menu principal*/
+.iconeMenu{
+    padding-bottom: 18px;
+}
+
+#menuPrincipal{
+    margin-bottom: auto;
+    margin-top: auto;
+    padding-bottom: 70px;
+    padding-top: 20px;
+}
+
+/*menu rodapé*/
+#menuRodape{
+    background-color: black;
+    padding-right: 10px;     
+    padding-left: 10px;     
+    margin-right: auto;     
+    margin-left: auto; 
+    padding-top: 2%;
+    padding-bottom: 2%;
+    text-align: center
+}
+
+/*botoes sem fundo em svg(menus topo e baixo)*/
+.botaoSemFundo{
+    background-color: transparent;
+    border-color: transparent;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-bottom: 3px;
+}
+
+span{
+    color: white;
+}
+
+/*relógio(superior direito)*/
+#relogio{
+    color: white;
+    font-size: 26px;
+}
+
+
+/*reduz o padding das divs do menu rodapé quando a resolução é menor que 415px /// a classe nopadding se aplica apenas nesse caso*/
+ @media screen and (min-device-width: 1px) and (max-device-width: 750px) {   
+    .nopadding{
+        padding-left: 2px;
+        padding-right: 2px;
+    }
+}  
+
+/*--------------------CSS MEU FIPA----------------------*/
+
+/*icones/setas rádio*/
+.arrowSom{
+    background: transparent;
+    border-color: transparent;
+}
+
+/*texto rádio cultura*/
+#textoRadio{
+    margin-top: 12px;
+    color: black;
+    font-size: 20px;
+}
+
+/*box do rádio*/
+.fundoRadio{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    background-color: rgb(217, 217, 217);
+    border-radius: 35px;
+    height: 280px;
+}
+
+/*box bg do Fipa*/
+.fundoFipa{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    background-color: rgb(217, 217, 217);
+    border-radius: 35px;
+    position: relative;
+}
+
+/*botoes fipa*/
+.botaoFipa{
+    background-color: rgb(41, 41, 44);
+    border-radius: 35px;
+    width: 80%;
+    margin-bottom: 15px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+@media screen and (min-device-width: 1px) and (max-device-width: 720px) {   
+    body{
+        padding-top: 20vw;
+        padding-bottom: 10vw;
+    }
+}  
+
+@media screen and (min-device-width: 650px) {   
+    .botaoFipa{
+        margin-top: 2vh;
+        margin-bottom: 2vh;
+        width: 50%;
+    }
+}
+
+/*--------------------CSS CONFIGURAÇÕES----------------------*/
+
+.fundoConfiguracoes{
+    background-color: black;
+    border-top-left-radius: 35px;
+    border-top-right-radius: 35px;
+    border-radius: 35px;
+    min-height: 50vh;
+    margin-left: 2vw;
+    margin-right: 2vw;
+    margin-top: 5vw;
+    margin-bottom: 3vw;
+}
+
+.fundoTitulo{
+    background-color: pink;
+    border-top-left-radius: 35px;
+    border-top-right-radius: 35px;
+    padding-top: 2vw;
+    font-size: 22px;
+    color: black;
+    font-weight: 550;
+}
+
+.botaoFipa{
+    background: pink;
+    padding-top: 17px;
+    font-size: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    min-width: 70%;
+    margin-bottom: 5px;
+}
+
+.textoConfiguracoes{
+    font-size: 20px;
+    margin-top: 1vw;
+    margin-bottom: 0;
+}
+
+
+@media screen and (min-device-width: 1px) and (max-device-width: 400px) {   
+    .textoConfiguracoes{
+        margin-top: 6vh;
+        margin-bottom: 6vh;
+    }
+}  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* tipografia
+html {
+  font-size: 1rem;
+}
+
+@include media-breakpoint-up(sm) {
+  html {
+    font-size: 1.2rem;
+  }
+}
+
+@include media-breakpoint-up(md) {
+  html {
+    font-size: 1.4rem;
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  html {
+    font-size: 1.6rem;
+  }
+}
+*/

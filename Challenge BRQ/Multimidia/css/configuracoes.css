@@ -1,0 +1,149 @@
+/* CSS DO BODY, TOPO E RODAPÉ */
+
+html {
+    height: 100%;
+}
+
+/*cor de fundo*/
+body {
+    background-image: linear-gradient(to bottom, #9A9A9A, #0F0F0F);
+    padding-top: 110px;
+    padding-bottom: 9vw;
+}
+
+/*menu topo*/
+#menuTopo {
+    background-color: black;
+    padding: 1%;
+}
+
+.icones {
+    margin-right: 15px;
+    width: 30px;
+}
+
+/*centraliza os ícones verticalmente*/
+.centralizador {
+    display: flex;
+    align-items: center;
+}
+
+/*relógio(superior direito)*/
+#relogio {
+    color: white;
+    font-size: 26px;
+    margin-bottom: 0;
+}
+
+#box_usuario {
+    background-color: #575757;
+    width: 100%;
+    padding: 1% 10px;
+}
+
+.iconeUser {
+    width: 30px;
+}
+
+#nm_usuario {
+    color: white;
+    margin: 0 5px;
+}
+
+.configuracoes {
+    float:right;
+}
+
+.menu {
+    display: none;
+    background: grey;
+    width: 200px;
+    height: 300px;
+    border-radius: 5px;
+    position: absolute;
+    margin-top: 7vh;
+    right: 0;
+    
+}
+
+@media screen {
+    .open {
+        display: block;
+    }
+    
+}
+
+.principal {
+    width: 100%;
+    position: fixed;
+    margin: auto;
+}
+
+.centralizar {
+    position: flex;
+    text-align: center;
+}
+
+#logoFipa {
+    width: 500px;
+}
+
+.fundoConfiguracoes{
+    background-color: black;
+    border-top-left-radius: 35px;
+    border-top-right-radius: 35px;
+    border-radius: 35px;
+    min-height: 50vh;
+    margin-left: 50px;
+    margin-top: 20px;
+    padding-bottom: 10px;
+}
+
+.fundoTitulo{
+    background-color: pink;
+    border-top-left-radius: 35px;
+    border-top-right-radius: 35px;
+    padding-top: 2vw;
+    font-size: 22px;
+    color: black;
+    font-weight: 550;
+}
+
+/*botoes de configurações*/
+.botaoConfig{
+    background: pink;
+    color: black;
+    border-radius: 35px;
+    padding: 10px;
+    font-size: 20px;
+    min-width: 70%;
+    margin-top: 25px;
+}
+
+.textoConfiguracoes{
+    font-size: 20px;
+    margin-top: 1vw;
+    margin-bottom: 0;
+}
+
+/*menu rodapé*/
+#menuRodape{
+    background-color: black;
+    padding: 1%;
+    text-align: center;
+}
+
+/*botoes sem fundo (menu topo e baixo)*/
+.botaoSemFundo{
+    padding: 0;
+    background-color: transparent;
+    border-color: transparent;
+}
+
+/*reduz o padding das divs do menu rodapé quando a resolução é menor que 415px /// a classe nopadding se aplica apenas nesse caso*/
+@media screen and (min-device-width: 1px) and (max-device-width: 750px) {   
+    .nopadding{
+        padding-left: 1px;
+        padding-right: 1px;
+    }
+}  

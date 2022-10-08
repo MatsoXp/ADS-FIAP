@@ -1,0 +1,194 @@
+/* CSS DO BODY, TOPO E RODAPÉ */
+
+html {
+	height: 100%;
+}
+
+/*cor de fundo*/
+body {
+	background-image: linear-gradient(to bottom, #9a9a9a, #0f0f0f);
+	padding-bottom: 9vw;
+}
+
+#logoFipa {
+	max-width: 100%;
+}
+
+.botao {
+	display: inline;
+	margin-inline: 20px;
+}
+
+/*menu topo*/
+#menuTopo {
+	background-color: black;
+	padding: 1%;
+	text-align: center;
+}
+
+.icones {
+	width: 30px;
+}
+
+.container-fluid > .row {
+	margin: 0 !important;
+}
+
+/*centraliza os ícones verticalmente*/
+.centralizador {
+	display: flex;
+	align-items: center;
+}
+
+/*relógio(superior direito)*/
+#relogio {
+	color: white;
+	font-size: 26px;
+	margin-bottom: 0;
+}
+
+#box_usuario {
+	background-color: #575757;
+	width: 100%;
+	padding: 1% 10px;
+}
+
+.iconeUser {
+	width: 30px;
+}
+
+#nm_usuario {
+	color: white;
+	margin: 0 5px;
+}
+
+.configuracoes {
+	float: right;
+}
+
+.menu {
+	display: none;
+	background: black;
+	width: 200px;
+	border-radius: 5px;
+	position: absolute;
+	right: 0;
+	height: 600px;
+}
+
+@media screen {
+	.open {
+		display: block;
+		z-index: 999;
+	}
+}
+
+ul {
+	padding: 20px;
+	margin: 0;
+}
+
+li {
+	list-style-type: none;
+}
+
+li + li {
+	margin-top: 35px;
+}
+
+#underline {
+	text-decoration: none;
+	color: white;
+}
+
+.iconesMenu {
+	width: 25px;
+	margin-right: 10px;
+}
+
+.principal {
+	width: 100%;
+	position: fixed;
+	margin: auto;
+	z-index: -1;
+	top: 100px;
+}
+
+.centralizar {
+	position: flex;
+	text-align: center;
+}
+
+#logoFipa {
+	width: 500px;
+}
+
+.legendaIA {
+	font-family: 'Bungee Hairline';
+	font-style: normal;
+	font-size: 30px;
+	color: #ffffff;
+	text-align: center;
+}
+
+#fale {
+	margin: 25px;
+}
+
+#inteligencia {
+	width: 850px;
+}
+
+@media (max-device-width: 1030px) {
+	#inteligencia {
+		width: 800px;
+	}
+}
+
+@media (max-device-width: 890px) {
+	#inteligencia {
+		width: 650px;
+	}
+}
+
+@media (max-device-width: 759px) {
+	#inteligencia {
+		width: 450px;
+	}
+}
+
+@media (max-device-width: 539px) {
+	#inteligencia {
+		width: 250px;
+	}
+}
+
+.skills {
+	margin-top: 20px;
+	position: absolute;
+	text-align: center;
+	color: white;
+	top: 120px;
+}
+
+/*menu rodapé*/
+#menuRodape {
+	background-color: black;
+	padding: 1%;
+	text-align: center;
+}
+
+/*botoes sem fundo (menu topo e baixo)*/
+.botaoSemFundo {
+	padding: 0px;
+	background-color: transparent;
+	border-color: transparent;
+}
+
+/*reduz o padding das divs do menu rodapé quando a resolução é menor que 415px /// a classe nopadding se aplica apenas nesse caso*/
+@media screen and (min-device-width: 1px) and (max-device-width: 750px) {
+	.nopadding {
+		padding-left: 1px;
+		padding-right: 1px;
+	}
+}

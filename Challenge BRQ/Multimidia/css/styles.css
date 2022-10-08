@@ -1,0 +1,96 @@
+/* CSS DO BODY, TOPO E RODAPÉ */
+
+html {
+    height: 100%;
+}
+
+/*cor de fundo*/
+body{
+    background-color: rgb(41, 41, 44);
+    padding-top: 90px;
+    padding-bottom: 9vw;
+}
+
+/*menu topo*/
+#menuTopo {
+    background-color: black;
+    padding: 1%;
+    text-align: center;
+}
+
+.icones {
+    margin-right: 15px;
+    width: 30px;
+}
+
+/*centraliza os ícones verticalmente*/
+.centralizador {
+    display: flex;
+    align-items: center;
+}
+
+/*relógio(superior direito)*/
+#relogio {
+    color: white;
+    font-size: 26px;
+    margin-bottom: 0;
+}
+
+#box_usuario {
+	background-color: #575757;
+	width: 100%;
+	padding: 1% 10px;
+}
+
+.iconeUser {
+	width: 30px;
+}
+
+#nm_usuario {
+	color: white;
+	margin: 0 5px;
+}
+
+.configuracoes {
+	float: right;
+}
+
+.menu {
+	display: none;
+	background: black;
+	width: 200px;
+	border-radius: 5px;
+	position: absolute;
+	right: 0;
+	height: 600px;
+}
+
+span{
+    color: white;
+}
+
+/*botoes sem fundo em svg(menus topo e baixo)*/
+.botaoSemFundo{
+    padding: 0;
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.iconeMenu{
+    margin-bottom: 30px;
+}
+
+/*menu rodapé*/
+#menuRodape{
+    background-color: black;
+    padding: 1%;
+    text-align: center
+}
+
+/*reduz o padding das divs do menu rodapé quando a resolução é menor que 415px /// a classe nopadding se aplica apenas nesse caso*/
+ @media screen and (min-device-width: 1px) and (max-device-width: 750px) {   
+    .nopadding{
+        padding-left: 1px;
+        padding-right: 1px;
+    }
+}  
