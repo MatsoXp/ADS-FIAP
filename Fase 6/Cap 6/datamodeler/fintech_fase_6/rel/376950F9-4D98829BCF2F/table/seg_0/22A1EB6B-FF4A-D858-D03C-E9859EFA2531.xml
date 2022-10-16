@@ -1,0 +1,140 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="22A1EB6B-FF4A-D858-D03C-E9859EFA2531" name="T_INVTO">
+<createdBy>mahbu</createdBy>
+<createdTime>2022-10-09 18:53:31 UTC</createdTime>
+<generatorID>2662BAE3-2698-6A21-47ED-0617C605D27D</generatorID>
+<ownerDesignName>fintech_fase_6</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_invto" id="6532C710-E1DD-58DD-01C0-5FF9ABE22AD1">
+<createdBy>mahbu</createdBy>
+<createdTime>2022-10-09 18:53:31 UTC</createdTime>
+<generatorID>36F1E143-C800-9902-9C6E-5EDAEA9C4EA0</generatorID>
+<ownerDesignName>fintech_fase_6</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_USUARIO_nr_cpf" id="06D30FCA-4C07-741B-06F2-AAD8358594F4">
+<createdBy>mahbu</createdBy>
+<createdTime>2022-10-09 18:53:31 UTC</createdTime>
+<generatorID>7F20C399-C893-2CB9-CD14-0AB6D0BD629C</generatorID>
+<ownerDesignName>fintech_fase_6</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>11</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A70EA7DE-FF9D-0498-9ED6-DE4B23E0D064" referredColumn="DC0D0774-558E-5128-29D4-99DC353FCE03"/>
+</associations>
+</Column>
+<Column name="T_INVTO_DS_cd_invto" id="4D60426F-D9AA-4E87-3F75-8594E1CAD696">
+<createdBy>mahbu</createdBy>
+<createdTime>2022-10-09 21:27:44 UTC</createdTime>
+<generatorID>F5C5F59B-6277-1D9A-477A-831AB75BE951</generatorID>
+<ownerDesignName>fintech_fase_6</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B13031DC-04EB-0721-F88A-277B446BDF40" referredColumn="7235077A-110B-5621-B1A6-747A221162E4"/>
+</associations>
+</Column>
+<Column name="ds_valor" id="93278E2E-E260-135C-B02B-76A276B83136">
+<createdBy>mahbu</createdBy>
+<createdTime>2022-10-09 21:27:44 UTC</createdTime>
+<generatorID>044C8B64-1B31-FA34-8BDE-73142004E8B8</generatorID>
+<ownerDesignName>fintech_fase_6</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_aplicacao" id="5885CBC4-8AE9-F0CE-F9E5-C749D128A58D">
+<createdBy>mahbu</createdBy>
+<createdTime>2022-10-09 18:53:31 UTC</createdTime>
+<generatorID>C2CAF72D-4C19-38CB-ADDF-96167F39B7EE</generatorID>
+<ownerDesignName>fintech_fase_6</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_vencimento" id="9A85F2C7-686B-5D88-B8A0-5FF35D88F0F3">
+<createdBy>mahbu</createdBy>
+<createdTime>2022-10-09 18:53:31 UTC</createdTime>
+<generatorID>8EDBE039-DAF5-1200-C95E-90DE5241A877</generatorID>
+<ownerDesignName>fintech_fase_6</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_resgate" id="2C9C3B79-C767-0444-CC1C-1C0F0C6F3A33">
+<createdBy>mahbu</createdBy>
+<createdTime>2022-10-09 18:53:31 UTC</createdTime>
+<generatorID>3B77AF3B-200E-1513-D25D-0591E419C330</generatorID>
+<ownerDesignName>fintech_fase_6</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FEC51646-5340-FC41-9A8D-6282E936BB14" name="T_INVTO_PK">
+<createdBy>mahbu</createdBy>
+<createdTime>2022-10-09 18:53:31 UTC</createdTime>
+<generatorID>029DDA25-AAE1-4868-4427-B806EAC51041</generatorID>
+<ownerDesignName>fintech_fase_6</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6532C710-E1DD-58DD-01C0-5FF9ABE22AD1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="066EFDD0-494F-2342-7089-6D53D16187CC" name="T_INVTO_T_USUARIO_FK">
+<createdBy>mahbu</createdBy>
+<createdTime>2022-10-09 18:53:31 UTC</createdTime>
+<generatorID>B694EC0F-DB0D-25C3-FF49-9EB685F10AC5</generatorID>
+<ownerDesignName>fintech_fase_6</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="06D30FCA-4C07-741B-06F2-AAD8358594F4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A9CEF880-9F68-323D-4685-9997481B9A09" name="T_INVTO_T_INVTO_DS_FK">
+<createdBy>mahbu</createdBy>
+<createdTime>2022-10-09 21:27:44 UTC</createdTime>
+<generatorID>46889864-567B-9E52-030E-B61A452EC03A</generatorID>
+<ownerDesignName>fintech_fase_6</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4D60426F-D9AA-4E87-3F75-8594E1CAD696"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

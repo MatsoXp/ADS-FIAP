@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="11791629-640B-33AF-A828-92DFD07A4249" name="T_TPO_MOV">
+<createdBy>mahbu</createdBy>
+<createdTime>2022-10-09 18:53:31 UTC</createdTime>
+<generatorID>F5337E4B-4A08-61AE-7A14-89E1BFD3CEC9</generatorID>
+<ownerDesignName>fintech_fase_6</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_tpo_mov" id="9E086652-250D-FB9F-C069-8D239CFD99CC">
+<createdBy>mahbu</createdBy>
+<createdTime>2022-10-09 18:53:31 UTC</createdTime>
+<generatorID>DBFAAD0D-DDB0-03F3-7214-B8CBB882BA03</generatorID>
+<ownerDesignName>fintech_fase_6</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_tpo_mov" id="580831EC-0768-2C14-13C9-63DEFA805602">
+<createdBy>mahbu</createdBy>
+<createdTime>2022-10-09 18:53:31 UTC</createdTime>
+<generatorID>84AF5F6C-19E9-7D2A-2840-C6B96992E49D</generatorID>
+<ownerDesignName>fintech_fase_6</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="75A30AD3-5DB1-2026-F036-FFAD97CEEC12" name="T_TPO_MOV_PK">
+<createdBy>mahbu</createdBy>
+<createdTime>2022-10-09 18:53:31 UTC</createdTime>
+<generatorID>498F3C24-AF5B-6B71-804B-309E58714C80</generatorID>
+<ownerDesignName>fintech_fase_6</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9E086652-250D-FB9F-C069-8D239CFD99CC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="84D467D1-95CD-9E74-936D-266393DFC388" name="UN_TPO_MOV_DS_TPO_MOV">
+<createdBy>mahbu</createdBy>
+<createdTime>2022-10-09 18:57:47 UTC</createdTime>
+<ownerDesignName>fintech_fase_6</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="580831EC-0768-2C14-13C9-63DEFA805602"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

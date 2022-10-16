@@ -1,0 +1,155 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="61B79C65-6A90-FA24-49C7-CBEC5240EA61" name="T_MOV">
+<createdBy>mahbu</createdBy>
+<createdTime>2022-10-09 18:53:31 UTC</createdTime>
+<generatorID>ACCA7973-9D2D-5E7E-924A-EEFDA27E887E</generatorID>
+<ownerDesignName>fintech_fase_6</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_mov" id="50FE9BFB-2E35-335F-747A-DB2E0FCC3AFB">
+<createdBy>mahbu</createdBy>
+<createdTime>2022-10-09 18:53:31 UTC</createdTime>
+<generatorID>7682C330-B0C8-4917-0FBC-61F396F8A735</generatorID>
+<ownerDesignName>fintech_fase_6</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_USUARIO_nr_cpf" id="30610CC4-9B20-6494-A6CA-4FB20C38113A">
+<createdBy>mahbu</createdBy>
+<createdTime>2022-10-09 18:53:31 UTC</createdTime>
+<generatorID>937A3669-E45E-C43A-6428-255C5078A2DF</generatorID>
+<ownerDesignName>fintech_fase_6</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>11</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3FD9C69E-7CE2-D924-37EC-82B625D8FE3B" referredColumn="DC0D0774-558E-5128-29D4-99DC353FCE03"/>
+</associations>
+</Column>
+<Column name="T_TPO_MOV_cd_tpo_mov" id="84EC104E-5D6D-7D0C-E2EA-51E2A0DE329C">
+<createdBy>mahbu</createdBy>
+<createdTime>2022-10-09 18:53:31 UTC</createdTime>
+<generatorID>2441A44E-04D5-52CE-6A7E-4BF39975B5A2</generatorID>
+<ownerDesignName>fintech_fase_6</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="62CFF063-7525-57F7-CD5B-81718BF26DCD" referredColumn="9E086652-250D-FB9F-C069-8D239CFD99CC"/>
+</associations>
+</Column>
+<Column name="T_CTG_MOV_cd_ctg_mov" id="531E29AE-B14C-B067-8381-792AD6C7CE5D">
+<createdBy>mahbu</createdBy>
+<createdTime>2022-10-09 18:53:31 UTC</createdTime>
+<generatorID>7FA88C0A-B673-99A3-8B30-F4BA4EC8DA49</generatorID>
+<ownerDesignName>fintech_fase_6</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A4585CC6-9B68-E096-5117-B275329D7799" referredColumn="B6C4C706-F3B8-30B2-9CDE-8A8DFC5E4911"/>
+</associations>
+</Column>
+<Column name="ds_mov" id="60270ECC-F78B-97CA-7315-12A07E284202">
+<createdBy>mahbu</createdBy>
+<createdTime>2022-10-09 18:53:31 UTC</createdTime>
+<generatorID>08D6FB33-EE66-6A7D-9011-F9A099D5CE50</generatorID>
+<ownerDesignName>fintech_fase_6</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_data" id="1048907D-A426-C8BF-E544-B9EED1D30A07">
+<createdBy>mahbu</createdBy>
+<createdTime>2022-10-09 18:53:31 UTC</createdTime>
+<generatorID>28B60BE8-D51E-662D-443B-963DC98932E0</generatorID>
+<ownerDesignName>fintech_fase_6</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_valor" id="CF08581C-B3B0-67EC-3F46-AFABAEA709C6">
+<createdBy>mahbu</createdBy>
+<createdTime>2022-10-09 18:53:31 UTC</createdTime>
+<generatorID>C3E03A89-D7B7-B1C1-7267-81B620D93EAC</generatorID>
+<ownerDesignName>fintech_fase_6</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8A25960E-2A42-B827-5E51-561A98D9E7E9" name="T_MOV_PK">
+<createdBy>mahbu</createdBy>
+<createdTime>2022-10-09 18:53:31 UTC</createdTime>
+<generatorID>A8601F19-E972-5BAA-AB3F-44B26B722A72</generatorID>
+<ownerDesignName>fintech_fase_6</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="50FE9BFB-2E35-335F-747A-DB2E0FCC3AFB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E3A7DE71-2DDD-B779-A7B0-EC9ADFBA22CA" name="T_MOV_T_TPO_MOV_FK">
+<createdBy>mahbu</createdBy>
+<createdTime>2022-10-09 18:53:31 UTC</createdTime>
+<generatorID>D93AE9BD-5260-BF2D-AA3C-36D0C93EB086</generatorID>
+<ownerDesignName>fintech_fase_6</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="84EC104E-5D6D-7D0C-E2EA-51E2A0DE329C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AE02FE32-3FFB-A2AE-17FB-8288D9295CD9" name="T_MOV_T_USUARIO_FK">
+<createdBy>mahbu</createdBy>
+<createdTime>2022-10-09 18:53:31 UTC</createdTime>
+<generatorID>CACABA66-C163-9675-2B05-4349C542BCE9</generatorID>
+<ownerDesignName>fintech_fase_6</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="30610CC4-9B20-6494-A6CA-4FB20C38113A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D06B2683-7DD9-AF01-F430-F1AF0A3C7340" name="T_MOV_T_CTG_MOV_FK">
+<createdBy>mahbu</createdBy>
+<createdTime>2022-10-09 18:53:31 UTC</createdTime>
+<generatorID>4BBB9C0B-7E6D-F35B-3DF5-B9D689BD448A</generatorID>
+<ownerDesignName>fintech_fase_6</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="531E29AE-B14C-B067-8381-792AD6C7CE5D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

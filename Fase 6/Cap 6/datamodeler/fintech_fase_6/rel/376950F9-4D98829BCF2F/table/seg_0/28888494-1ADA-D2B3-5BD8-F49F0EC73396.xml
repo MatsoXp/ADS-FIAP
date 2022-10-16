@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="28888494-1ADA-D2B3-5BD8-F49F0EC73396" name="T_CTG_MOV">
+<createdBy>mahbu</createdBy>
+<createdTime>2022-10-09 18:53:31 UTC</createdTime>
+<generatorID>2EF61BBB-D682-0FD5-4680-A9E163550413</generatorID>
+<ownerDesignName>fintech_fase_6</ownerDesignName>
+<abbreviation>T_CAT_MOV</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_ctg_mov" id="B6C4C706-F3B8-30B2-9CDE-8A8DFC5E4911">
+<createdBy>mahbu</createdBy>
+<createdTime>2022-10-09 18:53:31 UTC</createdTime>
+<generatorID>2CFB6DC0-4511-3B3D-D57C-CE8645A740A0</generatorID>
+<ownerDesignName>fintech_fase_6</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_ctg_mov" id="B6B89F01-3887-8AF4-999B-700B6FB6F5AC">
+<createdBy>mahbu</createdBy>
+<createdTime>2022-10-09 18:53:31 UTC</createdTime>
+<generatorID>B1E26634-521B-1EC6-D1A3-1E1688C413E4</generatorID>
+<ownerDesignName>fintech_fase_6</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="64703174-8BD3-A13D-5A9C-1D7C7E840080" name="T_CTG_MOV_PK">
+<createdBy>mahbu</createdBy>
+<createdTime>2022-10-09 18:53:31 UTC</createdTime>
+<generatorID>A69452EA-913C-7711-210A-A9F7CC46AF22</generatorID>
+<ownerDesignName>fintech_fase_6</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B6C4C706-F3B8-30B2-9CDE-8A8DFC5E4911"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1DDFD9A6-DB03-17A1-90D1-874DE654801F" name="UN_CTG_MOV_DS_CTG_MOV">
+<createdBy>mahbu</createdBy>
+<createdTime>2022-10-09 18:58:26 UTC</createdTime>
+<ownerDesignName>fintech_fase_6</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B6B89F01-3887-8AF4-999B-700B6FB6F5AC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

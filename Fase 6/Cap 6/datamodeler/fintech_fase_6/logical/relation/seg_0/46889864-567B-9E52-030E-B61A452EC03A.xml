@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_9" directorySegmentName="seg_0" id="46889864-567B-9E52-030E-B61A452EC03A">
+<createdBy>mahbu</createdBy>
+<createdTime>2022-10-09 21:26:48 UTC</createdTime>
+<ownerDesignName>fintech_fase_6</ownerDesignName>
+<engineerTo>
+<item key="376950F9-BC15-8C6F-73AB-4D98829BCF2F" value="true"/>
+</engineerTo>
+<sourcePk>0A5AC3CE-19D4-4E3B-FFEA-CEC9D293C117</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>032FFC90-D0FA-1761-0B80-243D5B7DBE00</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>2662BAE3-2698-6A21-47ED-0617C605D27D</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

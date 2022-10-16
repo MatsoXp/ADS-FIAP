@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="032FFC90-D0FA-1761-0B80-243D5B7DBE00" name="T_INVTO_DS">
+<createdBy>mahbu</createdBy>
+<createdTime>2022-05-22 23:10:25 UTC</createdTime>
+<ownerDesignName>fintech_fase_6</ownerDesignName>
+<engineerTo>
+<item key="376950F9-BC15-8C6F-73AB-4D98829BCF2F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_invto" id="12D3357B-588E-EAA7-B085-D170D0D8CB96">
+<createdBy>mahbu</createdBy>
+<createdTime>2022-05-22 23:10:38 UTC</createdTime>
+<ownerDesignName>fintech_fase_6</ownerDesignName>
+<engineerTo>
+<item key="376950F9-BC15-8C6F-73AB-4D98829BCF2F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_invto" id="A7360516-E32F-B24C-77FF-EC691FECC664">
+<createdBy>mahbu</createdBy>
+<createdTime>2022-05-22 23:10:52 UTC</createdTime>
+<ownerDesignName>fintech_fase_6</ownerDesignName>
+<engineerTo>
+<item key="376950F9-BC15-8C6F-73AB-4D98829BCF2F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="0A5AC3CE-19D4-4E3B-FFEA-CEC9D293C117" name="T_INVTO_DS_PK">
+<createdBy>mahbu</createdBy>
+<createdTime>2022-05-22 23:10:50 UTC</createdTime>
+<ownerDesignName>fintech_fase_6</ownerDesignName>
+<engineerTo>
+<item key="376950F9-BC15-8C6F-73AB-4D98829BCF2F" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>12D3357B-588E-EAA7-B085-D170D0D8CB96</newElementsIDs>
+<usedAttributes>
+<attributeRef>12D3357B-588E-EAA7-B085-D170D0D8CB96</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

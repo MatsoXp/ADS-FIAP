@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="A4585CC6-9B68-E096-5117-B275329D7799" containerWithKeyObject="61B79C65-6A90-FA24-49C7-CBEC5240EA61" localFKIndex="D06B2683-7DD9-AF01-F430-F1AF0A3C7340" name="T_MOV_T_CTG_MOV_FK">
+<createdBy>mahbu</createdBy>
+<createdTime>2022-10-09 18:53:31 UTC</createdTime>
+<generatorID>4BBB9C0B-7E6D-F35B-3DF5-B9D689BD448A</generatorID>
+<ownerDesignName>fintech_fase_6</ownerDesignName>
+<referredTableLongName>T_CTG_MOV</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>28888494-1ADA-D2B3-5BD8-F49F0EC73396</referredTableID>
+<keyObject>64703174-8BD3-A13D-5A9C-1D7C7E840080</keyObject>
+<referredKeyID>64703174-8BD3-A13D-5A9C-1D7C7E840080</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>cd_ctg_mov</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

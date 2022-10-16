@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="consultar" directorySegmentName="seg_0" id="CACABA66-C163-9675-2B05-4349C542BCE9">
+<createdBy>mahbu</createdBy>
+<createdTime>2022-06-20 13:47:41 UTC</createdTime>
+<ownerDesignName>fintech_fase_6</ownerDesignName>
+<engineerTo>
+<item key="2C8AF195-3653-FF63-BD5B-A7C4539BFAAE" value="true"/>
+</engineerTo>
+<sourcePk>54E7F767-CDC6-0A5A-6D31-53AFD9800EDF</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>8F3EB762-78D4-CF12-8EF4-DF2E8D30046C</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>ACCA7973-9D2D-5E7E-924A-EEFDA27E887E</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
