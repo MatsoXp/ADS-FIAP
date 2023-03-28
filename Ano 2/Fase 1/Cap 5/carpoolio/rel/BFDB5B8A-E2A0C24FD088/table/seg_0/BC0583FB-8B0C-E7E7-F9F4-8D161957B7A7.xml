@@ -1,0 +1,160 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BC0583FB-8B0C-E7E7-F9F4-8D161957B7A7" name="TB_RESERVA">
+<createdBy>mahbu</createdBy>
+<createdTime>2023-03-05 02:18:44 UTC</createdTime>
+<generatorID>CA67909D-3AF7-3190-4BB9-B2A0C999B2B7</generatorID>
+<ownerDesignName>carpoolio</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_reserva" id="55A3AEFE-7A3A-B526-6CB0-40718BBB15AF">
+<createdBy>mahbu</createdBy>
+<createdTime>2023-03-05 02:18:44 UTC</createdTime>
+<generatorID>46C267E5-0F12-FBA1-6661-721A2423D11D</generatorID>
+<ownerDesignName>carpoolio</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_solicitacao" id="B28C42F2-98BD-800F-81C3-16BA1CB7F89A">
+<createdBy>mahbu</createdBy>
+<createdTime>2023-03-05 02:18:44 UTC</createdTime>
+<generatorID>A91494C7-8A43-6AFE-6896-85501BB3FFBD</generatorID>
+<ownerDesignName>carpoolio</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_inicio" id="4C429613-1388-F07F-CBF6-04C710CDD82D">
+<createdBy>mahbu</createdBy>
+<createdTime>2023-03-05 02:18:44 UTC</createdTime>
+<generatorID>50705FF2-989B-EB61-4829-9E9309DCDAC6</generatorID>
+<ownerDesignName>carpoolio</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_fim" id="30945769-989F-3C75-663C-AB2051F0BE9F">
+<createdBy>mahbu</createdBy>
+<createdTime>2023-03-05 02:18:44 UTC</createdTime>
+<generatorID>D04AC8D1-8E4B-429F-F2F8-A30063A682DC</generatorID>
+<ownerDesignName>carpoolio</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vl_valor_total" id="B8362B9C-36FA-52E9-C159-0B3D2F13470C">
+<createdBy>mahbu</createdBy>
+<createdTime>2023-03-05 02:18:44 UTC</createdTime>
+<generatorID>C785223D-4171-8AEE-5F34-D15BFF90E818</generatorID>
+<ownerDesignName>carpoolio</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TB_USUARIO_id_usuario" id="D6F0FA7D-C8AA-ABE7-2E59-7F3D512A5EE3">
+<createdBy>mahbu</createdBy>
+<createdTime>2023-03-05 02:18:44 UTC</createdTime>
+<generatorID>8A930AD1-2819-6E4D-0F09-AD6742A27756</generatorID>
+<ownerDesignName>carpoolio</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7CECC632-B39D-E0B8-3842-F7AD63999937" referredColumn="30DF2B5B-D13E-D595-75E2-66FF62B87C49"/>
+</associations>
+</Column>
+<Column name="TB_USUARIO_id_usuario2" id="48DDCCC0-D29B-D7D0-37C8-258FE7A6D58C">
+<createdBy>mahbu</createdBy>
+<createdTime>2023-03-05 02:18:44 UTC</createdTime>
+<generatorID>B4A9FC31-30C0-BA3A-7C4A-A7A6F75AD708</generatorID>
+<ownerDesignName>carpoolio</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0E6AB7BB-BB09-F9ED-8656-03B561021B5F" referredColumn="30DF2B5B-D13E-D595-75E2-66FF62B87C49"/>
+</associations>
+</Column>
+<Column name="TB_VEICULO_id_veiculo" id="E98F911D-ED3A-39DC-3848-2817A2FA0A5C">
+<createdBy>mahbu</createdBy>
+<createdTime>2023-03-05 02:18:44 UTC</createdTime>
+<generatorID>6BAA6334-F4E7-0ACC-8544-FA1E2DE850E1</generatorID>
+<ownerDesignName>carpoolio</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="43DA040F-E003-2D4F-8C1C-F95B3B0ED5B6" referredColumn="6D2184CF-F05C-0237-4E94-DCF8EF888E96"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E5CC85D7-4171-BE9B-B7F0-18DF25AE02D5" name="TB_RESERVA_PK">
+<createdBy>mahbu</createdBy>
+<createdTime>2023-03-05 02:18:44 UTC</createdTime>
+<generatorID>FC33E000-36AC-07B1-E263-C8E50884D8C8</generatorID>
+<ownerDesignName>carpoolio</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="55A3AEFE-7A3A-B526-6CB0-40718BBB15AF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="432A0F23-D774-322B-3811-1341D0224B1D" name="TB_RESERVA__IDX">
+<createdBy>mahbu</createdBy>
+<createdTime>2023-03-05 02:18:44 UTC</createdTime>
+<ownerDesignName>carpoolio</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>1CAC9676-A080-8BFA-28CF-4F1D201FA180</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="E98F911D-ED3A-39DC-3848-2817A2FA0A5C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8DB6C45E-9C7E-B8C6-C7D8-9FBAC3207D5F" name="TB_RESERVA_TB_USUARIO_FK">
+<createdBy>mahbu</createdBy>
+<createdTime>2023-03-05 02:18:44 UTC</createdTime>
+<generatorID>245C4579-B5B5-510A-B8AC-8F6086EAE79E</generatorID>
+<ownerDesignName>carpoolio</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D6F0FA7D-C8AA-ABE7-2E59-7F3D512A5EE3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2F0EC67E-4D6A-022C-8E94-F3895F3642E7" name="TB_RESERVA_TB_USUARIO_FKv2">
+<createdBy>mahbu</createdBy>
+<createdTime>2023-03-05 02:18:44 UTC</createdTime>
+<generatorID>57526D97-1B89-BB41-0F59-9125ACD1DD8D</generatorID>
+<ownerDesignName>carpoolio</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="48DDCCC0-D29B-D7D0-37C8-258FE7A6D58C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E107A14C-8DC2-4509-7107-D9EEFF601DF8" name="TB_RESERVA_TB_VEICULO_FK">
+<createdBy>mahbu</createdBy>
+<createdTime>2023-03-05 02:18:44 UTC</createdTime>
+<generatorID>1CAC9676-A080-8BFA-28CF-4F1D201FA180</generatorID>
+<ownerDesignName>carpoolio</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E98F911D-ED3A-39DC-3848-2817A2FA0A5C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

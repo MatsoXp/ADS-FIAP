@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="81D72301-F784-7158-881D-7A7A2B3137FB" name="T_OBJ_FIN">
+<createdBy>mahbu</createdBy>
+<createdTime>2022-05-23 16:11:05 UTC</createdTime>
+<generatorID>032FFC90-D0FA-1761-0B80-243D5B7DBE00</generatorID>
+<ownerDesignName>rm94092-cap7</ownerDesignName>
+<ordsAlias>t_objetivo_financeiro</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_objetivo" id="FF53972D-9669-993F-AB0D-F2477A63579B">
+<createdBy>mahbu</createdBy>
+<createdTime>2022-05-23 16:11:05 UTC</createdTime>
+<generatorID>12D3357B-588E-EAA7-B085-D170D0D8CB96</generatorID>
+<ownerDesignName>rm94092-cap7</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_objetivo" id="F80F8997-96EC-678F-BE9B-0686727F1D4A">
+<createdBy>mahbu</createdBy>
+<createdTime>2022-05-23 16:11:05 UTC</createdTime>
+<generatorID>A7360516-E32F-B24C-77FF-EC691FECC664</generatorID>
+<ownerDesignName>rm94092-cap7</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_USUARIO_cd_usu" id="98F55BB9-D715-0969-B071-502873AFEE2F">
+<createdBy>mahbu</createdBy>
+<createdTime>2022-05-23 16:11:05 UTC</createdTime>
+<generatorID>18A9FBEE-68B8-8BBD-3345-7F57A770FEAF</generatorID>
+<ownerDesignName>rm94092-cap7</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CD91E3C9-B253-A0A3-1C91-A88A85DAB5FA" referredColumn="90342066-6D92-5901-CB4E-5052FCC5E2D2"/>
+</associations>
+</Column>
+<Column name="cd_usu" id="733B62B8-573A-2FAB-52F7-02A61D4CD9F4">
+<createdBy>mahbu</createdBy>
+<createdTime>2022-05-23 17:52:00 UTC</createdTime>
+<generatorID>FC8597FE-E0D7-2BD6-1BD6-24EB802D1C56</generatorID>
+<ownerDesignName>rm94092-cap7</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="01BF0764-89E3-5075-397E-5E7AB2EF089B" name="T_OBJ_FIN_PK">
+<createdBy>mahbu</createdBy>
+<createdTime>2022-05-23 16:11:05 UTC</createdTime>
+<generatorID>0A5AC3CE-19D4-4E3B-FFEA-CEC9D293C117</generatorID>
+<ownerDesignName>rm94092-cap7</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FF53972D-9669-993F-AB0D-F2477A63579B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9BB935C4-C8DC-23BA-8F38-ED895CC46EEF" name="T_OBJETIVO_FINANCEIRO__IDX">
+<createdBy>mahbu</createdBy>
+<createdTime>2022-05-23 16:11:05 UTC</createdTime>
+<ownerDesignName>rm94092-cap7</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>991A221E-079C-5A62-D88B-2244DC01B81B</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="98F55BB9-D715-0969-B071-502873AFEE2F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EEA6922C-925F-989A-E267-19FE37CF9E03" name="T_OBJ_FIN_T_USUARIO_FK">
+<createdBy>mahbu</createdBy>
+<createdTime>2022-05-23 16:11:05 UTC</createdTime>
+<generatorID>991A221E-079C-5A62-D88B-2244DC01B81B</generatorID>
+<ownerDesignName>rm94092-cap7</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="98F55BB9-D715-0969-B071-502873AFEE2F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

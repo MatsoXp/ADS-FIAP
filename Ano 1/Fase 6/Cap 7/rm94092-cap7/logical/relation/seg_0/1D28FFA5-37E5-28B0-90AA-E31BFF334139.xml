@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="T GENERO T USUARIO FK" directorySegmentName="seg_0" id="1D28FFA5-37E5-28B0-90AA-E31BFF334139">
+<createdBy>mahbu</createdBy>
+<createdTime>2022-05-22 23:54:55 UTC</createdTime>
+<ownerDesignName>rm94092-cap7</ownerDesignName>
+<engineerTo>
+<item key="2C8AF195-3653-FF63-BD5B-A7C4539BFAAE" value="true"/>
+</engineerTo>
+<sourcePk>54E7F767-CDC6-0A5A-6D31-53AFD9800EDF</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>8F3EB762-78D4-CF12-8EF4-DF2E8D30046C</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>5ADE7C73-3B7D-B530-A114-8E3B09B6C378</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

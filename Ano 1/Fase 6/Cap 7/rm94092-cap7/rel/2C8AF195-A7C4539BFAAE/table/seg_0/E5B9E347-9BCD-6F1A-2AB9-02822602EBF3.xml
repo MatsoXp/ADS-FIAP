@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E5B9E347-9BCD-6F1A-2AB9-02822602EBF3" name="T_MOV">
+<createdBy>mahbu</createdBy>
+<createdTime>2022-05-23 16:11:05 UTC</createdTime>
+<generatorID>93733FA2-D93B-7571-FF6F-B6799C8E70FB</generatorID>
+<ownerDesignName>rm94092-cap7</ownerDesignName>
+<ordsAlias>t_movimentacao</ordsAlias>
+<abbreviation>T_MOV</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_mov" id="3C986AB7-CAE0-8F57-6EF2-73C56916E565">
+<createdBy>mahbu</createdBy>
+<createdTime>2022-05-23 16:11:05 UTC</createdTime>
+<commentInRDBMS><![CDATA[identificador da movimentacao]]></commentInRDBMS>
+<generatorID>11BCC323-3B11-8B20-18AB-25C6DD8FEB45</generatorID>
+<ownerDesignName>rm94092-cap7</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_USUARIO_cd_usu" id="1EE166E5-C38D-C042-DC13-88FCA4F74748">
+<createdBy>mahbu</createdBy>
+<createdTime>2022-05-23 16:11:05 UTC</createdTime>
+<generatorID>449DC0F6-F68C-6736-0D95-41B8C9A8485D</generatorID>
+<ownerDesignName>rm94092-cap7</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B76B3E2A-8DB8-5B8A-3EB3-FD130DD2AF4E" referredColumn="90342066-6D92-5901-CB4E-5052FCC5E2D2"/>
+</associations>
+</Column>
+<Column name="ds_valor" id="53CBB70B-CB73-43A8-FE2E-44EE3888C5EE">
+<createdBy>mahbu</createdBy>
+<createdTime>2022-05-23 16:11:05 UTC</createdTime>
+<generatorID>F42183FD-3EA5-030E-871F-A1EB7703C63F</generatorID>
+<ownerDesignName>rm94092-cap7</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>12</dataTypeSize>
+<ownDataTypeParameters>12,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_data" id="B6EA347B-FF24-4071-B07D-2F355C3DB2B9">
+<createdBy>mahbu</createdBy>
+<createdTime>2022-05-23 16:11:05 UTC</createdTime>
+<generatorID>720E7450-05A8-2959-5089-18B2FC89F3D5</generatorID>
+<ownerDesignName>rm94092-cap7</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DE3213DC-3C70-3395-9CE6-52481DBA6C6C" name="T_MOV_PK">
+<createdBy>mahbu</createdBy>
+<createdTime>2022-05-23 16:11:05 UTC</createdTime>
+<generatorID>29F6E6F1-05A5-2C9F-30F3-6FA280D69740</generatorID>
+<ownerDesignName>rm94092-cap7</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3C986AB7-CAE0-8F57-6EF2-73C56916E565"/>
+<colUsage columnID="1EE166E5-C38D-C042-DC13-88FCA4F74748"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0265EF0A-043B-63BA-8327-CC2023DBBB33" name="T_MOV_T_USUARIO_FK">
+<createdBy>mahbu</createdBy>
+<createdTime>2022-05-23 16:11:05 UTC</createdTime>
+<generatorID>7725CAFF-9CC3-CD0C-0039-F4EFF1187431</generatorID>
+<ownerDesignName>rm94092-cap7</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1EE166E5-C38D-C042-DC13-88FCA4F74748"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,44 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6B2DE5A4-50AD-9392-0DE3-25AB8E9C0A3E" name="TB_STATUS_VEICULO">
+<createdBy>mahbu</createdBy>
+<createdTime>2023-03-05 02:18:44 UTC</createdTime>
+<generatorID>E5C17E2C-1292-2D7E-04FB-08354D057076</generatorID>
+<ownerDesignName>carpoolio</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_status_veiculo" id="630CD097-BA92-47EC-E74C-8637AB1D5290">
+<createdBy>mahbu</createdBy>
+<createdTime>2023-03-05 02:18:44 UTC</createdTime>
+<generatorID>D91BEC31-ACA3-9284-8059-26C3279DA86C</generatorID>
+<ownerDesignName>carpoolio</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_status_veiculo" id="70C7690B-105B-E8A5-DEDC-2B6C01EAFDB9">
+<createdBy>mahbu</createdBy>
+<createdTime>2023-03-05 02:18:44 UTC</createdTime>
+<generatorID>2A7E6E40-EFC9-8387-FB79-17E5E7A6C47D</generatorID>
+<ownerDesignName>carpoolio</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E3F61CC2-8356-191B-C1ED-ACF0A417C980" name="TB_STATUS_VEICULO_PK">
+<createdBy>mahbu</createdBy>
+<createdTime>2023-03-05 02:18:44 UTC</createdTime>
+<generatorID>CADBC6E8-6B43-C2AF-0275-360DEF123E54</generatorID>
+<ownerDesignName>carpoolio</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="630CD097-BA92-47EC-E74C-8637AB1D5290"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

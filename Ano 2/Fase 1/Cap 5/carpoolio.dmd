@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="carpoolio" id="A18EE3DC-D05D-4205-1E28-F9AD1D83194B" version="3.5">
+<createdBy>mahbu</createdBy>
+<createdTime>2023-03-05 01:34:06 UTC</createdTime>
+<ownerDesignName>carpoolio</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>A18EE3DC-D05D-4205-1E28-F9AD1D83194B</designId>
+</OSDM_Design>

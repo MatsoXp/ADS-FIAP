@@ -1,0 +1,53 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="56439C73-CC14-D232-2257-06632E0A1A04" name="TB_TIPO_VEICULO">
+<createdBy>mahbu</createdBy>
+<createdTime>2023-03-05 02:18:44 UTC</createdTime>
+<generatorID>24B77395-4171-9520-18F8-0F98ABD6B06E</generatorID>
+<ownerDesignName>carpoolio</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_tipo_veiculo" id="AEC75147-C691-7992-2678-959F9A10279E">
+<createdBy>mahbu</createdBy>
+<createdTime>2023-03-05 02:18:44 UTC</createdTime>
+<generatorID>5D10368B-273A-4A98-314B-F717D0B9C705</generatorID>
+<ownerDesignName>carpoolio</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_tipo_veiculo" id="FE7E7048-4921-0B46-A370-E0326AFD5909">
+<createdBy>mahbu</createdBy>
+<createdTime>2023-03-05 02:18:44 UTC</createdTime>
+<generatorID>1C9C9200-92D1-BC0C-5E8F-231FFDE4EBBE</generatorID>
+<ownerDesignName>carpoolio</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_marca" id="6A016941-8796-833B-6487-E0A06888A778">
+<createdBy>mahbu</createdBy>
+<createdTime>2023-03-05 02:18:44 UTC</createdTime>
+<generatorID>A6BCB1CA-B020-5240-416C-C1304C17D4D6</generatorID>
+<ownerDesignName>carpoolio</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1D4BEBF3-E4DE-EF6D-00E2-24483767CA4C" name="TB_TIPO_VEICULO_PK">
+<createdBy>mahbu</createdBy>
+<createdTime>2023-03-05 02:18:44 UTC</createdTime>
+<generatorID>3EFF58FF-5F74-20B3-ED29-89EE8D467EB0</generatorID>
+<ownerDesignName>carpoolio</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AEC75147-C691-7992-2678-959F9A10279E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="20A143E7-6C33-6D79-1A98-D8F4182E99CA" mainViewID="AF4AE523-FB4C-DFA9-7BC7-2B9B353BDA3F">
+<createdBy>mahbu</createdBy>
+<createdTime>2023-03-05 01:34:06 UTC</createdTime>
+<ownerDesignName>carpoolio</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

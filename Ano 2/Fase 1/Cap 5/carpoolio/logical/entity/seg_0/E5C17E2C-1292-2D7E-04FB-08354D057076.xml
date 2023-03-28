@@ -1,0 +1,53 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E5C17E2C-1292-2D7E-04FB-08354D057076" name="TB_STATUS_VEICULO">
+<createdBy>mahbu</createdBy>
+<createdTime>2023-03-05 01:44:48 UTC</createdTime>
+<ownerDesignName>carpoolio</ownerDesignName>
+<engineerTo>
+<item key="BFDB5B8A-A955-7D74-A9A9-E2A0C24FD088" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_status_veiculo" id="D91BEC31-ACA3-9284-8059-26C3279DA86C">
+<createdBy>mahbu</createdBy>
+<createdTime>2023-03-05 01:44:57 UTC</createdTime>
+<ownerDesignName>carpoolio</ownerDesignName>
+<engineerTo>
+<item key="BFDB5B8A-A955-7D74-A9A9-E2A0C24FD088" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_status_veiculo" id="2A7E6E40-EFC9-8387-FB79-17E5E7A6C47D">
+<createdBy>mahbu</createdBy>
+<createdTime>2023-03-05 01:45:07 UTC</createdTime>
+<ownerDesignName>carpoolio</ownerDesignName>
+<engineerTo>
+<item key="BFDB5B8A-A955-7D74-A9A9-E2A0C24FD088" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="CADBC6E8-6B43-C2AF-0275-360DEF123E54" name="TB_STATUS_VEICULO PK">
+<createdBy>mahbu</createdBy>
+<createdTime>2023-03-05 01:45:05 UTC</createdTime>
+<ownerDesignName>carpoolio</ownerDesignName>
+<engineerTo>
+<item key="BFDB5B8A-A955-7D74-A9A9-E2A0C24FD088" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D91BEC31-ACA3-9284-8059-26C3279DA86C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,137 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AF99ACAC-9D98-5BEF-3DD6-B39029F30CD4" name="TB_VEICULO">
+<createdBy>mahbu</createdBy>
+<createdTime>2023-03-05 02:18:44 UTC</createdTime>
+<generatorID>80DA4F97-0520-AE15-A406-45B04200EA06</generatorID>
+<ownerDesignName>carpoolio</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_veiculo" id="6D2184CF-F05C-0237-4E94-DCF8EF888E96">
+<createdBy>mahbu</createdBy>
+<createdTime>2023-03-05 02:18:44 UTC</createdTime>
+<generatorID>14DD0237-776B-82E4-4F5F-46F41FAED26F</generatorID>
+<ownerDesignName>carpoolio</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="placa" id="16F5FA46-B16C-9FE5-0FBC-32532D6A9EAE">
+<createdBy>mahbu</createdBy>
+<createdTime>2023-03-05 02:18:44 UTC</createdTime>
+<generatorID>E0FFC3DB-2509-9723-7ED9-E7BE5E1DCD44</generatorID>
+<ownerDesignName>carpoolio</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TB_USUARIO_id_usuario" id="C23EE344-BD12-F739-85FB-E59205041236">
+<createdBy>mahbu</createdBy>
+<createdTime>2023-03-05 02:18:44 UTC</createdTime>
+<generatorID>70B42CE3-6DF9-AF81-782B-ED0EF527D049</generatorID>
+<ownerDesignName>carpoolio</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="19F5A369-D630-A86D-C028-3FEB53E3FDC9" referredColumn="30DF2B5B-D13E-D595-75E2-66FF62B87C49"/>
+</associations>
+</Column>
+<Column name="TB_STATUS_VEICULO_id_status_veiculo" id="59E904E4-9286-FB23-0319-9990F32259A8">
+<createdBy>mahbu</createdBy>
+<createdTime>2023-03-05 02:18:44 UTC</createdTime>
+<generatorID>F92E4B18-9722-B6D2-67EE-E4A4F1C57E05</generatorID>
+<ownerDesignName>carpoolio</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="25A738E3-9AD4-9EB3-CFC3-C0A9BED7EAB1" referredColumn="630CD097-BA92-47EC-E74C-8637AB1D5290"/>
+</associations>
+</Column>
+<Column name="ds_capacidade" id="32216A1F-637D-E6DD-B2AB-92442B8B87C7">
+<createdBy>mahbu</createdBy>
+<createdTime>2023-03-05 02:18:44 UTC</createdTime>
+<generatorID>5B15462F-2909-28E2-C4B9-86F4A8ADF3FB</generatorID>
+<ownerDesignName>carpoolio</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nr_preco_diario" id="10B45994-7202-41BA-A785-C67E9D471FBA">
+<createdBy>mahbu</createdBy>
+<createdTime>2023-03-05 02:18:44 UTC</createdTime>
+<generatorID>3C4368DA-1EA6-0430-BC26-EE4FA93C6C4F</generatorID>
+<ownerDesignName>carpoolio</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TB_TIPO_VEICULO_id_tipo_veiculo" id="87BEA8CF-2319-854D-EBD9-DB7EDB548C61">
+<createdBy>mahbu</createdBy>
+<createdTime>2023-03-05 02:18:44 UTC</createdTime>
+<generatorID>75D543F7-7077-FBC8-CE83-77500CE2BA02</generatorID>
+<ownerDesignName>carpoolio</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="08E0ACD3-93B4-4779-D175-94D5541478B3" referredColumn="AEC75147-C691-7992-2678-959F9A10279E"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F16C6EB0-0D26-BF4F-58F7-BDB22BA058D5" name="TB_VEICULO_PK">
+<createdBy>mahbu</createdBy>
+<createdTime>2023-03-05 02:18:44 UTC</createdTime>
+<generatorID>90995BAA-E3AA-CED8-B688-34087CBCA04E</generatorID>
+<ownerDesignName>carpoolio</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6D2184CF-F05C-0237-4E94-DCF8EF888E96"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C1356A7F-F95E-C4A8-6B86-62CA62856959" name="TB_VEICULO_TB_USUARIO_FK">
+<createdBy>mahbu</createdBy>
+<createdTime>2023-03-05 02:18:44 UTC</createdTime>
+<generatorID>CA5B0B73-3193-C13A-96C0-092F25FAA17E</generatorID>
+<ownerDesignName>carpoolio</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C23EE344-BD12-F739-85FB-E59205041236"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1922E004-ABC6-F4B3-F67C-BEDC7069BF7D" name="TB_VEICULO_TB_TIPO_VEICULO_FK">
+<createdBy>mahbu</createdBy>
+<createdTime>2023-03-05 02:18:44 UTC</createdTime>
+<generatorID>B46124AF-A39B-E22F-BC9D-65B8DD8D9A51</generatorID>
+<ownerDesignName>carpoolio</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="87BEA8CF-2319-854D-EBD9-DB7EDB548C61"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DB8C6267-1FF1-C9AB-B2F1-44F756DB11D1" name="TB_VEICULO_TB_STATUS_VEICULO_FK">
+<createdBy>mahbu</createdBy>
+<createdTime>2023-03-05 02:18:44 UTC</createdTime>
+<generatorID>08B9986D-BB46-13A3-A5C2-E0FF433EFC57</generatorID>
+<ownerDesignName>carpoolio</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="59E904E4-9286-FB23-0319-9990F32259A8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

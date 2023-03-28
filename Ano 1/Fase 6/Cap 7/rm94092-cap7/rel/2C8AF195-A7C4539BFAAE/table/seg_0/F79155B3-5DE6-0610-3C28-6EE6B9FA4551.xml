@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F79155B3-5DE6-0610-3C28-6EE6B9FA4551" name="T_CATE_MOV">
+<createdBy>mahbu</createdBy>
+<createdTime>2022-05-23 16:11:05 UTC</createdTime>
+<generatorID>2EF61BBB-D682-0FD5-4680-A9E163550413</generatorID>
+<ownerDesignName>rm94092-cap7</ownerDesignName>
+<ordsAlias>t_categoria_movimentacao</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_categoria" id="060974FE-5ABF-C5DC-1485-2BA0DC205D4B">
+<createdBy>mahbu</createdBy>
+<createdTime>2022-05-23 16:11:05 UTC</createdTime>
+<generatorID>2CFB6DC0-4511-3B3D-D57C-CE8645A740A0</generatorID>
+<ownerDesignName>rm94092-cap7</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_TIPO_MOV_cd_tp_mov" id="805ECC9E-5EA9-532F-909C-BCA3BACB44F2">
+<createdBy>mahbu</createdBy>
+<createdTime>2022-05-23 16:11:05 UTC</createdTime>
+<generatorID>45388803-A79F-44FF-1840-1EB2234EF9D7</generatorID>
+<ownerDesignName>rm94092-cap7</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9A6D9091-145E-215F-3E75-ADD7A72D582E" referredColumn="6D4BEEC6-2B33-CFA6-75A4-1B3FAE228010"/>
+</associations>
+</Column>
+<Column name="ds_categoria" id="98BD7BD5-9AA4-DE20-EAB5-D3D889B6210D">
+<createdBy>mahbu</createdBy>
+<createdTime>2022-05-23 16:11:05 UTC</createdTime>
+<generatorID>B1E26634-521B-1EC6-D1A3-1E1688C413E4</generatorID>
+<ownerDesignName>rm94092-cap7</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CC0390BE-E759-FD26-966A-6D8E02FD9765" name="T_CAT_MOV_PK">
+<createdBy>mahbu</createdBy>
+<createdTime>2022-05-23 16:11:05 UTC</createdTime>
+<generatorID>A69452EA-913C-7711-210A-A9F7CC46AF22</generatorID>
+<ownerDesignName>rm94092-cap7</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="060974FE-5ABF-C5DC-1485-2BA0DC205D4B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4350D5E7-B4AC-CE94-84A9-1E52ED9ACAF5" name="T_CATEGORIA_MOVIMENTACAO__IDX">
+<createdBy>mahbu</createdBy>
+<createdTime>2022-05-23 16:11:05 UTC</createdTime>
+<ownerDesignName>rm94092-cap7</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>380D302E-1C8B-5336-F1BA-68D0EB9B42C4</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="805ECC9E-5EA9-532F-909C-BCA3BACB44F2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9AF1DF88-8C20-6794-2F77-80042ADF59AB" name="T_CATE_MOV_T_TIPO_MOV_FK">
+<createdBy>mahbu</createdBy>
+<createdTime>2022-05-23 16:11:05 UTC</createdTime>
+<generatorID>380D302E-1C8B-5336-F1BA-68D0EB9B42C4</generatorID>
+<ownerDesignName>rm94092-cap7</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="805ECC9E-5EA9-532F-909C-BCA3BACB44F2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

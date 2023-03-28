@@ -1,0 +1,113 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="80DA4F97-0520-AE15-A406-45B04200EA06" name="TB_VEICULO">
+<createdBy>mahbu</createdBy>
+<createdTime>2023-03-05 01:39:20 UTC</createdTime>
+<ownerDesignName>carpoolio</ownerDesignName>
+<engineerTo>
+<item key="BFDB5B8A-A955-7D74-A9A9-E2A0C24FD088" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_veiculo" id="14DD0237-776B-82E4-4F5F-46F41FAED26F">
+<createdBy>mahbu</createdBy>
+<createdTime>2023-03-05 01:39:35 UTC</createdTime>
+<ownerDesignName>carpoolio</ownerDesignName>
+<engineerTo>
+<item key="BFDB5B8A-A955-7D74-A9A9-E2A0C24FD088" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="placa" id="E0FFC3DB-2509-9723-7ED9-E7BE5E1DCD44">
+<createdBy>mahbu</createdBy>
+<createdTime>2023-03-05 01:39:50 UTC</createdTime>
+<ownerDesignName>carpoolio</ownerDesignName>
+<engineerTo>
+<item key="BFDB5B8A-A955-7D74-A9A9-E2A0C24FD088" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_usuario" id="70B42CE3-6DF9-AF81-782B-ED0EF527D049">
+<createdBy>mahbu</createdBy>
+<createdTime>2023-03-05 01:41:27 UTC</createdTime>
+<generatorID>CA5B0B73-3193-C13A-96C0-092F25FAA17E</generatorID>
+<ownerDesignName>carpoolio</ownerDesignName>
+<engineerTo>
+<item key="BFDB5B8A-A955-7D74-A9A9-E2A0C24FD088" value="true"/>
+</engineerTo>
+<referedAttribute>9A10FF17-89A5-A160-BB13-19A5893C8F1A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_status_veiculo" id="F92E4B18-9722-B6D2-67EE-E4A4F1C57E05">
+<createdBy>mahbu</createdBy>
+<createdTime>2023-03-05 01:45:22 UTC</createdTime>
+<generatorID>08B9986D-BB46-13A3-A5C2-E0FF433EFC57</generatorID>
+<ownerDesignName>carpoolio</ownerDesignName>
+<engineerTo>
+<item key="BFDB5B8A-A955-7D74-A9A9-E2A0C24FD088" value="true"/>
+</engineerTo>
+<referedAttribute>D91BEC31-ACA3-9284-8059-26C3279DA86C</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_capacidade" id="5B15462F-2909-28E2-C4B9-86F4A8ADF3FB">
+<createdBy>mahbu</createdBy>
+<createdTime>2023-03-05 01:48:48 UTC</createdTime>
+<ownerDesignName>carpoolio</ownerDesignName>
+<engineerTo>
+<item key="BFDB5B8A-A955-7D74-A9A9-E2A0C24FD088" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_preco_diario" id="3C4368DA-1EA6-0430-BC26-EE4FA93C6C4F">
+<createdBy>mahbu</createdBy>
+<createdTime>2023-03-05 01:48:56 UTC</createdTime>
+<ownerDesignName>carpoolio</ownerDesignName>
+<engineerTo>
+<item key="BFDB5B8A-A955-7D74-A9A9-E2A0C24FD088" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_tipo_veiculo" id="75D543F7-7077-FBC8-CE83-77500CE2BA02">
+<createdBy>mahbu</createdBy>
+<createdTime>2023-03-05 01:58:48 UTC</createdTime>
+<generatorID>B46124AF-A39B-E22F-BC9D-65B8DD8D9A51</generatorID>
+<ownerDesignName>carpoolio</ownerDesignName>
+<engineerTo>
+<item key="BFDB5B8A-A955-7D74-A9A9-E2A0C24FD088" value="true"/>
+</engineerTo>
+<referedAttribute>5D10368B-273A-4A98-314B-F717D0B9C705</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="90995BAA-E3AA-CED8-B688-34087CBCA04E" name="TB_VEICULO PK">
+<createdBy>mahbu</createdBy>
+<createdTime>2023-03-05 01:39:38 UTC</createdTime>
+<ownerDesignName>carpoolio</ownerDesignName>
+<engineerTo>
+<item key="BFDB5B8A-A955-7D74-A9A9-E2A0C24FD088" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>14DD0237-776B-82E4-4F5F-46F41FAED26F</attributeRef>
+<attributeRef>70B42CE3-6DF9-AF81-782B-ED0EF527D049</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

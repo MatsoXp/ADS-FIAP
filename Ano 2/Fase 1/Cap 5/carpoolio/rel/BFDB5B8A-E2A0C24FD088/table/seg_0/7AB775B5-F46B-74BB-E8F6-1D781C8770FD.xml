@@ -1,0 +1,41 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7AB775B5-F46B-74BB-E8F6-1D781C8770FD" name="TB_AVALIACAO">
+<createdBy>mahbu</createdBy>
+<createdTime>2023-03-05 02:18:44 UTC</createdTime>
+<generatorID>E44529E5-0F00-B9F9-852E-F69DAD886A22</generatorID>
+<ownerDesignName>carpoolio</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_avaliacao" id="B6E0A38E-0BC6-8FF7-A42C-CD3281E607D2">
+<createdBy>mahbu</createdBy>
+<createdTime>2023-03-05 02:18:44 UTC</createdTime>
+<generatorID>AA1E78CD-E7C6-EFA2-BDF1-D7540E3E5B95</generatorID>
+<ownerDesignName>carpoolio</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nr_nota" id="1695A5FE-D587-4C23-DCBA-9C925545A196">
+<createdBy>mahbu</createdBy>
+<createdTime>2023-03-05 02:18:44 UTC</createdTime>
+<generatorID>04499424-2B5E-388C-FA74-C00158013861</generatorID>
+<ownerDesignName>carpoolio</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_comentario" id="B0029364-23E3-F711-535B-695E0E660393">
+<createdBy>mahbu</createdBy>
+<createdTime>2023-03-05 02:18:44 UTC</createdTime>
+<generatorID>BC7D0B3D-8DA7-9D51-C69E-6B6A0F73846B</generatorID>
+<ownerDesignName>carpoolio</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+</Table>

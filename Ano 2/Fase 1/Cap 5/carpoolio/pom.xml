@@ -1,0 +1,28 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>br.com.carpoolio</groupId>
+  <artifactId>carpoolio</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <name>carpoolio</name>
+  
+  <dependencies>
+  
+    <!-- https://mvnrepository.com/artifact/org.hibernate.orm/hibernate-core -->
+	<dependency>
+		<groupId>org.hibernate.orm</groupId>
+	    <artifactId>hibernate-core</artifactId>
+	    <version>6.1.6.Final</version>
+	</dependency>
+    
+	<!--JDBC driver-->
+	<dependency>
+		<groupId>oracle</groupId>
+		<artifactId>jdbc-driver</artifactId>
+		<version>11</version>
+		<scope>system</scope>
+		<systemPath>D:\Trabalhos\Eclipse-Workspace\ojdbc11.jar</systemPath>
+	</dependency>
+  
+  </dependencies>
+    
+</project>
