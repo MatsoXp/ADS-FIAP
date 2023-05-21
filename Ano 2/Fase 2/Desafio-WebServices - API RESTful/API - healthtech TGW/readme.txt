@@ -1,0 +1,3 @@
+O projeto foi inspirado em aplicativos de telemedicina. A ideia é que uma única aplicação seja capaz de gerenciar a parte burocrática, interação médica, prontuário, ficha, exames e receitas. Nosso MVP aborda a funcionalidade de cadastro de Usuários(pacientes), Médicos, agendamento de consulta e emissão de Receitas médicas. Um usuário cadastrado em sistema pode agendar consultas com um médico também cadastrado. Havendo uma consulta, uma receita médica pode ser emitida.
+
+URL repositório: https://github.com/MatsoXp/HealthTech-SmartCities.git
