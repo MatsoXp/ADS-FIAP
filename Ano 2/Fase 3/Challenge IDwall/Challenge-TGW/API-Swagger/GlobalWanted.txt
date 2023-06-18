@@ -1,0 +1,184 @@
+openapi: 3.0.0
+info:
+  title: Global Wanted
+  version: 1.0.0
+  description: API para buscar, registrar, editar e excluir informações de pessoas procuradas
+
+components:
+  securitySchemes:
+    bearerAuth:
+      type: http
+      scheme: bearer
+      bearerFormat: JWT
+
+security:
+  - bearerAuth: []
+
+paths:
+  /buscar-nome:
+    get:
+      summary: Buscar por Nome
+      parameters:
+        - in: query
+          name: nome
+          schema:
+            type: string
+          description: Insira o nome
+      responses:
+        '200':
+          description: Nome encontrado na base de dados de pessoas procuradas
+        '404':
+          description: Nome não encontrado na base de dados de pessoas procuradas
+        '400':
+          description: Requisição inválida
+
+  /registrar-pessoa:
+    post:
+      summary: Registrar novo procurado na base de dados
+      security:
+        - bearerAuth: []
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                nome:
+                  type: string
+                  description: Nome
+                apelido:
+                  type: string
+                  description: Apelido (opcional)
+                idade:
+                  type: integer
+                  description: Idade
+                local_nascimento:
+                  type: string
+                  description: Local de nascimento
+                descricao:
+                  type: string
+                  description: Descrição
+              required:
+                - nome
+                - idade
+                - local_nascimento
+                - descricao
+      responses:
+        '201':
+          description: Registrado com sucesso na base de dados de pessoas procuradas
+        '400':
+          description: Requisição inválida
+        '401':
+          description: Não autorizado, o token de autenticação é inválido ou não existe
+
+  /editar-pessoa/{nome}:
+    put:
+      summary: Editar informações de uma pessoa procurada na base de dados
+      security:
+        - bearerAuth: []
+      parameters:
+        - in: path
+          name: nome
+          required: true
+          schema:
+            type: string
+          description: Nome
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                nome:
+                  type: string
+                  description: Nome
+                apelido:
+                  type: string
+                  description: Apelido (opcional)
+                idade:
+                  type: integer
+                  description: Idade
+                local_nascimento:
+                  type: string
+                  description: Local de nascimento
+                descricao:
+                  type: string
+                  description: Descrição
+              required:
+                - nome
+                - idade
+                - local_nascimento
+                - descricao
+      responses:
+        '200':
+          description: Informações da pessoa atualizadas com sucesso na base de dados de pessoas procuradas
+        '404':
+          description: Pessoa não encontrada na base de dados de pessoas procuradas
+        '400':
+          description: Requisição inválida
+        '401':
+          description: Não autorizado, o token de autenticação é inválido ou não existe
+
+  /excluir-pessoa/{nome}:
+    delete:
+      summary: Excluir pessoa da base de dados de pessoas procuradas
+      security:
+        - bearerAuth: []
+      parameters:
+        - in: path
+          name: nome
+          required: true
+          schema:
+            type: string
+          description: Nome
+      responses:
+        '204':
+          description: Pessoa excluída com sucesso da base de dados de pessoas procuradas
+        '404':
+          description: Pessoa não encontrada na base de dados
+        '400':
+          description: Requisição inválida
+        '401':
+          description: Não autorizado, o token de autenticação é inválido ou não existe
+
+  /listar-pessoas:
+    get:
+      summary: Listar todas as pessoas cadastradas na base de dados de pessoas procuradas
+      responses:
+        '200':
+          description: Lista de pessoas cadastradas na base de dados de pessoas procuradas
+        '401':
+          description: Não autorizado, o token de autenticação é inválido ou não existe
+
+  /filtrar-pessoas:
+    get:
+      summary: Filtrar pessoas na base de dados de pessoas procuradas por idade, local de nascimento ou sexo
+      parameters:
+        - in: query
+          name: idade
+          schema:
+            type: integer
+          description: Idade
+        - in: query
+          name: local_nascimento
+          schema:
+            type: string
+          description: Local de nascimento
+        - in: query
+          name: sexo
+          schema:
+            type: string
+          description: Sexo
+      responses:
+        '200':
+          description: Pessoas filtradas encontradas na base de dados de pessoas procuradas
+        '404':
+          description: Nenhuma pessoa encontrada com os critérios de filtro na base de dados de pessoas procuradas
+        '400':
+          description: Requisição inválida
+servers:
+  # Added by API Auto Mocking Plugin
+  - description: SwaggerHub API Auto Mocking
+    url: https://virtserver.swaggerhub.com/MAHBUSNELO/FBI-MostWanted/1.0.0
