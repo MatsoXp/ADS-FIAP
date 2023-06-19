@@ -1,0 +1,74 @@
+-- TRIGGER projetado para enviar um email automático para o usuário sempre que a tabela responsável por armazenar informações de contaminações e pragas nas plantações receber um novo registro.
+-- A ideia é que o agricultor seja notificado assim que uma possível praga for detectada.
+
+CREATE OR REPLACE TRIGGER trg_notificacao_pragas
+AFTER INSERT ON T_MONITOR_PRAGAS
+DECLARE
+    v_usuario_email VARCHAR2(100);
+BEGIN
+    SELECT u.email_usuario INTO v_usuario_email
+    FROM T_USUARIO u;
+
+    UTL_MAIL.send(sender => 'greenfield@gmail.com',
+                  recipients => v_usuario_email,
+                  subject => 'Infestação detectada!',
+                  message => 'Uma nova contaminação por pragas foi detectada! Acesse a plataforma pra visualizar as informações detalhadas e tomar uma ação.');
+END;
+/
+
+-- TRIGGER projetada para calcular a média de umidade do solo por localização e notificar as localizações com média acima de um valor específico.
+
+CREATE OR REPLACE TRIGGER calcular_media_umidade
+AFTER INSERT OR UPDATE ON dados_solo
+FOR EACH ROW
+DECLARE
+    media_umidade NUMBER;
+BEGIN
+    SELECT AVG(umidade) INTO media_umidade
+    FROM dados_solo
+    WHERE localizacao = :NEW.localizacao;
+
+    IF media_umidade > 10 THEN
+        CURSOR c_destinatarios IS
+            SELECT email_usuario
+            FROM T_USUARIO;
+
+        v_destinatario VARCHAR2(100);
+        BEGIN
+            OPEN c_destinatarios;
+            LOOP
+                FETCH c_destinatarios INTO v_destinatario;
+                EXIT WHEN c_destinatarios%NOTFOUND;
+
+                UTL_MAIL.SEND(sender => 'greenfield@gmail.com',
+                              recipients => v_destinatario,
+                              subject => 'Notificação de Umidade do Solo',
+                              message => 'A média de umidade do solo está acima do valor permitido para a localização ' || :NEW.localizacao);
+            END LOOP;
+            CLOSE c_destinatarios;
+        EXCEPTION
+            WHEN NO_DATA_FOUND THEN
+                NULL;
+        END;
+    END IF;
+END;
+/
+
+-- FUNÇÃO projetada para buscar e exibir os requisitos de cultivo para uma determinada variedade.
+
+CREATE OR REPLACE FUNCTION buscar_requisitos_cultivo(p_variedade IN VARCHAR2)
+    RETURN VARCHAR2
+IS
+    v_requisitos_cultivo VARCHAR2(1000);
+BEGIN
+    SELECT requisitos_cultivo
+    INTO v_requisitos_cultivo
+    FROM dados_cultivos_variedades
+    WHERE variedade = p_variedade;
+
+    RETURN v_requisitos_cultivo;
+EXCEPTION
+    WHEN NO_DATA_FOUND THEN
+        RETURN 'Nenhum requisito de cultivo encontrado para a variedade especificada.';
+END;
+/
